@@ -1,14 +1,40 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class="container">
+    <div id="home-div">
+      <div class="header-div" [@flip]="fliping">
+        <div class="upcontent" text-center>
+          <div class="devLogo">
+            <img src="assets/imgs/transparant-mini.png" class="img-responsive" />
+          </div>
+        </div>
+      </div>
+      <div class="btn-home" text-center [@fade]="faded">
+        <button ion-button rounded large color="danger" (click)="mulai()">
+          <span>Mulai</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="grade-div" text-center>
+      <ion-grid>
+        <ion-row [@bounce]="bounceState">
+          <ion-col>
+            <button ion-button clear class="super-large" (click)="goTo('4')">
+              <img class="img-responsive" src="assets/imgs/4.png" />
+            </button>
+          </ion-col>
+          <ion-col>
+            <button ion-button clear class="super-large" (click)="goTo('5')">
+              <img class="img-responsive" src="assets/imgs/5.png" />
+            </button>
+          </ion-col>
+          <ion-col>
+            <button ion-button clear class="super-large" (click)="goTo('6')">
+              <img class="img-responsive" src="assets/imgs/6.png" />
+            </button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
 </ion-content>

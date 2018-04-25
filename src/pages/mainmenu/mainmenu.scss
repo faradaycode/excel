@@ -1,0 +1,55 @@
+page-mainmenu {
+    .item {
+        color: #ffffff;
+        margin-bottom: 10px;
+        background-color: #2ec95c;
+        border-radius: 10px;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .button {
+        box-shadow: none;
+        border: none;
+    }
+    .item-pb .item {
+        color: #ffffff;
+        background-color: #FF00FF;
+    }
+    #mapel-menu {
+        height: 100%;
+        width: 100%;
+    }
+    #mapel-menu .grid {
+        height: 35%;
+    }
+    #mapel-menu .row {
+        height: 100%;
+    }
+    .full-button {
+        height: 100%;
+        width: 100%;
+    }
+    .full-button img {
+        max-width: 100%;
+        max-height: 70%;
+    }
+    .button-inner {
+        display: inherit;
+        padding: 10px 0;
+    }
+    .btn-txt {
+        font-style: italic;
+    }
+    #paketan {
+        height: 250px;
+        margin-top: 10%;
+        .grid,
+        .row,
+        .button {
+            height: 100%;
+        }
+        .button span {
+            font-size: 4em;
+        }
+    }
+}

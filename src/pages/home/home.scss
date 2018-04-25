@@ -1,3 +1,77 @@
 page-home {
-
+    .container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .header-div {
+        height: 200px;
+        width: 100%;
+    }
+    .header-div img {
+        width: 100%;
+    }
+    .upcontent {
+        background-color:  #f2f2f2;
+        font-weight: bold;
+        color: #fff;
+        border: 10px solid #b1a9a9;
+        max-width: 100%;
+        height: 100%;
+    }
+    .content-div {
+        position: absolute;
+        width: 100%;
+        height: 60%;
+        top: 100px;
+        text-align: center !important;
+    }
+    .content-div .grid {
+        max-height: 100%;
+    }
+    .content-div img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .btn-home {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .img-responsive {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #grade-div {
+        display: none;
+    }
+    .super-large {
+        height: 10em;
+        padding: 1em;
+    }
+    .devLogo img {
+        width: 250px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .header-div {
+            height: 350px;
+        }
+        .content-div {
+            top: 150px;
+        }
+        .button-large {
+            font-size: 3rem;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        .header-div {
+            height: 400px;
+        }
+        .content-div {
+            top: 200px;
+        }
+        .button-large {
+            font-size: 2.5rem;
+        }
+    }
 }

@@ -9,7 +9,10 @@
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "electron": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "dependencies": {
     "@angular/animations": "5.2.9",
@@ -33,7 +36,20 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.1.8",
+    "electron": "^1.8.4",
+    "electron-builder": "^20.8.1",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "main": "main.js",
+  "description": "An Ionic project",
+  "build": {
+    "appId": "com.magentamedia.desktopCBT",
+    "files": [
+      "main.js",
+      "www/**/*"
+    ],
+    "mac": {
+      "category": "productivity"
+    }
+  }
 }

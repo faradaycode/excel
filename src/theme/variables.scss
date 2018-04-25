@@ -38,7 +38,8 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  warning:    #FFA500
 );
 
 
@@ -57,6 +58,10 @@ $colors: (
 
 
 // App Windows Variables
+ion-content {
+  background-image: url(../assets/imgs/pattern.png);
+  background-repeat: repeat;
+}
 // --------------------------------------------------
 // Windows only Sass variables can go here
 
@@ -86,3 +91,5 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+$toolbar-background: #2e2e2e;

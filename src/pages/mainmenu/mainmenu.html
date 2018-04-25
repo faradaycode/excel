@@ -1,0 +1,68 @@
+<!--
+  Generated template for the MainmenuPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar hideBackButton>
+    <ion-title text-capitalize>Mata Pelajaran</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div id="paketan" *ngIf="kls === '6'">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <button ion-button full color="dark" (click)="getPk('a')">
+            <span>a</span>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button full color="dark" (click)="getPk('b')">
+            <span>b</span>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div id="mapel-menu" [style.display]="(kls === '6') ? 'none' : 'block'">
+    <ion-grid>
+      <ion-row [@flyInOut]="animVar">
+        <ion-col>
+          <button ion-button class="full-button" (click)="goto('QuisPage','mtk')">
+            <img class="btn-symbol" src="assets/imgs/mtk.png" />
+            <h4 class="btn-txt">matematika</h4>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button class="full-button" (click)="goto('QuisPage','ipa')">
+            <img src="assets/imgs/chemistry.png" />
+            <h4 class="btn-txt">ipa</h4>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button class="full-button" (click)="goto('QuisPage','ips')">
+            <img src="assets/imgs/ips.png" />
+            <h4 class="btn-txt">ips</h4>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button class="full-button" (click)="goto('QuisPage','bindo')">
+            <img src="assets/imgs/bindo.png" />
+            <h4 class="btn-txt">bahasa indonesia</h4>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button class="full-button" (click)="goto('QuisPage','pkn')">
+            <img src="assets/imgs/pkn.png" />
+            <h4 class="btn-txt">pkn</h4>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

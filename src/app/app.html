@@ -1,1 +1,19 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<!-- <ion-menu [content]="mycontent" persistent="true">
+  <ion-header>
+    <img [src]="mapel" />
+  </ion-header>
+
+  <ion-content class="no-scroll">
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngFor="let ig of ' '.repeat(40).split(''), let x = index" col-3>
+          <button id="sc{{x}}" ion-button color="secondary" full (click)="onGo(x)">
+            <h5>{{x+1}}</h5>
+            <h5 id="an-{{x}}"></h5>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-menu> -->
+<ion-nav #mycontent [root]="rootPage"></ion-nav>

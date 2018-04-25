@@ -1,0 +1,77 @@
+<!--
+  Generated template for the HasilPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content padding>
+  <div class="upcontent">
+    <div id="nilai-div" margin-bottom>
+      <ion-grid>
+        <ion-row text-center>
+          <ion-col col-12>
+            <h5>Nilai</h5>
+            <span class="nilai-n">{{(trueans/(totalar/10))*10}}</span>
+          </ion-col>
+        </ion-row>
+        <ion-row text-center margin-top>
+          <ion-col col-4>
+            <h5 text-capitalize>soal</h5>
+            <h5>{{totalar}}</h5>
+          </ion-col>
+          <ion-col col-4>
+            <h5 text-capitalize>benar</h5>
+            <h5>{{trueans}}</h5>
+          </ion-col>
+          <ion-col col-4>
+            <h5 text-capitalize>salah</h5>
+            <h5>{{totalar-trueans}}</h5>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+  <button style="padding: 20px;" full ion-button color="dark" (click)="onShow()">Rincian&nbsp;
+    <ion-icon [name]="(!divShow)?'arrow-up':'arrow-down'"></ion-icon>
+  </button>
+  <div class="downcontent" [style.display]="(!divShow)?'none':'block'">
+    <ion-grid text-center>
+      <ion-row class="tab-tl">
+        <ion-col>
+          No. Soal
+        </ion-col>
+        <ion-col>
+          Jawaban Saya
+        </ion-col>
+        <ion-col *ngIf="newArr[0].bahas !== null">
+          Kunci Jawaban
+        </ion-col>
+        <ion-col *ngIf="newArr[0].bahas === null">
+          Kunci Jawaban
+        </ion-col>
+        <ion-col *ngIf="newArr[0].bahas !== null">
+          Bahasan
+        </ion-col>
+      </ion-row>
+      <ion-row class="tab-cnt" *ngFor="let item of newArr; let i=index ">
+        <ion-col class="pad20">
+          {{i+1}}
+        </ion-col>
+        <ion-col class="pad20">
+          <span *ngIf="item.myans === undefined || item.myans === null ">-</span>
+          <span *ngIf="item.myans !== undefined ">{{item.myans}}</span>
+        </ion-col>
+        <ion-col class="pad20" *ngIf="newArr[0].bahas !== null">
+          <span>{{item.answ}}</span>
+        </ion-col>
+        <ion-col class="pad20" *ngIf="newArr[0].bahas === null">
+          <span>{{item.answ}}</span>
+        </ion-col>
+        <ion-col *ngIf="newArr[0].bahas !== null">
+          <button ion-button color="light" outline (click)="bahas(item.bahas)">Click</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
