@@ -1,6 +1,4 @@
 // http://ionicframework.com/docs/theming/
-
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -14,7 +12,6 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
-
 .no-scroll {
     overflow-y: hidden;
     .scroll-content {
@@ -28,4 +25,33 @@
 
 .header-md::after {
     display: none;
+}
+
+ion-header {
+    .toolbar-md {
+        min-height: 65px;
+        padding: 0;
+    }
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .5);
+}
+
+.radio-md {
+    .radio-icon, .radio-inner {
+        border-radius: 0;
+    }
+}
+
+.flats {
+    box-shadow: none;
+}
+
+.f5s {
+    background-color: #f5f5f5;
+}
+.app-title {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

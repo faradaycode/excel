@@ -1,22 +1,35 @@
-<ion-content padding>
+<ion-content class="no-scroll">
   <div class="container">
-    <div id="home-div">
-      <div class="header-div" [@flip]="fliping">
-        <div class="upcontent" text-center>
-          <div class="devLogo">
-            <img src="assets/imgs/transparant-mini.png" class="img-responsive" />
-          </div>
-        </div>
+    <div id="home-div" text-center>
+      <div class="devLogo">
+        <img src="assets/imgs/logo-baru-glow.png" class="img-responsive" [@flip]="fliping" />
       </div>
-      <div class="btn-home" text-center [@fade]="faded">
-        <button ion-button rounded large color="danger" (click)="mulai()">
-          <span>Mulai</span>
-        </button>
+      <div class="app-names" text-capitalize>
+        <h1>simulasi CBT US & UN SD</h1>
+      </div>
+      <div id="menu-home">
+        <h2 text-capitalize>pilih jenis ujian</h2>
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <button outline ion-button block color="dark" (click)="mulai()">
+                <h1>US</h1>
+              </button>
+            </ion-col>
+            <ion-col>
+              <button ion-button outline block color="dark">
+                <h1>UN</h1>
+              </button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
       </div>
     </div>
-
     <div id="grade-div" text-center>
-      <ion-grid>
+      <div class="txt-head" [@flip]="fliping2" margin-top>
+        <span class="outer-text">Pilih Kelasnya</span>
+      </div>
+      <ion-grid style="margin-top: 50px;">
         <ion-row [@bounce]="bounceState">
           <ion-col>
             <button ion-button clear class="super-large" (click)="goTo('4')">
@@ -26,11 +39,6 @@
           <ion-col>
             <button ion-button clear class="super-large" (click)="goTo('5')">
               <img class="img-responsive" src="assets/imgs/5.png" />
-            </button>
-          </ion-col>
-          <ion-col>
-            <button ion-button clear class="super-large" (click)="goTo('6')">
-              <img class="img-responsive" src="assets/imgs/6.png" />
             </button>
           </ion-col>
         </ion-row>

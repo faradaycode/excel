@@ -1,4 +1,11 @@
 page-mainmenu {
+    ion-content {
+        background: url('../assets/imgs/bgs.jpg') center repeat;
+        background-size: contain;
+    }
+    .scroll-content {
+        background-color: rgba(0,0,0, .7);
+    }
     .item {
         color: #ffffff;
         margin-bottom: 10px;
@@ -10,6 +17,12 @@ page-mainmenu {
     .button {
         box-shadow: none;
         border: none;
+    }
+    .button-md {
+        background: rgba($color: #488aff, $alpha: 0.4);
+    }
+    .button-md:hover {
+        background: rgba($color: #488aff, $alpha: 0.7);
     }
     .item-pb .item {
         color: #ffffff;

@@ -20,17 +20,15 @@ page-hasil {
         margin-top: -4px;
     }
     .upcontent {
-        background-color: #323833;
+        background-color: #175f23;
         font-weight: bold;
         color: #fff;
         border: 10px solid #b1a9a9;
     }
     .nilai-n {
         font-size: 3em;
-    }
-
-    //ribbon
-    #header span{
+    } //ribbon
+    #header span {
         font-size: 28px;
         font-weight: 300px;
         font-family: "Helvetica", sans-serif;
@@ -40,11 +38,13 @@ page-hasil {
         margin: 0;
         display: inline-block;
         white-space: nowrap;
-        color: #fff;    
+        color: #fff;
     }
-    .ribbon{
-        background-color: #16A085; /* background color for center of ribbon */
-        border: 3px solid #eee; /* border color for center of ribbon */
+    .ribbon {
+        background-color: #16A085;
+        /* background color for center of ribbon */
+        border: 3px solid #eee;
+        /* border color for center of ribbon */
         height: 56px;
         padding: 0 20px;
         display: inline-block;
@@ -52,8 +52,8 @@ page-hasil {
         margin-left: 56px;
         margin-right: 56px;
     }
-    
-    .ribbon:before, .ribbon:after{
+    .ribbon:before,
+    .ribbon:after {
         content: '.';
         text-indent: -9999em;
         height: 0;
@@ -66,34 +66,43 @@ page-hasil {
         display: block;
         z-index: -1;
     }
-    
-    .ribbon:before{
-        border-color: #138A72 #138A72 #138A72 transparent; /* bg color for left side of ribbon */
+    .ribbon:before {
+        border-color: #138A72 #138A72 #138A72 transparent;
+        /* bg color for left side of ribbon */
     }
-    
-    .ribbon:after{
-        border-color: #138A72 transparent #138a73 #138a72; /* bg color for right side of ribbon */
+    .ribbon:after {
+        border-color: #138A72 transparent #138a73 #138a72;
+        /* bg color for right side of ribbon */
         right: -45px;
         left: auto;
     }
-
     .tab-cnt span {
-       font-size: 1.4rem;
+        font-size: 1.4rem;
     }
-
     .pad20 {
         padding: 20px 0;
     }
-
     .downcontent .grid {
         padding: 0 0 5px 0;
     }
-
     .tab-cnt {
         text-transform: uppercase;
     }
-
     .tab-tl {
         border-bottom: 2px dashed;
+    }
+    .scoring {
+        .f20 {
+            font-size: 20rem;
+            color: gold;
+        }
+        .val-score {
+            position: absolute;
+            color: #4c00ff;
+            left: 0;
+            top: 25%;
+            width: 100%;
+            font-size: 5rem;
+        }
     }
 }

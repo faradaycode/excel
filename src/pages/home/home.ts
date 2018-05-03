@@ -1,4 +1,3 @@
-import { MethodeProvider } from './../../providers/methode/methode';
 import { NavController, IonicPage } from 'ionic-angular';
 import { Component } from '@angular/core';
 import { trigger, style, transition, animate, keyframes, query, stagger, state } from '@angular/animations';
@@ -46,11 +45,13 @@ import { trigger, style, transition, animate, keyframes, query, stagger, state }
 
     trigger('bounce', [
       transition('* => bouncing', [
-        query('.col', style({ transform: 'translate3d(0,-100%,0)' }), { optional: true }),
+        query('.col', style({
+          opacity: 0
+        }), { optional: true }),
         query('.col', stagger('1000ms', [
           animate('1s ease-in', keyframes([
             style({ transform: 'translate3d(0,-100%,0)', offset: 0 }),
-            style({ transform: 'translate3d(0,100%,0)', offset: 0.5 }),
+            style({ transform: 'translate3d(0,100%,0)', offset: 0.5, opacity: 1 }),
             style({ transform: 'translate3d(0,0,0)', offset: 1 })
           ]))]), { optional: true })
       ])
@@ -61,8 +62,9 @@ export class HomePage {
   fliping: String;
   bounceState: String = 'noBounce';
   faded: String = 'invisible';
+  fliping2: String;
 
-  constructor(public navCtrl: NavController, private serv: MethodeProvider) { }
+  constructor(public navCtrl: NavController) { }
 
   ngOnInit() {
     this.fliping = "flipped";
@@ -74,8 +76,9 @@ export class HomePage {
   mulai() {
     document.getElementById('grade-div').style.display = "block";
     document.getElementById('home-div').style.display = "none";
-
-    this.bounceState = (this.bounceState === 'noBounce') ? 'bouncing' : 'noBounce';
+    
+    this.bounceState = (this.bounceState === 'noBounce') ? 'bouncing' : 'noBounce';    
+    this.fliping2 = "flipped";
   }
 
   goTo(kelas) {

@@ -7,26 +7,34 @@
 
 <ion-content padding>
   <div class="upcontent">
-    <div id="nilai-div" margin-bottom>
+    <div id="nilai-div" margin-bottom text-capitalize>
       <ion-grid>
         <ion-row text-center>
           <ion-col col-12>
-            <h5>Nilai</h5>
-            <span class="nilai-n">{{(trueans/(totalar/10))*10}}</span>
+            <div class="scoring">
+              <h1 no-margin>Nilai</h1>
+              <div class="ikon">
+                <span class="f20"><ion-icon name="trophy"></ion-icon></span>
+                <span class="val-score">{{(trueans/(totalar/10))*10}}</span>                
+              </div>
+            </div>
           </ion-col>
         </ion-row>
         <ion-row text-center margin-top>
           <ion-col col-4>
-            <h5 text-capitalize>soal</h5>
-            <h5>{{totalar}}</h5>
+            <h1><ion-icon name="list-box"></ion-icon> soal</h1>
+            <h1>{{totalar}}</h1>
+            
           </ion-col>
           <ion-col col-4>
-            <h5 text-capitalize>benar</h5>
-            <h5>{{trueans}}</h5>
+            <h1><ion-icon name="checkmark"></ion-icon> benar</h1>
+            <h1>{{trueans}}</h1>
+            
           </ion-col>
           <ion-col col-4>
-            <h5 text-capitalize>salah</h5>
-            <h5>{{totalar-trueans}}</h5>
+            <h1><ion-icon name="close"></ion-icon> salah</h1>
+            <h1>{{totalar-trueans}}</h1>
+            
           </ion-col>
         </ion-row>
       </ion-grid>
