@@ -1,0 +1,37 @@
+<!--
+  Generated template for the ModalsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar text-capitalize>
+    <ion-title>Pembahasan</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="dismiss()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div class="container">
+    <div class="soal">
+      <div class="bg-div">
+        <span>Soal</span>
+      </div>
+      <img [src]="Isoal" />
+    </div>
+    <div class="pembahasan">
+      <div class="bg-div">
+        <span>Pembahasan</span>
+      </div>
+      <img [src]="Ibhs" />
+    </div>
+  </div>
+</ion-content>

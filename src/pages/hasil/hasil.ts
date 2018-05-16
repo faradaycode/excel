@@ -16,34 +16,34 @@ import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angu
 })
 export class HasilPage {
 
+  mapel: any;
+  kl: any;
   trueans: any;
   totalar: any;
   newArr: any = [];
-  tabBarElement: any;
-  divShow: boolean = false;
   bahasVal: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
     private modalCtrl: ModalController) {
     this.trueans = this.navParams.get('trueans');
     this.totalar = this.navParams.get('totalar');
+    this.kl = this.navParams.get('kelass');
+    this.mapel = this.navParams.get('mapel');
   }
 
-  ngOnInit() {
-    for (let i = 0; i < this.serv.theAnswer.length; i++) {
-      this.newArr.push({
-        myans: this.serv.myAnswer[i],
-        answ: this.serv.theAnswer[i],
-        bahas: this.serv.description[i]
-      });
-    }
-    let skor = (this.trueans / (this.totalar / 10)) * 10;
-  }
-  bahas(val) {
-    let myModal = this.modalCtrl.create("ModalsPage");
+  bahasan() {
+    let myModal = this.modalCtrl.create("KunciPage", {
+      mapel: this.mapel,
+      klas: this.kl
+    });
     myModal.present();
   }
-  onShow() {
-    this.divShow = !this.divShow;
+
+  toHome() {
+    this.serv.myAnswer = [];
+    this.serv.theAnswer = [];
+    this.serv.description = [];
+
+    this.navCtrl.popToRoot();
   }
 }

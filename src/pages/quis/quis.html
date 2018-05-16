@@ -91,21 +91,22 @@
             </ion-grid>
           </div>
         </ion-col>
-        <ion-col col-2 class="f5s" no-padding>
+        <ion-col col-2 class="s-cut" no-padding>
           <div class="timing">
-            <h5 no-margin *ngIf="timeInSeconds && timeInSeconds > 0">{{displayTime}}</h5>
+            <span no-margin *ngIf="timeInSeconds && timeInSeconds > 0">{{displayTime}}</span>
           </div>
           <div class="sc-btn">
-            <ion-grid>
-              <ion-row>
-                <ion-col *ngFor="let ig of ' '.repeat(40).split(''), let x = index" col-3>
-                  <button id="sc{{x}}" ion-button block class="flats" (click)="jump(x)">
-                    <h5>{{x+1}}</h5>
-                    <h5 id="an-{{x}}"></h5>
-                  </button>
-                </ion-col>
-              </ion-row>
-            </ion-grid>
+            <ion-list no-lines no-margin>
+              <div *ngFor="let ig of ' '.repeat(limitedVal).split(''), let x = index">
+                <button ion-item color="danger"  id="sc{{x}}" class="flats" (click)="jump(x)">
+                  <span>{{x+1}}</span>
+                  <span class="to-right" text-uppercase id="an-{{x}}"></span>
+                </button>
+              </div>
+            </ion-list>
+          </div>
+          <div class="dev-footer">
+            <img src="assets/imgs/logo-baru.png" class="img-responsive" />
           </div>
         </ion-col>
       </ion-row>

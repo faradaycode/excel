@@ -57,5 +57,16 @@
         </ion-col>
       </ion-row>
     </ion-grid>
+    <div class="posAbs to-right to-bottom">
+      <button class="full-button warning flats" large ion-button (click)="goto('RaportPage')">
+        <ion-icon name="list-box"></ion-icon>
+        <span text-capitalize>nilaiku</span>
+      </button>
+    </div>
+    <div class="posAbs to-left to-bottom">
+      <button class="full-button danger flats" large ion-button (click)="backto()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </div>
   </div>
 </ion-content>

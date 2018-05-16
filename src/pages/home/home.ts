@@ -72,20 +72,8 @@ export class HomePage {
       this.faded = (this.faded === 'invisible') ? 'visible' : 'invisible';
     }, 1000);
   }
-
-  mulai() {
-    document.getElementById('grade-div').style.display = "block";
-    document.getElementById('home-div').style.display = "none";
-    
-    this.bounceState = (this.bounceState === 'noBounce') ? 'bouncing' : 'noBounce';    
-    this.fliping2 = "flipped";
-  }
-
+  
   goTo(kelas) {
     this.navCtrl.push("MainmenuPage", { klas: kelas });
-    setTimeout(() => {
-      document.getElementById('grade-div').style.display = "none";
-      document.getElementById('home-div').style.display = "block";
-    }, 1000);
   }
 }

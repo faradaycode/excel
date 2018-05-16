@@ -160,6 +160,7 @@ export class QuisPage {
   finishing() {
     let answer: any = [];
     answer = this.saveAns;
+    this.serv.getGo(null);
 
     for (let i = 0; i < this.limitedVal; i++) {
       //if user answer same with the answer key, true answer variable will increase 1pt
@@ -174,7 +175,14 @@ export class QuisPage {
       siden.innerHTML = "";
     }
     this.serv.getGo(null);
-    this.navCtrl.push('HasilPage', { trueans: this.trueAns, totalar: this.limitedVal });
+    this.navCtrl.push('HasilPage', { 
+      trueans: this.trueAns, 
+      totalar: this.limitedVal, 
+      kelass: this.klas,
+      mapel: this.mapel
+    });
+
+    console.log(this.klas+" "+this.mapel);
   }
 
   reseting() {

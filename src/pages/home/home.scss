@@ -1,8 +1,7 @@
 page-home {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     ion-content {
-        background: url('../assets/imgs/bgs.jpg') center repeat;
-        background-size: contain;
+        background: url('../assets/imgs/back.jpg') repeat;
     }
     .scroll-content {
         background-color: rgba(0,0,0, .7);
@@ -70,7 +69,7 @@ page-home {
         }
         .button-md {
             height: 150px;
-            width: 400px;
+            width: 100%;
         }
     }
     .outer-text {
@@ -81,7 +80,7 @@ page-home {
         text-shadow: 3px 0 0 #ff0000, -3px 0 0 #ff0000, 0 3px 0 #ff0000, 0 -3px 0 #ff0000, 2px 2px #ff0000, -2px -2px 0 #ff0000, 2px -2px 0 #ff0000, -2px 2px 0 #ff0000;
     }
     #home-div {
-        margin-top: 30px;
+        margin-top: 50px;
     }
     #menu-home {
         h1 {

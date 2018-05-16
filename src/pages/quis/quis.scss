@@ -82,7 +82,7 @@ page-quis {
     } // segmented style radio button
     .segmented-button label {
         display: -moz-inline-box;
-        -moz-box-orient: vertical;
+        box-orient: vertical;
         display: inline-block;
         position: relative;
         margin: 0 5px;
@@ -122,15 +122,6 @@ page-quis {
     .paneling {
         height: auto;
     }
-    .timing {
-        height: 130px;
-        background-color: teal;
-        color: #fff;
-        padding: 40px 0;
-        h5 {
-            font-size: 4rem;
-        }
-    }
     .mini-panel {
         width: 50px;
         height: 50px;
@@ -139,5 +130,23 @@ page-quis {
         background: #2e2e2e;
         color: #fff;
     }
-    
+    .s-cut {
+        max-height: 100%;
+        .timing {
+            height: 15%;
+            background-color: teal;
+            color: #fff;
+            padding: 45px 0;
+            font-size: 4rem;
+        }
+        .sc-btn {
+            height: 80%;
+            overflow-y: scroll;
+        }
+        .dev-footer {
+            height: 5%;
+            padding: 8px;
+            background-color: #f4f4f4;
+        }
+    }
 }

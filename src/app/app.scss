@@ -23,6 +23,16 @@
     background-color: orange !important;
 }
 
+.danger {
+    background-color: #f00 !important;
+    color: #ffffff;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
 .header-md::after {
     display: none;
 }
@@ -39,7 +49,8 @@ ion-header {
 }
 
 .radio-md {
-    .radio-icon, .radio-inner {
+    .radio-icon,
+    .radio-inner {
         border-radius: 0;
     }
 }
@@ -51,7 +62,34 @@ ion-header {
 .f5s {
     background-color: #f5f5f5;
 }
+
 .app-title {
     color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img-responsive {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.to-right {
+    right: 5px;
+}
+
+.to-bottom {
+    bottom: 0;
+}
+
+.to-left {
+    left: 0;
+}
+
+.full-button {
+    height: 100%;
+    width: 100%;
+}
+
+.posAbs {
+    position: absolute;
 }

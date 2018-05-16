@@ -68,4 +68,7 @@ export class MainmenuPage {
     pk.style.display = 'none';
     mp.style.display = 'block';
   }
+  backto() {
+    this.navCtrl.pop();
+  }
 }

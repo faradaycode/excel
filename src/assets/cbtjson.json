@@ -1242,7 +1242,7 @@
     {
         "bahasan": null,
         "id_s": "156",
-        "jawaban": "b",
+        "jawaban": "a",
         "kls": "4",
         "mapel": "bindo",
         "soal": "0036"
@@ -1596,6 +1596,4806 @@
         "id_s": "200",
         "jawaban": "b",
         "kls": "4",
+        "mapel": "pkn",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "201",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "202",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "203",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "204",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "205",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "206",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "207",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "208",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "209",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "210",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "211",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "212",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "213",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "214",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "215",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "216",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "217",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "218",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "219",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "220",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "221",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "222",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "223",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "224",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "225",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "226",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "227",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "228",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "229",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "230",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "231",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "232",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "233",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "234",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "235",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "236",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "237",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "238",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "239",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "240",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ipa",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "241",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "242",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "243",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "244",
+        "jawaban": "d��",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "245",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "246",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "247",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "248",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "249",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "250",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "251",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "252",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "253",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "254",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "255",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "256",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "257",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "258",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "259",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "260",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "261",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "262",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "263",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "264",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "265",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "266",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "267",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "268",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "269",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "270",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "271",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "272",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "273",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "274",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "275",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "276",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "277",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "278",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "279",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "280",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "ips",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "281",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "282",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "283",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "284",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "285",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "286",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "287",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "288",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "289",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "290",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "291",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "292",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "293",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "294",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "295",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "296",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "297",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "298",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "299",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "300",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "301",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "302",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "303",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "304",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "305",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "306",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "307",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "308",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "309",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "310",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "311",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "312",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "313",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "314",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "315",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "316",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "317",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "318",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "319",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "320",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "bindo",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "321",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "322",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "323",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "324",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "325",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "326",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "327",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "328",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "329",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "330",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "331",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "332",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "333",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "334",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "335",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "336",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "337",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "338",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "339",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "340",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "341",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "342",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "343",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "344",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "345",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "346",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "347",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "348",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "349",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "350",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "351",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "352",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "353",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "354",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "355",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "356",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "357",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "358",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "359",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "360",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "pkn",
+        "soal": "0040"
+    },
+    {
+        "bahasan": "0001",
+        "id_s": "361",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0001"
+    },
+    {
+        "bahasan": "0002",
+        "id_s": "362",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0002"
+    },
+    {
+        "bahasan": "0003",
+        "id_s": "363",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0003"
+    },
+    {
+        "bahasan": "0004",
+        "id_s": "364",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0004"
+    },
+    {
+        "bahasan": "0005",
+        "id_s": "365",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0005"
+    },
+    {
+        "bahasan": "0006",
+        "id_s": "366",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0006"
+    },
+    {
+        "bahasan": "0007",
+        "id_s": "367",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0007"
+    },
+    {
+        "bahasan": "0008",
+        "id_s": "368",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0008"
+    },
+    {
+        "bahasan": "0009",
+        "id_s": "369",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0009"
+    },
+    {
+        "bahasan": "0010",
+        "id_s": "370",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0010"
+    },
+    {
+        "bahasan": "0011",
+        "id_s": "371",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0011"
+    },
+    {
+        "bahasan": "0012",
+        "id_s": "372",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0012"
+    },
+    {
+        "bahasan": "0013",
+        "id_s": "373",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0013"
+    },
+    {
+        "bahasan": "0014",
+        "id_s": "374",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0014"
+    },
+    {
+        "bahasan": "0015",
+        "id_s": "375",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0015"
+    },
+    {
+        "bahasan": "0016",
+        "id_s": "376",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0016"
+    },
+    {
+        "bahasan": "0017",
+        "id_s": "377",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0017"
+    },
+    {
+        "bahasan": "0018",
+        "id_s": "378",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0018"
+    },
+    {
+        "bahasan": "0019",
+        "id_s": "379",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0019"
+    },
+    {
+        "bahasan": "0020",
+        "id_s": "380",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0020"
+    },
+    {
+        "bahasan": "0021",
+        "id_s": "381",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0021"
+    },
+    {
+        "bahasan": "0022",
+        "id_s": "382",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0022"
+    },
+    {
+        "bahasan": "0023",
+        "id_s": "383",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0023"
+    },
+    {
+        "bahasan": "0024",
+        "id_s": "384",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0024"
+    },
+    {
+        "bahasan": "0025",
+        "id_s": "385",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0025"
+    },
+    {
+        "bahasan": "0026",
+        "id_s": "386",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0026"
+    },
+    {
+        "bahasan": "0027",
+        "id_s": "387",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0027"
+    },
+    {
+        "bahasan": "0028",
+        "id_s": "388",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0028"
+    },
+    {
+        "bahasan": "0029",
+        "id_s": "389",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0029"
+    },
+    {
+        "bahasan": "0030",
+        "id_s": "390",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0030"
+    },
+    {
+        "bahasan": "0031",
+        "id_s": "391",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0031"
+    },
+    {
+        "bahasan": "0032",
+        "id_s": "392",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0032"
+    },
+    {
+        "bahasan": "0033",
+        "id_s": "393",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0033"
+    },
+    {
+        "bahasan": "0034",
+        "id_s": "394",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0034"
+    },
+    {
+        "bahasan": "0035",
+        "id_s": "395",
+        "jawaban": "a",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0035"
+    },
+    {
+        "bahasan": "0036",
+        "id_s": "396",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0036"
+    },
+    {
+        "bahasan": "0037",
+        "id_s": "397",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0037"
+    },
+    {
+        "bahasan": "0038",
+        "id_s": "398",
+        "jawaban": "d",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0038"
+    },
+    {
+        "bahasan": "0039",
+        "id_s": "399",
+        "jawaban": "c",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0039"
+    },
+    {
+        "bahasan": "",
+        "id_s": "400",
+        "jawaban": "b",
+        "kls": "5",
+        "mapel": "mtk",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "401",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "402",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "403",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "404",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "405",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "406",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "407",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "408",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "409",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "410",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "411",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "412",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "413",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "414",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "415",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "416",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "417",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "418",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "419",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "420",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "421",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "422",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "423",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "424",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "425",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "426",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "427",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "428",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "429",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "430",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "431",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "432",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "433",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "434",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "435",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "436",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "437",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "438",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "439",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "440",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "441",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "442",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "443",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "444",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "445",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "446",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "447",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "448",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "449",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "450",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "451",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "452",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "453",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "454",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "455",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "456",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "457",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "458",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "459",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "460",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "461",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "462",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "463",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "464",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "465",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "466",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "467",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "468",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "469",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "470",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "471",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "472",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "473",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "474",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "475",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "476",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "477",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "478",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "479",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "480",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "481",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "482",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "483",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "484",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "485",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "486",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "487",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "488",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "489",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "490",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "491",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "492",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "493",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "494",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "495",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "496",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "497",
+        "jawaban": "c�",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "498",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "499",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "500",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "501",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "502",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "503",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "504",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "505",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "506",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "507",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "508",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "509",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "510",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "511",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "512",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "513",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "514",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "515",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "516",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "517",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "518",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "519",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "520",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "521",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "522",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "523",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "524",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "525",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "526",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "527",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "528",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "529",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "530",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "531",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "532",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "533",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "534",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "535",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "536",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "537",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "538",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "539",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "540",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "541",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "542",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "543",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "544",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "545",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "546",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "547",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "548",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "549",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "550",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "551",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "552",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "553",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "554",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "555",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "556",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "557",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "558",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "559",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "560",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0040"
+    },
+    {
+        "bahasan": "0001",
+        "id_s": "561",
+        "jawaban": "b",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0001"
+    },
+    {
+        "bahasan": "0002",
+        "id_s": "562",
+        "jawaban": "d",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0002"
+    },
+    {
+        "bahasan": "0003",
+        "id_s": "563",
+        "jawaban": "a",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0003"
+    },
+    {
+        "bahasan": "0004",
+        "id_s": "564",
+        "jawaban": "a",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0004"
+    },
+    {
+        "bahasan": "0005",
+        "id_s": "565",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0005"
+    },
+    {
+        "bahasan": "0006",
+        "id_s": "566",
+        "jawaban": "b",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0006"
+    },
+    {
+        "bahasan": "0007",
+        "id_s": "567",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0007"
+    },
+    {
+        "bahasan": "0008",
+        "id_s": "568",
+        "jawaban": "b",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0008"
+    },
+    {
+        "bahasan": "0009",
+        "id_s": "569",
+        "jawaban": "b",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0009"
+    },
+    {
+        "bahasan": "0010",
+        "id_s": "570",
+        "jawaban": "a",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0010"
+    },
+    {
+        "bahasan": "0011",
+        "id_s": "571",
+        "jawaban": "b",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0011"
+    },
+    {
+        "bahasan": "0012",
+        "id_s": "572",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0012"
+    },
+    {
+        "bahasan": "0013",
+        "id_s": "573",
+        "jawaban": "a",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0013"
+    },
+    {
+        "bahasan": "0014",
+        "id_s": "574",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0014"
+    },
+    {
+        "bahasan": "0015",
+        "id_s": "575",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0015"
+    },
+    {
+        "bahasan": "0016",
+        "id_s": "576",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0016"
+    },
+    {
+        "bahasan": "0017",
+        "id_s": "577",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0017"
+    },
+    {
+        "bahasan": "0018",
+        "id_s": "578",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0018"
+    },
+    {
+        "bahasan": "0019",
+        "id_s": "579",
+        "jawaban": "d",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0019"
+    },
+    {
+        "bahasan": "0020",
+        "id_s": "580",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0020"
+    },
+    {
+        "bahasan": "0021",
+        "id_s": "581",
+        "jawaban": "d",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0021"
+    },
+    {
+        "bahasan": "0022",
+        "id_s": "582",
+        "jawaban": "d",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0022"
+    },
+    {
+        "bahasan": "0023",
+        "id_s": "583",
+        "jawaban": "a",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0023"
+    },
+    {
+        "bahasan": "0024",
+        "id_s": "584",
+        "jawaban": "b",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0024"
+    },
+    {
+        "bahasan": "0025",
+        "id_s": "585",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0025"
+    },
+    {
+        "bahasan": "0026",
+        "id_s": "586",
+        "jawaban": "b",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0026"
+    },
+    {
+        "bahasan": "0027",
+        "id_s": "587",
+        "jawaban": "a",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0027"
+    },
+    {
+        "bahasan": "0028",
+        "id_s": "588",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0028"
+    },
+    {
+        "bahasan": "0029",
+        "id_s": "589",
+        "jawaban": "d",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0029"
+    },
+    {
+        "bahasan": "0030",
+        "id_s": "590",
+        "jawaban": "a",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0030"
+    },
+    {
+        "bahasan": "0031",
+        "id_s": "591",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0031"
+    },
+    {
+        "bahasan": "0032",
+        "id_s": "592",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0032"
+    },
+    {
+        "bahasan": "0033",
+        "id_s": "593",
+        "jawaban": "d",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0033"
+    },
+    {
+        "bahasan": "0034",
+        "id_s": "594",
+        "jawaban": "b",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0034"
+    },
+    {
+        "bahasan": "0035",
+        "id_s": "595",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0035"
+    },
+    {
+        "bahasan": "0036",
+        "id_s": "596",
+        "jawaban": "b",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0036"
+    },
+    {
+        "bahasan": "0037",
+        "id_s": "597",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0037"
+    },
+    {
+        "bahasan": "0038",
+        "id_s": "598",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0038"
+    },
+    {
+        "bahasan": "0039",
+        "id_s": "599",
+        "jawaban": "c",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0039"
+    },
+    {
+        "bahasan": "0040",
+        "id_s": "600",
+        "jawaban": "d",
+        "kls": "6B",
+        "mapel": "mtk",
+        "soal": "0040"
+    },
+    {
+        "bahasan": "0001",
+        "id_s": "601",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0001"
+    },
+    {
+        "bahasan": "0002",
+        "id_s": "602",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0002"
+    },
+    {
+        "bahasan": "0003",
+        "id_s": "603",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0003"
+    },
+    {
+        "bahasan": "0004",
+        "id_s": "604",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0004"
+    },
+    {
+        "bahasan": "0005",
+        "id_s": "605",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0005"
+    },
+    {
+        "bahasan": "0006",
+        "id_s": "606",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0006"
+    },
+    {
+        "bahasan": "0007",
+        "id_s": "607",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0007"
+    },
+    {
+        "bahasan": "0008",
+        "id_s": "608",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0008"
+    },
+    {
+        "bahasan": "0009",
+        "id_s": "609",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0009"
+    },
+    {
+        "bahasan": "0010",
+        "id_s": "610",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0010"
+    },
+    {
+        "bahasan": "0011",
+        "id_s": "611",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0011"
+    },
+    {
+        "bahasan": "0012",
+        "id_s": "612",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0012"
+    },
+    {
+        "bahasan": "0013",
+        "id_s": "613",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0013"
+    },
+    {
+        "bahasan": "0014",
+        "id_s": "614",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0014"
+    },
+    {
+        "bahasan": "0015",
+        "id_s": "615",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0015"
+    },
+    {
+        "bahasan": "0016",
+        "id_s": "616",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0016"
+    },
+    {
+        "bahasan": "0017",
+        "id_s": "617",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0017"
+    },
+    {
+        "bahasan": "0018",
+        "id_s": "618",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0018"
+    },
+    {
+        "bahasan": "0019",
+        "id_s": "619",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0019"
+    },
+    {
+        "bahasan": "0020",
+        "id_s": "620",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0020"
+    },
+    {
+        "bahasan": "0021",
+        "id_s": "621",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0021"
+    },
+    {
+        "bahasan": "0022",
+        "id_s": "622",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0022"
+    },
+    {
+        "bahasan": "0023",
+        "id_s": "623",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0023"
+    },
+    {
+        "bahasan": "0024",
+        "id_s": "624",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0024"
+    },
+    {
+        "bahasan": "0025",
+        "id_s": "625",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0025"
+    },
+    {
+        "bahasan": "0026",
+        "id_s": "626",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0026"
+    },
+    {
+        "bahasan": "0027",
+        "id_s": "627",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0027"
+    },
+    {
+        "bahasan": "0028",
+        "id_s": "628",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0028"
+    },
+    {
+        "bahasan": "0029",
+        "id_s": "629",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0029"
+    },
+    {
+        "bahasan": "0030",
+        "id_s": "630",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0030"
+    },
+    {
+        "bahasan": "0031",
+        "id_s": "631",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0031"
+    },
+    {
+        "bahasan": "0032",
+        "id_s": "632",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0032"
+    },
+    {
+        "bahasan": "0033",
+        "id_s": "633",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0033"
+    },
+    {
+        "bahasan": "0034",
+        "id_s": "634",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0034"
+    },
+    {
+        "bahasan": "0035",
+        "id_s": "635",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0035"
+    },
+    {
+        "bahasan": "0036",
+        "id_s": "636",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0036"
+    },
+    {
+        "bahasan": "0037",
+        "id_s": "637",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0037"
+    },
+    {
+        "bahasan": "0038",
+        "id_s": "638",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0038"
+    },
+    {
+        "bahasan": "0039",
+        "id_s": "639",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0039"
+    },
+    {
+        "bahasan": "0040",
+        "id_s": "640",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "mtk",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "641",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "642",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "643",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "644",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "645",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "646",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "647",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "648",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "649",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "650",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "651",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "652",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "653",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "654",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "655",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "656",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "657",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "658",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "659",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "660",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "661",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "662",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "663",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "664",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "665",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "666",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "667",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "668",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "669",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "670",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "671",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "672",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "673",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "674",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "675",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "676",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "677",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "678",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "679",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "680",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ips",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "681",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "682",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "683",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "684",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "685",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "686",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "687",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "688",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "689",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "690",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "691",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "692",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "693",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "694",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "695",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "696",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "697",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "698",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "699",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "700",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "701",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "702",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "703",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "704",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "705",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "706",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "707",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "708",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "709",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "710",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "711",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "712",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "713",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "714",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "715",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "716",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "717",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "718",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "719",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "720",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "ipa",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "721",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "722",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "723",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "724",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "725",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "726",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "727",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "728",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "729",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "730",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "731",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "732",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "733",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "734",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "735",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "736",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "737",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "738",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "739",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "740",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "741",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "742",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "743",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "744",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "745",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "746",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "747",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "748",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "749",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "750",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "751",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "752",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "753",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "754",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "755",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "756",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "757",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "758",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "759",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "760",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "bindo",
+        "soal": "0040"
+    },
+    {
+        "bahasan": null,
+        "id_s": "761",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0001"
+    },
+    {
+        "bahasan": null,
+        "id_s": "762",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0002"
+    },
+    {
+        "bahasan": null,
+        "id_s": "763",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0003"
+    },
+    {
+        "bahasan": null,
+        "id_s": "764",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0004"
+    },
+    {
+        "bahasan": null,
+        "id_s": "765",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0005"
+    },
+    {
+        "bahasan": null,
+        "id_s": "766",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0006"
+    },
+    {
+        "bahasan": null,
+        "id_s": "767",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0007"
+    },
+    {
+        "bahasan": null,
+        "id_s": "768",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0008"
+    },
+    {
+        "bahasan": null,
+        "id_s": "769",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0009"
+    },
+    {
+        "bahasan": null,
+        "id_s": "770",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0010"
+    },
+    {
+        "bahasan": null,
+        "id_s": "771",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0011"
+    },
+    {
+        "bahasan": null,
+        "id_s": "772",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0012"
+    },
+    {
+        "bahasan": null,
+        "id_s": "773",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0013"
+    },
+    {
+        "bahasan": null,
+        "id_s": "774",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0014"
+    },
+    {
+        "bahasan": null,
+        "id_s": "775",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0015"
+    },
+    {
+        "bahasan": null,
+        "id_s": "776",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0016"
+    },
+    {
+        "bahasan": null,
+        "id_s": "777",
+        "jawaban": "c�",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0017"
+    },
+    {
+        "bahasan": null,
+        "id_s": "778",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0018"
+    },
+    {
+        "bahasan": null,
+        "id_s": "779",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0019"
+    },
+    {
+        "bahasan": null,
+        "id_s": "780",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0020"
+    },
+    {
+        "bahasan": null,
+        "id_s": "781",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0021"
+    },
+    {
+        "bahasan": null,
+        "id_s": "782",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0022"
+    },
+    {
+        "bahasan": null,
+        "id_s": "783",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0023"
+    },
+    {
+        "bahasan": null,
+        "id_s": "784",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0024"
+    },
+    {
+        "bahasan": null,
+        "id_s": "785",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0025"
+    },
+    {
+        "bahasan": null,
+        "id_s": "786",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0026"
+    },
+    {
+        "bahasan": null,
+        "id_s": "787",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0027"
+    },
+    {
+        "bahasan": null,
+        "id_s": "788",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0028"
+    },
+    {
+        "bahasan": null,
+        "id_s": "789",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0029"
+    },
+    {
+        "bahasan": null,
+        "id_s": "790",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0030"
+    },
+    {
+        "bahasan": null,
+        "id_s": "791",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0031"
+    },
+    {
+        "bahasan": null,
+        "id_s": "792",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0032"
+    },
+    {
+        "bahasan": null,
+        "id_s": "793",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0033"
+    },
+    {
+        "bahasan": null,
+        "id_s": "794",
+        "jawaban": "b",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0034"
+    },
+    {
+        "bahasan": null,
+        "id_s": "795",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0035"
+    },
+    {
+        "bahasan": null,
+        "id_s": "796",
+        "jawaban": "c",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0036"
+    },
+    {
+        "bahasan": null,
+        "id_s": "797",
+        "jawaban": "a",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0037"
+    },
+    {
+        "bahasan": null,
+        "id_s": "798",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0038"
+    },
+    {
+        "bahasan": null,
+        "id_s": "799",
+        "jawaban": "d",
+        "kls": "6A",
+        "mapel": "pkn",
+        "soal": "0039"
+    },
+    {
+        "bahasan": null,
+        "id_s": "800",
+        "jawaban": "d",
+        "kls": "6A",
         "mapel": "pkn",
         "soal": "0040"
     }

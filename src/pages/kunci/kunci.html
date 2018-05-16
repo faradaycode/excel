@@ -1,0 +1,60 @@
+<!--
+  Generated template for the KunciPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar text-capitalize>
+    <ion-title>kunci jawaban</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="dismiss()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid text-center>
+    <ion-row class="tab-tl">
+      <ion-col>
+        No. Soal
+      </ion-col>
+      <ion-col>
+        Jawaban Saya
+      </ion-col>
+      <ion-col *ngIf="newArr[0].bahas !== null">
+        Kunci Jawaban
+      </ion-col>
+      <ion-col *ngIf="newArr[0].bahas === null">
+        Kunci Jawaban
+      </ion-col>
+      <ion-col *ngIf="newArr[0].bahas !== null">
+        Bahasan
+      </ion-col>
+    </ion-row>
+    <ion-row class="tab-cnt" *ngFor="let item of newArr; let i=index ">
+      <ion-col class="pad20">
+        {{i+1}}
+      </ion-col>
+      <ion-col class="pad20">
+        <span *ngIf="item.myans === undefined || item.myans === null ">-</span>
+        <span *ngIf="item.myans !== undefined ">{{item.myans}}</span>
+      </ion-col>
+      <ion-col class="pad20" *ngIf="newArr[0].bahas !== null">
+        <span>{{item.answ}}</span>
+      </ion-col>
+      <ion-col class="pad20" *ngIf="newArr[0].bahas === null">
+        <span>{{item.answ}}</span>
+      </ion-col>
+      <ion-col *ngIf="newArr[0].bahas !== null">
+        <button ion-button color="light" outline (click)="bahas(item.bahas)">Click</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
