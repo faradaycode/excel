@@ -22,13 +22,15 @@ export class HasilPage {
   totalar: any;
   newArr: any = [];
   bahasVal: any;
-
+  notAnsw: number;
+  
   constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
     private modalCtrl: ModalController) {
     this.trueans = this.navParams.get('trueans');
     this.totalar = this.navParams.get('totalar');
     this.kl = this.navParams.get('kelass');
     this.mapel = this.navParams.get('mapel');
+    this.notAnsw = this.navParams.get('notAns');
   }
 
   bahasan() {

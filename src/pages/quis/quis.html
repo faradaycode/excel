@@ -81,7 +81,7 @@
                     <button no-margin ion-button color="secondary" [style.display]="(pos == (limitedVal-1)) ? 'none' : 'block'" (click)="nextq(pos)">
                       <ion-icon name="arrow-forward"></ion-icon>
                     </button>
-                    <button no-margin ion-button color="primary" [style.display]="(pos == (limitedVal-1)) ? 'block' : 'none'" (click)="finishing()">
+                    <button no-margin ion-button color="primary" [style.display]="(pos == (limitedVal-1)) ? 'block' : 'none'" (click)="finishAlt()">
                       <ion-icon name="flag"></ion-icon>
                     </button>
                   </div>
@@ -98,7 +98,7 @@
           <div class="sc-btn">
             <ion-list no-lines no-margin>
               <div *ngFor="let ig of ' '.repeat(limitedVal).split(''), let x = index">
-                <button ion-item color="danger"  id="sc{{x}}" class="flats" (click)="jump(x)">
+                <button ion-item color="danger" id="sc{{x}}" class="flats" (click)="jump(x)">
                   <span>{{x+1}}</span>
                   <span class="to-right" text-uppercase id="an-{{x}}"></span>
                 </button>

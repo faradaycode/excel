@@ -18,36 +18,39 @@
                   <span class="f20">
                     <ion-icon name="trophy"></ion-icon>
                   </span>
-                  <span class="val-score">{{(trueans/(totalar/10))*10}}</span>                
+                  <span class="val-score">{{(trueans/(totalar/10))*10}}</span>
                 </div>
               </div>
             </ion-col>
           </ion-row>
           <ion-row text-center margin-top>
-            <ion-col col-4>
+            <ion-col col-3>
               <h1>
                 <ion-icon name="list-box"></ion-icon> soal</h1>
               <h1>{{totalar}}</h1>
             </ion-col>
-            <ion-col col-4>
+            <ion-col col-3>
               <h1>
                 <ion-icon name="checkmark"></ion-icon> benar</h1>
               <h1>{{trueans}}</h1>
-
             </ion-col>
-            <ion-col col-4>
+            <ion-col col-3>
+              <h1>
+                <ion-icon name="checkmark"></ion-icon> kosong</h1>
+              <h1>{{notAnsw}}</h1>
+            </ion-col>
+            <ion-col col-3>
               <h1>
                 <ion-icon name="close"></ion-icon> salah</h1>
               <h1>{{totalar-trueans}}</h1>
-
             </ion-col>
           </ion-row>
         </ion-grid>
       </div>
     </div>
 
-    <button ion-button color="danger" class="posAbs to-bottom to-left bigger" (click)="toHome()">
-      <ion-icon name="arrow-back"></ion-icon>
+    <button ion-button color="secondary" class="posAbs to-bottom to-left bigger" (click)="toHome()">
+      <ion-icon name="home"></ion-icon>
     </button>
 
     <button ion-button color="dark" class="posAbs to-bottom to-right bigger" (click)="bahasan()">

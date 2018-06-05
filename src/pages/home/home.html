@@ -9,7 +9,7 @@
       </div>
       <div id="menu-home">
         <h2 text-capitalize>pilih kelasmu</h2>
-        <ion-grid>
+        <ion-grid id="kelas-id">
           <ion-row>
             <ion-col>
               <button outline ion-button block color="dark" (click)="goTo('4')">
@@ -22,8 +22,23 @@
               </button>
             </ion-col>
             <ion-col>
-              <button ion-button outline block color="dark" (click)="goTo('6')">
+              <button ion-button outline block color="dark" (click)="unhide()" [ngStyle]="{'background-color': hidestat ? 'green' : ''}">
                 <h1>6</h1>
+              </button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
+        <ion-grid id="paket6" *ngIf="hidestat">
+          <ion-row>
+            <ion-col>
+              <button outline ion-button block color="dark" (click)="goTo('6','a')">
+                <h1>A</h1>
+              </button>
+            </ion-col>
+            <ion-col>
+              <button ion-button outline block color="dark" (click)="goTo('6','b')">
+                <h1>B</h1>
               </button>
             </ion-col>
           </ion-row>

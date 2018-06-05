@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { MethodeProvider } from '../../providers/methode/methode';
+import { IpcprovProvider } from '../../providers/ipcprov/ipcprov';
 
 /**
  * Generated class for the RaportPage page.
@@ -15,58 +16,42 @@ import { MethodeProvider } from '../../providers/methode/methode';
   templateUrl: 'raport.html',
 })
 export class RaportPage {
-  public arrN: any = [];
   kls;
   totalN: number = 0;
   totalMapel: number = 5;
+  arrdata: Array<any>;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
+    private ipcp: IpcprovProvider) {
     this.kls = this.navParams.get('kelas');
   }
 
   ngOnInit() {
-    // this.serv.getDatabaseState().subscribe(rdy => {
-    //   if (rdy) {
-    //     this.getData();
-    //   }
-    // })
+    this.getData();
   }
 
   getData() {
-    // const jumapel = 5;
-    // let total = 0;
-    // let mp;
+    let me = this;
+    this.ipcp.send("selectData", {
+      kelas: this.kls
+    });
 
-    //   this.sqlite.create({
-    //     name: 'cbt.db',
-    //     location: 'default'
-    //   }).then((db: SQLiteObject) => {
-    //     db.executeSql('SELECT mapel,nilai FROM penilaian WHERE kelas = ' + this.kls + ' ORDER BY kelas ASC', {})
-    //       .then(res => {
-    //         for (var i = 0; i < res.rows.length; i++) {
-    //           if(res.rows.item(i).mapel === "mtk") {
-    //             mp = "matematika";
-    //           }
-    //           if(res.rows.item(i).mapel === "bindo") {
-    //             mp = "bahasa indonesia";
-    //           }
-    //           if(res.rows.item(i).mapel !== "mtk" && res.rows.item(i).mapel !== "bindo") {
-    //             mp = res.rows.item(i).mapel;
-    //           }
-
-    //           this.arrN.push({ mapels: mp, nilais: res.rows.item(i).nilai })
-    //         }
-    //         console.log(res.rows.length);
-    //       }).catch(e => console.log(e));
-
-    //     db.executeSql('SELECT SUM(nilai) AS totaln FROM penilaian WHERE kelas= "' + this.kls + '"', {})
-    //       .then(res => {
-    //         if (res.rows.length > 0) {
-    //           total = parseInt(res.rows.item(0).totaln);
-    //           this.totalN = total / jumapel;
-    //         }
-    //       })
-    //   }).catch(e => console.log(e));
+    this.ipcp.on("resultAll", function (ev, data) {
+      me.arrdata = [];
+      let mapel = "";
+      for (let i in data) {
+        if (data[i].mapel === "mtk") {
+          mapel = "matematika";
+        }
+        if (data[i].mapel === "bindo") {
+          mapel = "bahasa indonesia";
+        }
+        if (data[i].mapel !== "mtk" && data[i].mapel !== "bindo") {
+          mapel = data[i].mapel;
+        }
+        me.arrdata.push({ mapels: mapel, nilais: data[i].nilai });
+      }
+    });
   }
 
   backto() {

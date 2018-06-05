@@ -42,10 +42,7 @@ export class MainmenuPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider) {
     this.kls = this.navParams.get("klas");
-  }
-
-  ionViewDidLoad() {
-    console.log(this.navCtrl.getActive().id);
+    this.paket = this.navParams.get('pkt');
   }
 
   ngOnInit() {
@@ -53,21 +50,27 @@ export class MainmenuPage {
   }
 
   goto(page, mapel) {
+    var x;
+    if (this.kls === "6") {
+      if (this.paket !== null || this.paket !== undefined) {
+        x = this.kls + this.paket.toUpperCase();
+      }
+    } else {
+      x = this.kls;
+    }
+
     if (mapel !== undefined || mapel !== null) {
       this.serv.bgset(mapel);
-      this.navCtrl.push(page, { kelas: this.kls, pel: mapel }).then(mess => console.log(mess)).catch(err => console.log(err));
+      this.navCtrl.push(page, { kelas: x, pel: mapel, pkt: this.paket }).then(mess => console.log(mess)).catch(err => console.log(err));
     } else {
       this.navCtrl.push(page).catch(err => console.log(err));
     }
   }
-  getPk(val) {
-    var pk = document.getElementById('paketan');
-    var mp = document.getElementById('mapel-menu');
-    
-    this.paket = val;
-    pk.style.display = 'none';
-    mp.style.display = 'block';
+
+  goReport() {
+    this.navCtrl.push("RaportPage", { kelas: this.kls });
   }
+
   backto() {
     this.navCtrl.pop();
   }

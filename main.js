@@ -4,12 +4,21 @@ const app = electron.app;
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
+const ipcMain = electron.ipcMain;
 const path = require('path');
 const url = require('url');
+const fs = require('fs')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
+
+let knex = require("knex")({
+  client: "sqlite3",
+  connection: {
+    filename: "./db/cbt.sqlite"
+  }
+});
 
 function createWindow() {
   // Create the browser window.
@@ -24,11 +33,13 @@ function createWindow() {
     slashes: true
   });
 
-  mainWindow.loadURL(startUrl);
-  //   mainWindow.loadURL("http://localhost:8100");
+  // const server = require('./server.js');
+
+  // mainWindow.loadURL(startUrl);
+  mainWindow.loadURL("http://localhost:8100");
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools();
+  mainWindow.webContents.openDevTools();
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
@@ -42,7 +53,24 @@ function createWindow() {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.on('ready', createWindow);
+app.on('ready', () => {
+  createWindow();
+
+  //sqlite file checker
+  //if exist, server.js which contain create database will skiped
+  //if none, sqlite will created from server.js
+  fs.stat('./db/cbt.sqlite', function (err, stat) {
+    if (err === null) {
+      console.log("EXISTS");
+    } else if (err.code === "ENOENT") {
+      //sqlite
+      let server = require('./server.js');
+      console.log(err.message);
+    } else {
+      console.log("some error");
+    }
+  })
+});
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
@@ -59,4 +87,37 @@ app.on('activate', function () {
   if (mainWindow === null) {
     createWindow()
   }
+});
+
+//ipc for crud
+ipcMain.on("updateData", function (ev, arg) {
+  //update data
+  knex("penilaian").where({
+    kelas: arg[0].kelas,
+    mapel: arg[0].mp
+  }).update("nilai", arg[0].nilais).then(function (rows) {
+    //feedback for alert success
+    mainWindow.webContents.send("resultSent", rows);
+    console.log(rows);
+  }).catch(function (err) {
+    //feedback for alert error/fail
+    console.log(err);
+  });
+});
+
+ipcMain.on("selectData", function (ev, arg) {
+  knex("penilaian").where("kelas", arg[0].kelas).select("mapel", "nilai").then(function (rows) {
+    mainWindow.webContents.send("resultAll", rows);
+    console.log(rows);
+  }).catch(function (err) {
+    console.log(err);
+  });
+
+  //select sum
+  knex('penilaian').sum('nilai as nl').then(function (sums) {
+    mainWindow.webContents.send("resultSum", sums);
+    console.log(sums);
+  }).catch(function (er) {
+    console.log(er);
+  });
 });

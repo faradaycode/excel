@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, MenuController, AlertController } from 'ionic-angular';
 import { MethodeProvider } from '../../providers/methode/methode';
 import { FormBuilder, FormGroup } from '@angular/forms';
 
@@ -17,6 +17,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 
 export class QuisPage {
+  nullAns: number = 0;
   tabBarElement: any;
 
   datas: any = [];
@@ -42,8 +43,8 @@ export class QuisPage {
   limitedVal: number = 40;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
-    private form: FormBuilder, private menuctrl: MenuController) {
-    this.paket = this.navParams.get('paket');
+    private form: FormBuilder, private menuctrl: MenuController, private alertCtrl: AlertController) {
+    this.paket = this.navParams.get('pkt');
     this.klas = this.navParams.get('kelas');
     this.mapel = this.navParams.get('pel');
 
@@ -69,6 +70,7 @@ export class QuisPage {
         if (data[a].mapel === this.mapel && data[a].kls === this.klas) {
           this.datas.push(data[a]);
           this.datas.sort((a, b) => { return Math.random() - 0.5; });
+          console.log(this.datas);
         }
       }
       this.showQuestion();
@@ -78,14 +80,21 @@ export class QuisPage {
 
   showQuestion() {
     let url;
+    let n = '6';
     if (this.limiter < this.limitedVal) {
-      if (this.klas !== 6) {
+      if (this.klas === '4' || this.klas === '5') {
         url = "assets/soal/" + this.klas + "/" + this.mapel + "/";
       } else {
-        url = "assets/soal/" + this.klas + "/" + this.paket + "/" + this.mapel + "/";
+        if (this.klas === "6A") {
+          url = "assets/soal/" + n + "/" + this.paket + "/" + this.mapel + "/";
+        }
+        if (this.klas === "6B") {
+          url = "assets/soal/" + n + "/" + this.paket + "/" + this.mapel + "/";
+        }
       }
 
       this.question = url + this.datas[this.limiter].soal + ".png";
+      console.log(this.paket);
     }
   }
   //timer countdown
@@ -157,6 +166,42 @@ export class QuisPage {
     siden.innerHTML = ansVal;
   }
 
+  finishAlt() {
+    for (let i = 0; i < this.limitedVal; i++) {
+      if (this.saveAns[i] === null || this.saveAns[i] === undefined) {
+        this.nullAns += 1;
+      }
+    }
+
+    let alert = this.alertCtrl.create({
+      title: "Peringatan",
+      message: "Masih Ada " + this.nullAns + " Soal Yang Kosong",
+      buttons: [
+        {
+          text: 'No',
+          role: 'cancel',
+          handler: () => {
+            this.nullAns = 0;
+          }
+        },
+        {
+          text: 'Yes',
+          handler: () => {
+            this.finishing();
+          }
+        }
+      ]
+    });
+
+    if (this.nullAns > 0) {
+      alert.present();
+    } else {
+      this.finishing();
+    }
+
+    console.log(this.nullAns);
+  }
+  
   finishing() {
     let answer: any = [];
     answer = this.saveAns;
@@ -175,14 +220,15 @@ export class QuisPage {
       siden.innerHTML = "";
     }
     this.serv.getGo(null);
-    this.navCtrl.push('HasilPage', { 
-      trueans: this.trueAns, 
-      totalar: this.limitedVal, 
+    this.navCtrl.push('HasilPage', {
+      trueans: this.trueAns,
+      totalar: this.limitedVal,
       kelass: this.klas,
-      mapel: this.mapel
+      mapel: this.mapel,
+      notAns: this.nullAns
     });
 
-    console.log(this.klas+" "+this.mapel);
+    console.log(this.klas + " " + this.mapel);
   }
 
   reseting() {

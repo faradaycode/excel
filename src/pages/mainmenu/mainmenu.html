@@ -5,24 +5,7 @@
   Ionic pages and navigation.
 -->
 <ion-content padding class="no-scroll">
-  <div id="paketan" *ngIf="kls === '6'">
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <button ion-button full color="dark" (click)="getPk('a')">
-            <span>a</span>
-          </button>
-        </ion-col>
-        <ion-col>
-          <button ion-button full color="dark" (click)="getPk('b')">
-            <span>b</span>
-          </button>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  </div>
-
-  <div id="mapel-menu" [style.display]="(kls === '6') ? 'none' : 'block'">
+  <div id="mapel-menu">
     <ion-grid>
       <ion-row [@flyInOut]="animVar">
         <ion-col>
@@ -58,7 +41,7 @@
       </ion-row>
     </ion-grid>
     <div class="posAbs to-right to-bottom">
-      <button class="full-button warning flats" large ion-button (click)="goto('RaportPage')">
+      <button class="full-button warning flats" large ion-button (click)="goReport()">
         <ion-icon name="list-box"></ion-icon>
         <span text-capitalize>nilaiku</span>
       </button>

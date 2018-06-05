@@ -16,14 +16,14 @@
   <div class="container">
     <ion-grid>
       <ion-row>
-        <ion-col *ngFor="let i of ' '.repeat(totalMapel).split('')" col-3>
+        <ion-col *ngFor="let item of arrdata" col-3>
           <div class="panel">
             <div class="panel-heading">
               <div class="head-pinned"></div>
-              <span>Kelas </span>
+              <span text-uppercase>{{item.mapels}}</span>
             </div>
             <div class="panel-body" text-center>
-              <span class="m-score">100</span>
+              <span class="m-score">{{item.nilais}}</span>
             </div>
           </div>
         </ion-col>

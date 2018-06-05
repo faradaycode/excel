@@ -3192,7 +3192,7 @@
         "soal": "0039"
     },
     {
-        "bahasan": "",
+        "bahasan": null,
         "id_s": "400",
         "jawaban": "b",
         "kls": "5",
@@ -5122,56 +5122,56 @@
     {
         "bahasan": null,
         "id_s": "641",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0001"
     },
     {
         "bahasan": null,
         "id_s": "642",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0002"
     },
     {
         "bahasan": null,
         "id_s": "643",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0003"
     },
     {
         "bahasan": null,
         "id_s": "644",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0004"
     },
     {
         "bahasan": null,
         "id_s": "645",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0005"
     },
     {
         "bahasan": null,
         "id_s": "646",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0006"
     },
     {
         "bahasan": null,
         "id_s": "647",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0007"
     },
@@ -5179,15 +5179,15 @@
         "bahasan": null,
         "id_s": "648",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0008"
     },
     {
         "bahasan": null,
         "id_s": "649",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0009"
     },
@@ -5195,7 +5195,7 @@
         "bahasan": null,
         "id_s": "650",
         "jawaban": "a",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0010"
     },
@@ -5203,55 +5203,55 @@
         "bahasan": null,
         "id_s": "651",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0011"
     },
     {
         "bahasan": null,
         "id_s": "652",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0012"
     },
     {
         "bahasan": null,
         "id_s": "653",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0013"
     },
     {
         "bahasan": null,
         "id_s": "654",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0014"
     },
     {
         "bahasan": null,
         "id_s": "655",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0015"
     },
     {
         "bahasan": null,
         "id_s": "656",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0016"
     },
     {
         "bahasan": null,
         "id_s": "657",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0017"
     },
@@ -5259,39 +5259,39 @@
         "bahasan": null,
         "id_s": "658",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0018"
     },
     {
         "bahasan": null,
         "id_s": "659",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0019"
     },
     {
         "bahasan": null,
         "id_s": "660",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0020"
     },
     {
         "bahasan": null,
         "id_s": "661",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0021"
     },
     {
         "bahasan": null,
         "id_s": "662",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0022"
     },
@@ -5299,23 +5299,23 @@
         "bahasan": null,
         "id_s": "663",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0023"
     },
     {
         "bahasan": null,
         "id_s": "664",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0024"
     },
     {
         "bahasan": null,
         "id_s": "665",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0025"
     },
@@ -5323,15 +5323,15 @@
         "bahasan": null,
         "id_s": "666",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0026"
     },
     {
         "bahasan": null,
         "id_s": "667",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0027"
     },
@@ -5339,15 +5339,15 @@
         "bahasan": null,
         "id_s": "668",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0028"
     },
     {
         "bahasan": null,
         "id_s": "669",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0029"
     },
@@ -5355,7 +5355,7 @@
         "bahasan": null,
         "id_s": "670",
         "jawaban": "a",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0030"
     },
@@ -5363,23 +5363,23 @@
         "bahasan": null,
         "id_s": "671",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0031"
     },
     {
         "bahasan": null,
         "id_s": "672",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0032"
     },
     {
         "bahasan": null,
         "id_s": "673",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0033"
     },
@@ -5387,15 +5387,15 @@
         "bahasan": null,
         "id_s": "674",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0034"
     },
     {
         "bahasan": null,
         "id_s": "675",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0035"
     },
@@ -5403,55 +5403,55 @@
         "bahasan": null,
         "id_s": "676",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0036"
     },
     {
         "bahasan": null,
         "id_s": "677",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0037"
     },
     {
         "bahasan": null,
         "id_s": "678",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0038"
     },
     {
         "bahasan": null,
         "id_s": "679",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0039"
     },
     {
         "bahasan": null,
         "id_s": "680",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ips",
         "soal": "0040"
     },
     {
         "bahasan": null,
         "id_s": "681",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0001"
     },
     {
         "bahasan": null,
         "id_s": "682",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0002"
     },
@@ -5459,23 +5459,23 @@
         "bahasan": null,
         "id_s": "683",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0003"
     },
     {
         "bahasan": null,
         "id_s": "684",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0004"
     },
     {
         "bahasan": null,
         "id_s": "685",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0005"
     },
@@ -5483,23 +5483,23 @@
         "bahasan": null,
         "id_s": "686",
         "jawaban": "a",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0006"
     },
     {
         "bahasan": null,
         "id_s": "687",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0007"
     },
     {
         "bahasan": null,
         "id_s": "688",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0008"
     },
@@ -5507,7 +5507,7 @@
         "bahasan": null,
         "id_s": "689",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0009"
     },
@@ -5515,31 +5515,31 @@
         "bahasan": null,
         "id_s": "690",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0010"
     },
     {
         "bahasan": null,
         "id_s": "691",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0011"
     },
     {
         "bahasan": null,
         "id_s": "692",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0012"
     },
     {
         "bahasan": null,
         "id_s": "693",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0013"
     },
@@ -5547,23 +5547,23 @@
         "bahasan": null,
         "id_s": "694",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0014"
     },
     {
         "bahasan": null,
         "id_s": "695",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0015"
     },
     {
         "bahasan": null,
         "id_s": "696",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0016"
     },
@@ -5571,23 +5571,23 @@
         "bahasan": null,
         "id_s": "697",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0017"
     },
     {
         "bahasan": null,
         "id_s": "698",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0018"
     },
     {
         "bahasan": null,
         "id_s": "699",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0019"
     },
@@ -5595,31 +5595,31 @@
         "bahasan": null,
         "id_s": "700",
         "jawaban": "a",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0020"
     },
     {
         "bahasan": null,
         "id_s": "701",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0021"
     },
     {
         "bahasan": null,
         "id_s": "702",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0022"
     },
     {
         "bahasan": null,
         "id_s": "703",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0023"
     },
@@ -5627,55 +5627,55 @@
         "bahasan": null,
         "id_s": "704",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0024"
     },
     {
         "bahasan": null,
         "id_s": "705",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0025"
     },
     {
         "bahasan": null,
         "id_s": "706",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0026"
     },
     {
         "bahasan": null,
         "id_s": "707",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0027"
     },
     {
         "bahasan": null,
         "id_s": "708",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0028"
     },
     {
         "bahasan": null,
         "id_s": "709",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0029"
     },
     {
         "bahasan": null,
         "id_s": "710",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0030"
     },
@@ -5683,31 +5683,31 @@
         "bahasan": null,
         "id_s": "711",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0031"
     },
     {
         "bahasan": null,
         "id_s": "712",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0032"
     },
     {
         "bahasan": null,
         "id_s": "713",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0033"
     },
     {
         "bahasan": null,
         "id_s": "714",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0034"
     },
@@ -5715,7 +5715,7 @@
         "bahasan": null,
         "id_s": "715",
         "jawaban": "a",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0035"
     },
@@ -5723,31 +5723,31 @@
         "bahasan": null,
         "id_s": "716",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0036"
     },
     {
         "bahasan": null,
         "id_s": "717",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0037"
     },
     {
         "bahasan": null,
         "id_s": "718",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0038"
     },
     {
         "bahasan": null,
         "id_s": "719",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0039"
     },
@@ -5755,55 +5755,55 @@
         "bahasan": null,
         "id_s": "720",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "ipa",
         "soal": "0040"
     },
     {
         "bahasan": null,
         "id_s": "721",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0001"
     },
     {
         "bahasan": null,
         "id_s": "722",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0002"
     },
     {
         "bahasan": null,
         "id_s": "723",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0003"
     },
     {
         "bahasan": null,
         "id_s": "724",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0004"
     },
     {
         "bahasan": null,
         "id_s": "725",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0005"
     },
     {
         "bahasan": null,
         "id_s": "726",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0006"
     },
@@ -5811,15 +5811,15 @@
         "bahasan": null,
         "id_s": "727",
         "jawaban": "a",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0007"
     },
     {
         "bahasan": null,
         "id_s": "728",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0008"
     },
@@ -5827,47 +5827,47 @@
         "bahasan": null,
         "id_s": "729",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0009"
     },
     {
         "bahasan": null,
         "id_s": "730",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0010"
     },
     {
         "bahasan": null,
         "id_s": "731",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0011"
     },
     {
         "bahasan": null,
         "id_s": "732",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0012"
     },
     {
         "bahasan": null,
         "id_s": "733",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0013"
     },
     {
         "bahasan": null,
         "id_s": "734",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0014"
     },
@@ -5875,23 +5875,23 @@
         "bahasan": null,
         "id_s": "735",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0015"
     },
     {
         "bahasan": null,
         "id_s": "736",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0016"
     },
     {
         "bahasan": null,
         "id_s": "737",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0017"
     },
@@ -5899,15 +5899,15 @@
         "bahasan": null,
         "id_s": "738",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0018"
     },
     {
         "bahasan": null,
         "id_s": "739",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0019"
     },
@@ -5915,87 +5915,87 @@
         "bahasan": null,
         "id_s": "740",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0020"
     },
     {
         "bahasan": null,
         "id_s": "741",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0021"
     },
     {
         "bahasan": null,
         "id_s": "742",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0022"
     },
     {
         "bahasan": null,
         "id_s": "743",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0023"
     },
     {
         "bahasan": null,
         "id_s": "744",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0024"
     },
     {
         "bahasan": null,
         "id_s": "745",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0025"
     },
     {
         "bahasan": null,
         "id_s": "746",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0026"
     },
     {
         "bahasan": null,
         "id_s": "747",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0027"
     },
     {
         "bahasan": null,
         "id_s": "748",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0028"
     },
     {
         "bahasan": null,
         "id_s": "749",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0029"
     },
     {
         "bahasan": null,
         "id_s": "750",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0030"
     },
@@ -6003,7 +6003,7 @@
         "bahasan": null,
         "id_s": "751",
         "jawaban": "a",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0031"
     },
@@ -6011,7 +6011,7 @@
         "bahasan": null,
         "id_s": "752",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0032"
     },
@@ -6019,39 +6019,39 @@
         "bahasan": null,
         "id_s": "753",
         "jawaban": "a",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0033"
     },
     {
         "bahasan": null,
         "id_s": "754",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0034"
     },
     {
         "bahasan": null,
         "id_s": "755",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0035"
     },
     {
         "bahasan": null,
         "id_s": "756",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0036"
     },
     {
         "bahasan": null,
         "id_s": "757",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0037"
     },
@@ -6059,31 +6059,31 @@
         "bahasan": null,
         "id_s": "758",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0038"
     },
     {
         "bahasan": null,
         "id_s": "759",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0039"
     },
     {
         "bahasan": null,
         "id_s": "760",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "bindo",
         "soal": "0040"
     },
     {
         "bahasan": null,
         "id_s": "761",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0001"
     },
@@ -6091,7 +6091,7 @@
         "bahasan": null,
         "id_s": "762",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0002"
     },
@@ -6099,7 +6099,7 @@
         "bahasan": null,
         "id_s": "763",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0003"
     },
@@ -6107,31 +6107,31 @@
         "bahasan": null,
         "id_s": "764",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0004"
     },
     {
         "bahasan": null,
         "id_s": "765",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0005"
     },
     {
         "bahasan": null,
         "id_s": "766",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0006"
     },
     {
         "bahasan": null,
         "id_s": "767",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0007"
     },
@@ -6139,7 +6139,7 @@
         "bahasan": null,
         "id_s": "768",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0008"
     },
@@ -6147,7 +6147,7 @@
         "bahasan": null,
         "id_s": "769",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0009"
     },
@@ -6155,15 +6155,15 @@
         "bahasan": null,
         "id_s": "770",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0010"
     },
     {
         "bahasan": null,
         "id_s": "771",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0011"
     },
@@ -6171,79 +6171,79 @@
         "bahasan": null,
         "id_s": "772",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0012"
     },
     {
         "bahasan": null,
         "id_s": "773",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0013"
     },
     {
         "bahasan": null,
         "id_s": "774",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0014"
     },
     {
         "bahasan": null,
         "id_s": "775",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0015"
     },
     {
         "bahasan": null,
         "id_s": "776",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0016"
     },
     {
         "bahasan": null,
         "id_s": "777",
-        "jawaban": "c�",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0017"
     },
     {
         "bahasan": null,
         "id_s": "778",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0018"
     },
     {
         "bahasan": null,
         "id_s": "779",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0019"
     },
     {
         "bahasan": null,
         "id_s": "780",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0020"
     },
     {
         "bahasan": null,
         "id_s": "781",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0021"
     },
@@ -6251,23 +6251,23 @@
         "bahasan": null,
         "id_s": "782",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0022"
     },
     {
         "bahasan": null,
         "id_s": "783",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0023"
     },
     {
         "bahasan": null,
         "id_s": "784",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0024"
     },
@@ -6275,7 +6275,7 @@
         "bahasan": null,
         "id_s": "785",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0025"
     },
@@ -6283,7 +6283,7 @@
         "bahasan": null,
         "id_s": "786",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0026"
     },
@@ -6291,15 +6291,15 @@
         "bahasan": null,
         "id_s": "787",
         "jawaban": "c",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0027"
     },
     {
         "bahasan": null,
         "id_s": "788",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "a",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0028"
     },
@@ -6307,47 +6307,47 @@
         "bahasan": null,
         "id_s": "789",
         "jawaban": "b",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0029"
     },
     {
         "bahasan": null,
         "id_s": "790",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0030"
     },
     {
         "bahasan": null,
         "id_s": "791",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0031"
     },
     {
         "bahasan": null,
         "id_s": "792",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0032"
     },
     {
         "bahasan": null,
         "id_s": "793",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0033"
     },
     {
         "bahasan": null,
         "id_s": "794",
-        "jawaban": "b",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0034"
     },
@@ -6355,23 +6355,23 @@
         "bahasan": null,
         "id_s": "795",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0035"
     },
     {
         "bahasan": null,
         "id_s": "796",
-        "jawaban": "c",
-        "kls": "6A",
+        "jawaban": "d",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0036"
     },
     {
         "bahasan": null,
         "id_s": "797",
-        "jawaban": "a",
-        "kls": "6A",
+        "jawaban": "c",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0037"
     },
@@ -6379,23 +6379,23 @@
         "bahasan": null,
         "id_s": "798",
         "jawaban": "d",
-        "kls": "6A",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0038"
     },
     {
         "bahasan": null,
         "id_s": "799",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0039"
     },
     {
         "bahasan": null,
         "id_s": "800",
-        "jawaban": "d",
-        "kls": "6A",
+        "jawaban": "b",
+        "kls": "6B",
         "mapel": "pkn",
         "soal": "0040"
     }

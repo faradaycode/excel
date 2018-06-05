@@ -10,6 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MethodeProvider } from '../providers/methode/methode';
 import { HttpClientModule } from '@angular/common/http';
 import { IonicStorageModule } from '@ionic/storage';
+import { NgxElectronModule } from 'ngx-electron';
+import { IpcprovProvider } from '../providers/ipcprov/ipcprov';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { IonicStorageModule } from '@ionic/storage';
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot(),
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxElectronModule    
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -30,7 +33,8 @@ import { IonicStorageModule } from '@ionic/storage';
     StatusBar,
     SplashScreen,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
-    MethodeProvider
+    MethodeProvider,
+    IpcprovProvider
   ]
 })
 export class AppModule { }

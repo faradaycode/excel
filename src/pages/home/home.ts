@@ -1,3 +1,4 @@
+import { IpcprovProvider } from '../../providers/ipcprov/ipcprov';
 import { NavController, IonicPage } from 'ionic-angular';
 import { Component } from '@angular/core';
 import { trigger, style, transition, animate, keyframes, query, stagger, state } from '@angular/animations';
@@ -35,12 +36,14 @@ import { trigger, style, transition, animate, keyframes, query, stagger, state }
 
     trigger('fade', [
       state('visible', style({
-        opacity: 1
+        opacity: 1,
+        display: 'block'
       })),
       state('invisible', style({
-        opacity: 0
+        opacity: 0,
+        display: 'none'
       })),
-      transition('invisible <=> visible', animate('800ms ease-in'))
+      transition('visible <=> invisible', animate('800ms ease-in'))
     ]),
 
     trigger('bounce', [
@@ -61,19 +64,41 @@ import { trigger, style, transition, animate, keyframes, query, stagger, state }
 export class HomePage {
   fliping: String;
   bounceState: String = 'noBounce';
-  faded: String = 'invisible';
+  invis: String = 'invisible';
   fliping2: String;
+  vis: String = 'visible';
+  hidestat: boolean = false;
+  lis: any = [];
 
-  constructor(public navCtrl: NavController) { }
+  constructor(public navCtrl: NavController, private ipcp: IpcprovProvider) {
+
+  }
+
+  ionViewWillLeave() {
+    this.hidestat = !this.hidestat
+  }
 
   ngOnInit() {
+
     this.fliping = "flipped";
-    setTimeout(() => {
-      this.faded = (this.faded === 'invisible') ? 'visible' : 'invisible';
-    }, 1000);
+    // setTimeout(() => {
+    //   this.faded = (this.faded === 'invisible') ? 'visible' : 'invisible';
+    // }, 1000);
   }
-  
-  goTo(kelas) {
-    this.navCtrl.push("MainmenuPage", { klas: kelas });
+
+  goTo(kelas, paket = null) {
+    this.navCtrl.push("MainmenuPage", { klas: kelas, pkt: paket });
+    // let kls = "4";
+    // let mapel = "mtk";
+    // let nilai = 100;
+    // this.ipcp.send("updateData", {
+    //   kelas: kls,
+    //   mp: mapel,
+    //   nilais: nilai
+    // });
+  }
+
+  unhide() {
+    this.hidestat = !this.hidestat;
   }
 }
