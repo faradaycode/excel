@@ -68,7 +68,12 @@ export class MainmenuPage {
   }
 
   goReport() {
-    this.navCtrl.push("RaportPage", { kelas: this.kls });
+    if (this.kls === "6") {
+      let kls = this.kls + this.paket;
+      this.navCtrl.push("RaportPage", { kelas: kls });
+    } else {
+      this.navCtrl.push("RaportPage", { kelas: this.kls });
+    }
   }
 
   backto() {

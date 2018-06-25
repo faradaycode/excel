@@ -1,44 +1,38 @@
 <ion-content class="no-scroll">
   <div class="container">
     <div id="home-div" text-center>
-      <div class="devLogo">
-        <img src="assets/imgs/logo-baru-glow.png" class="img-responsive" [@flip]="fliping" />
-      </div>
-      <div class="app-names" text-capitalize>
-        <h1>simulasi CBT USBN SD</h1>
+      <div class="heading-content">
+        <div class="devLogo">
+          <img src="assets/imgs/screen.png" class="img-responsive" style="padding-top: 35px;" [@flip]="fliping" />
+          <div id="thumb-icon" [@bounce]="bounceState">
+            <img id="lb-img" src="assets/imgs/at.png">
+            <img id="lt-img" src="assets/imgs/open-book.png">
+            <img id="t-img" src="assets/imgs/atom.png">
+            <img id="rb-img" src="assets/imgs/maths.png">
+            <img id="rt-img" src="assets/imgs/earth.png">
+          </div>
+        </div>
+        <div class="app-names" text-capitalize [@fade]="fading">
+          <h1>simulasi CBT USBN SD</h1>
+        </div>
       </div>
       <div id="menu-home">
-        <h2 text-capitalize>pilih kelasmu</h2>
+        <h2 text-capitalize no-margin>pilih kelasmu</h2>
         <ion-grid id="kelas-id">
           <ion-row>
             <ion-col>
-              <button outline ion-button block color="dark" (click)="goTo('4')">
+              <button ion-button block color="straw" (click)="goTo('4')">
                 <h1>4</h1>
               </button>
             </ion-col>
             <ion-col>
-              <button ion-button outline block color="dark" (click)="goTo('5')">
+              <button ion-button block color="iceblue" (click)="goTo('5')">
                 <h1>5</h1>
               </button>
             </ion-col>
             <ion-col>
-              <button ion-button outline block color="dark" (click)="unhide()" [ngStyle]="{'background-color': hidestat ? 'green' : ''}">
+              <button ion-button block color="lightgreen" (click)="openModal()">
                 <h1>6</h1>
-              </button>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-
-        <ion-grid id="paket6" *ngIf="hidestat">
-          <ion-row>
-            <ion-col>
-              <button outline ion-button block color="dark" (click)="goTo('6','a')">
-                <h1>A</h1>
-              </button>
-            </ion-col>
-            <ion-col>
-              <button ion-button outline block color="dark" (click)="goTo('6','b')">
-                <h1>B</h1>
               </button>
             </ion-col>
           </ion-row>

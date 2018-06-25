@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { MethodeProvider } from '../../providers/methode/methode';
 import { IpcprovProvider } from '../../providers/ipcprov/ipcprov';
 
 /**
@@ -21,7 +20,7 @@ export class RaportPage {
   totalMapel: number = 5;
   arrdata: Array<any>;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
+  constructor(public navCtrl: NavController, public navParams: NavParams,
     private ipcp: IpcprovProvider) {
     this.kls = this.navParams.get('kelas');
   }
@@ -52,6 +51,10 @@ export class RaportPage {
         me.arrdata.push({ mapels: mapel, nilais: data[i].nilai });
       }
     });
+
+    this.ipcp.on("location", function (ev, data) {
+      console.log(data);      
+    })
   }
 
   backto() {

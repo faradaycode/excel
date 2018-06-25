@@ -1,5 +1,4 @@
-import { IpcprovProvider } from '../../providers/ipcprov/ipcprov';
-import { NavController, IonicPage } from 'ionic-angular';
+import { NavController, IonicPage, ModalController } from 'ionic-angular';
 import { Component } from '@angular/core';
 import { trigger, style, transition, animate, keyframes, query, stagger, state } from '@angular/animations';
 
@@ -14,7 +13,7 @@ import { trigger, style, transition, animate, keyframes, query, stagger, state }
       })),
       state('flipped', style({
         opacity: 1,
-        transform: 'rotate(360deg)',
+        transform: 'rotateY(360deg)',
       })),
       transition('* => flipped', animate('1s ease'))
     ]),
@@ -36,23 +35,21 @@ import { trigger, style, transition, animate, keyframes, query, stagger, state }
 
     trigger('fade', [
       state('visible', style({
-        opacity: 1,
-        display: 'block'
+        opacity: 1
       })),
       state('invisible', style({
-        opacity: 0,
-        display: 'none'
+        opacity: 0
       })),
       transition('visible <=> invisible', animate('800ms ease-in'))
     ]),
 
     trigger('bounce', [
       transition('* => bouncing', [
-        query('.col', style({
+        query('img', style({
           opacity: 0
         }), { optional: true }),
-        query('.col', stagger('1000ms', [
-          animate('1s ease-in', keyframes([
+        query('img', stagger('500ms', [
+          animate('500ms ease-in', keyframes([
             style({ transform: 'translate3d(0,-100%,0)', offset: 0 }),
             style({ transform: 'translate3d(0,100%,0)', offset: 0.5, opacity: 1 }),
             style({ transform: 'translate3d(0,0,0)', offset: 1 })
@@ -64,13 +61,11 @@ import { trigger, style, transition, animate, keyframes, query, stagger, state }
 export class HomePage {
   fliping: String;
   bounceState: String = 'noBounce';
-  invis: String = 'invisible';
-  fliping2: String;
-  vis: String = 'visible';
   hidestat: boolean = false;
+  fading: String = "invisible";
   lis: any = [];
 
-  constructor(public navCtrl: NavController, private ipcp: IpcprovProvider) {
+  constructor(public navCtrl: NavController, private modalCtrl: ModalController) {
 
   }
 
@@ -81,21 +76,21 @@ export class HomePage {
   ngOnInit() {
 
     this.fliping = "flipped";
-    // setTimeout(() => {
-    //   this.faded = (this.faded === 'invisible') ? 'visible' : 'invisible';
-    // }, 1000);
+      this.bounceState = (this.bounceState === "noBounce") ? 'bouncing' : 'noBounce';
+    setTimeout(() => {
+      this.fading = (this.fading === "invisible") ? "visible" : "invisible";
+    }, 2500);
   }
 
   goTo(kelas, paket = null) {
     this.navCtrl.push("MainmenuPage", { klas: kelas, pkt: paket });
-    // let kls = "4";
-    // let mapel = "mtk";
-    // let nilai = 100;
-    // this.ipcp.send("updateData", {
-    //   kelas: kls,
-    //   mp: mapel,
-    //   nilais: nilai
-    // });
+  }
+
+  openModal() {
+    let myModal = this.modalCtrl.create("PaketmodalPage", "", {
+      cssClass: "m-pakets"
+    });
+    myModal.present();
   }
 
   unhide() {

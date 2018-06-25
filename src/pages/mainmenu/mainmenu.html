@@ -4,8 +4,10 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-content padding class="no-scroll">
+<ion-content class="no-scroll">
   <div id="mapel-menu">
+    <div class="half-red"></div>
+    <h1 class="title" text-capitalize no-margin>pilih mata pelajaran</h1>
     <ion-grid>
       <ion-row [@flyInOut]="animVar">
         <ion-col>
@@ -16,7 +18,7 @@
         </ion-col>
         <ion-col>
           <button ion-button class="full-button" (click)="goto('QuisPage','ipa')">
-            <img src="assets/imgs/chemistry.png" />
+            <img src="assets/imgs/ipa.png" />
             <h4 class="btn-txt">ipa</h4>
           </button>
         </ion-col>

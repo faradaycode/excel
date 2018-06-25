@@ -1,11 +1,4 @@
 page-mainmenu {
-    ion-content {
-        background: url('../assets/imgs/back.jpg') repeat;
-    }
-    .scroll-content {
-        background-color: rgba(0,0,0, .7);
-    }
-    
     .item {
         color: #ffffff;
         margin-bottom: 10px;
@@ -14,12 +7,36 @@ page-mainmenu {
         font-size: 2rem;
         font-weight: bolder;
     }
+    .title {
+        color: #ffffff;
+        font-size: 4rem;
+        text-align: center;
+        padding: 15px;
+    }
+    .title:after {
+        display: inline-block;
+        margin: 0 0 8px 20px;
+        height: 3px;
+        content: " ";
+        text-shadow: none;
+        background-color: #fff;
+        width: 140px;
+    }
+    .title:before {
+        display: inline-block;
+        margin: 0 20px 8px 0;
+        height: 3px;
+        content: " ";
+        text-shadow: none;
+        background-color: #fff;
+        width: 140px;
+    }
     .button {
         box-shadow: none;
         border: none;
     }
     .button-md {
-        background: rgba($color: #488aff, $alpha: 0.4);
+        background: #81d8d0;
     }
     .button-md:hover {
         background: rgba($color: #488aff, $alpha: 0.7);

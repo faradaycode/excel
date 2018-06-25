@@ -1,6 +1,9 @@
 page-hasil {
     ion-content {
-        background: url('../assets/imgs/back.jpg') repeat;
+        background: linear-gradient(180deg, #e13838 50%, #f5f5f5 50%);
+    }
+    .container {
+        padding-top: 100px;
     }
     .downcontent {
         background-color: #323833;
@@ -9,10 +12,11 @@ page-hasil {
         margin-top: -4px;
     }
     .upcontent {
-        background-color: rgba(23, 95, 35, 0.82);
+        background-color: #008000;
         font-weight: bold;
         color: #fff;
         border: 10px solid #b1a9a9;
+        width: 70%;
     }
     .nilai-n {
         font-size: 3em;

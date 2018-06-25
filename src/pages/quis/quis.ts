@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, MenuController, AlertController } from 'ionic-angular';
+import { Component, ElementRef, ViewChild } from '@angular/core';
+import { IonicPage, NavController, NavParams, MenuController, AlertController, Content } from 'ionic-angular';
 import { MethodeProvider } from '../../providers/methode/methode';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { IpcprovProvider } from '../../providers/ipcprov/ipcprov';
 
 /**
  * Generated class for the QuisPage page.
@@ -17,13 +18,16 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 
 export class QuisPage {
+  @ViewChild(Content) content: Content;
+  @ViewChild('zoom') zoom: ElementRef;
+  
   nullAns: number = 0;
   tabBarElement: any;
 
   datas: any = [];
   question: any = [];
 
-  klas: any;
+  klas: String;
   mapel: any;
   paket: any;
   count: number = 0;
@@ -41,17 +45,21 @@ export class QuisPage {
   sticky: boolean = false;
 
   limitedVal: number = 40;
+  _ragu: boolean = false;
+  singleValue: number = 0;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
-    private form: FormBuilder, private menuctrl: MenuController, private alertCtrl: AlertController) {
+    private form: FormBuilder, private menuctrl: MenuController, private alertCtrl: AlertController,
+    private ipcp: IpcprovProvider) {
     this.paket = this.navParams.get('pkt');
     this.klas = this.navParams.get('kelas');
     this.mapel = this.navParams.get('pel');
 
   }
-  ionViewDidLoad() {
-    console.log(this.klas);
+  ionViewDidEnter(): void {
+    this.serv._pinchZoom(this.zoom.nativeElement, this.content);
   }
+  
   ngOnInit() {
     this.cbForm = this.form.group({
       listRadio: ['']
@@ -70,7 +78,6 @@ export class QuisPage {
         if (data[a].mapel === this.mapel && data[a].kls === this.klas) {
           this.datas.push(data[a]);
           this.datas.sort((a, b) => { return Math.random() - 0.5; });
-          console.log(this.datas);
         }
       }
       this.showQuestion();
@@ -94,7 +101,6 @@ export class QuisPage {
       }
 
       this.question = url + this.datas[this.limiter].soal + ".png";
-      console.log(this.paket);
     }
   }
   //timer countdown
@@ -149,13 +155,14 @@ export class QuisPage {
     this.count = 0;
     this.answered(this.pos);
     this.showQuestion();
+    this._ragu = (this._ragu) ? !this._ragu : this._ragu;
   }
   prevq(val) {
     this.pos--;
     this.limiter--;
     this.count = 0;
     this.answered(this.pos);
-    this.showQuestion();
+    this._ragu = (this._ragu) ? !this._ragu : this._ragu;
   }
   //end method
 
@@ -173,9 +180,16 @@ export class QuisPage {
       }
     }
 
+    let ms = "";
+    if (this.count > 0) {
+      ms = "Ada" + this.count + " Jawaban yang Masih Kamu Ragukan, Tetap Selesai?";
+    } else {
+      ms = "Masih Ada " + this.nullAns + " Soal Yang Kosong, Tetap Selesai?";
+    }
+
     let alert = this.alertCtrl.create({
       title: "Peringatan",
-      message: "Masih Ada " + this.nullAns + " Soal Yang Kosong",
+      message: ms,
       buttons: [
         {
           text: 'No',
@@ -201,9 +215,12 @@ export class QuisPage {
 
     console.log(this.nullAns);
   }
-  
+
   finishing() {
     let answer: any = [];
+    let na: number = 0;
+    let nh: number = 0;
+    let np: number = 0;
     answer = this.saveAns;
     this.serv.getGo(null);
 
@@ -212,6 +229,25 @@ export class QuisPage {
       if (answer[i] === this.datas[i].jawaban) {
         this.trueAns += 1;
       }
+
+      if (answer[i] !== this.datas[i].jawaban) {
+        var str: String = this.datas[i].kode;
+        var cate = str.charAt(1);
+
+        if (cate === "a") {
+          na++;
+
+        }
+        if (cate === "h") {
+          nh++;
+
+        }
+        if (cate === "p") {
+          np++;
+
+        }
+      }
+
       this.serv.myAnswer.push(answer[i]);
       this.serv.theAnswer.push(this.datas[i].jawaban);
       this.serv.description.push(this.datas[i].bahasan);
@@ -219,6 +255,14 @@ export class QuisPage {
       var siden = document.getElementById('an-' + i);
       siden.innerHTML = "";
     }
+
+    //upadte db
+    this.ipcp.send("updateData", {
+      kelas: this.klas.toLowerCase(),
+      mapel: this.mapel,
+      nilai: (this.trueAns / (this.limitedVal / 10)) * 10
+    });
+
     this.serv.getGo(null);
     this.navCtrl.push('HasilPage', {
       trueans: this.trueAns,
@@ -228,7 +272,7 @@ export class QuisPage {
       notAns: this.nullAns
     });
 
-    console.log(this.klas + " " + this.mapel);
+    console.log(na + "|" + nh + "|" + np);
   }
 
   reseting() {
@@ -264,6 +308,7 @@ export class QuisPage {
         this.limiter = res;
         this.answered(this.pos);
         this.showQuestion();
+        this._ragu = (this._ragu) ? !this._ragu : this._ragu;
       }
     })
   }
@@ -271,20 +316,20 @@ export class QuisPage {
     this.count++;
     var bt = document.getElementById("sc" + numQst);
 
-    if (this.count === 1) {
-      if (!bt.classList.contains('warning')) {
-        bt.classList.add('warning');
+    if (!this._ragu) {
+      if (bt.style.backgroundColor === "orange") {
+        bt.style.backgroundColor = "";
+        this.count--;
       } else {
-        bt.classList.remove('warning')
+        this._ragu = !this._ragu;
+        bt.style.backgroundColor = "orange";
+        this.count++;
       }
+    } else {
+      this._ragu = !this._ragu;
+      bt.style.backgroundColor = "";
+      this.count--;
     }
-
-    if (this.count > 1) {
-      bt.classList.remove('warning');
-      this.count = 0;
-    }
-
-    console.log(this.count);
   }
   jump(val) {
     this.serv.getGo(val);

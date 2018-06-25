@@ -1,0 +1,23 @@
+page-paketmodal {
+    .button-md {
+        height: 150px;
+        width: 100%;
+        box-shadow: none;
+        border: none;
+    }
+    h1 {
+        font-size: 5em;
+    }
+    h2::after {
+        content: "\f384";
+        font-family: "Ionicons";
+        text-decoration: inherit;
+        margin-left:5px;
+    }
+    h2::before {
+        content: "\f384";
+        font-family: "Ionicons";
+        text-decoration: inherit;
+        margin-right:5px;
+    }
+}

@@ -8,6 +8,7 @@ const ipcMain = electron.ipcMain;
 const path = require('path');
 const url = require('url');
 const fs = require('fs')
+const dbPath = path.resolve(__dirname, '../db/cbt.sqlite');
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -16,8 +17,9 @@ let mainWindow;
 let knex = require("knex")({
   client: "sqlite3",
   connection: {
-    filename: "./db/cbt.sqlite"
-  }
+    filename: dbPath
+  },
+  useNullAsDefault: true
 });
 
 function createWindow() {
@@ -33,13 +35,11 @@ function createWindow() {
     slashes: true
   });
 
-  // const server = require('./server.js');
-
-  // mainWindow.loadURL(startUrl);
-  mainWindow.loadURL("http://localhost:8100");
+  mainWindow.loadURL(startUrl);
+  // mainWindow.loadURL("http://localhost:8100");
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
@@ -59,17 +59,22 @@ app.on('ready', () => {
   //sqlite file checker
   //if exist, server.js which contain create database will skiped
   //if none, sqlite will created from server.js
-  fs.stat('./db/cbt.sqlite', function (err, stat) {
-    if (err === null) {
-      console.log("EXISTS");
-    } else if (err.code === "ENOENT") {
-      //sqlite
-      let server = require('./server.js');
-      console.log(err.message);
-    } else {
-      console.log("some error");
-    }
-  })
+  var dir = path.resolve(__dirname, '../db');
+
+  if (!fs.existsSync(dir)) {
+    fs.stat(path.resolve(__dirname, '../db/cbt.sqlite'), function (err, stat) {
+      if (err === null) {
+        console.log("EXISTS");
+      } else if (err.code === "ENOENT") {
+        //sqlite
+        fs.mkdirSync(dir);
+        let server = require(path.resolve(__dirname, './server.js'));
+        console.log("null " + err.message);
+      } else {
+        console.log("some error");
+      }
+    });
+  }
 });
 
 // Quit when all windows are closed.
@@ -94,8 +99,8 @@ ipcMain.on("updateData", function (ev, arg) {
   //update data
   knex("penilaian").where({
     kelas: arg[0].kelas,
-    mapel: arg[0].mp
-  }).update("nilai", arg[0].nilais).then(function (rows) {
+    mapel: arg[0].mapel
+  }).update("nilai", arg[0].nilai).then(function (rows) {
     //feedback for alert success
     mainWindow.webContents.send("resultSent", rows);
     console.log(rows);
@@ -106,9 +111,9 @@ ipcMain.on("updateData", function (ev, arg) {
 });
 
 ipcMain.on("selectData", function (ev, arg) {
+  mainWindow.webContents.send("location", dbPath);
   knex("penilaian").where("kelas", arg[0].kelas).select("mapel", "nilai").then(function (rows) {
     mainWindow.webContents.send("resultAll", rows);
-    console.log(rows);
   }).catch(function (err) {
     console.log(err);
   });

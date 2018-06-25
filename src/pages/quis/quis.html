@@ -34,8 +34,9 @@
     <ion-grid>
       <ion-row>
         <ion-col col-10 no-padding>
-          <div class="div-soal" text-left>
+          <div #zoom class="div-soal" text-left>
             <img [src]="question" />
+            <ion-range min="singleValue" max="100" [(ngModel)]="singleValue" color="danger" pin="true"></ion-range>
           </div>
           <div class="div-choice">
             <ion-grid no-padding>
@@ -98,9 +99,9 @@
           <div class="sc-btn">
             <ion-list no-lines no-margin>
               <div *ngFor="let ig of ' '.repeat(limitedVal).split(''), let x = index">
-                <button ion-item color="danger" id="sc{{x}}" class="flats" (click)="jump(x)">
+                <button ion-item color="lightgreen" id="sc{{x}}" class="flats" (click)="jump(x)">
                   <span>{{x+1}}</span>
-                  <span class="to-right" text-uppercase id="an-{{x}}"></span>
+                  <span class="to-right" text-uppercase id="an-{{x}}" style="color: rgb(0, 4, 255)"></span>
                 </button>
               </div>
             </ion-list>
