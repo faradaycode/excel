@@ -3604,7 +3604,7 @@
         "id_s": "401",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ipa",
         "soal": "0001"
     },
@@ -3613,7 +3613,7 @@
         "id_s": "402",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ipa",
         "soal": "0002"
     },
@@ -3622,7 +3622,7 @@
         "id_s": "403",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ipa",
         "soal": "0003"
     },
@@ -3631,7 +3631,7 @@
         "id_s": "404",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ipa",
         "soal": "0004"
     },
@@ -3640,7 +3640,7 @@
         "id_s": "405",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "03p",
         "mapel": "ipa",
         "soal": "0005"
     },
@@ -3649,7 +3649,7 @@
         "id_s": "406",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "ipa",
         "soal": "0006"
     },
@@ -3658,7 +3658,7 @@
         "id_s": "407",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "ipa",
         "soal": "0007"
     },
@@ -3667,7 +3667,7 @@
         "id_s": "408",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "ipa",
         "soal": "0008"
     },
@@ -3676,7 +3676,7 @@
         "id_s": "409",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02h",
         "mapel": "ipa",
         "soal": "0009"
     },
@@ -3685,7 +3685,7 @@
         "id_s": "410",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "ipa",
         "soal": "0010"
     },
@@ -3694,7 +3694,7 @@
         "id_s": "411",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "ipa",
         "soal": "0011"
     },
@@ -3703,7 +3703,7 @@
         "id_s": "412",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "03h",
         "mapel": "ipa",
         "soal": "0012"
     },
@@ -3712,7 +3712,7 @@
         "id_s": "413",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "03a",
         "mapel": "ipa",
         "soal": "0013"
     },
@@ -3721,7 +3721,7 @@
         "id_s": "414",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03p",
         "mapel": "ipa",
         "soal": "0014"
     },
@@ -3730,7 +3730,7 @@
         "id_s": "415",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "ipa",
         "soal": "0015"
     },
@@ -3739,7 +3739,7 @@
         "id_s": "416",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "ipa",
         "soal": "0016"
     },
@@ -3748,7 +3748,7 @@
         "id_s": "417",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "ipa",
         "soal": "0017"
     },
@@ -3757,7 +3757,7 @@
         "id_s": "418",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03p",
         "mapel": "ipa",
         "soal": "0018"
     },
@@ -3766,7 +3766,7 @@
         "id_s": "419",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04a",
         "mapel": "ipa",
         "soal": "0019"
     },
@@ -3775,7 +3775,7 @@
         "id_s": "420",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04h",
         "mapel": "ipa",
         "soal": "0020"
     },
@@ -3784,7 +3784,7 @@
         "id_s": "421",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04h",
         "mapel": "ipa",
         "soal": "0021"
     },
@@ -3793,7 +3793,7 @@
         "id_s": "422",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04a",
         "mapel": "ipa",
         "soal": "0022"
     },
@@ -3802,7 +3802,7 @@
         "id_s": "423",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04h",
         "mapel": "ipa",
         "soal": "0023"
     },
@@ -3811,7 +3811,7 @@
         "id_s": "424",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04a",
         "mapel": "ipa",
         "soal": "0024"
     },
@@ -3820,7 +3820,7 @@
         "id_s": "425",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "05h",
         "mapel": "ipa",
         "soal": "0025"
     },
@@ -3829,7 +3829,7 @@
         "id_s": "426",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "05h",
         "mapel": "ipa",
         "soal": "0026"
     },
@@ -3838,7 +3838,7 @@
         "id_s": "427",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "05p",
         "mapel": "ipa",
         "soal": "0027"
     },
@@ -3847,7 +3847,7 @@
         "id_s": "428",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "05p",
         "mapel": "ipa",
         "soal": "0028"
     },
@@ -3856,7 +3856,7 @@
         "id_s": "429",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "05p",
         "mapel": "ipa",
         "soal": "0029"
     },
@@ -3865,7 +3865,7 @@
         "id_s": "430",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "06p",
         "mapel": "ipa",
         "soal": "0030"
     },
@@ -3874,7 +3874,7 @@
         "id_s": "431",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "06p",
         "mapel": "ipa",
         "soal": "0031"
     },
@@ -3883,7 +3883,7 @@
         "id_s": "432",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "06h",
         "mapel": "ipa",
         "soal": "0032"
     },
@@ -3892,7 +3892,7 @@
         "id_s": "433",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "06a",
         "mapel": "ipa",
         "soal": "0033"
     },
@@ -3901,7 +3901,7 @@
         "id_s": "434",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "06p",
         "mapel": "ipa",
         "soal": "0034"
     },
@@ -3910,7 +3910,7 @@
         "id_s": "435",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "07h",
         "mapel": "ipa",
         "soal": "0035"
     },
@@ -3919,7 +3919,7 @@
         "id_s": "436",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "07h",
         "mapel": "ipa",
         "soal": "0036"
     },
@@ -3928,7 +3928,7 @@
         "id_s": "437",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "07p",
         "mapel": "ipa",
         "soal": "0037"
     },
@@ -3937,7 +3937,7 @@
         "id_s": "438",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "08p",
         "mapel": "ipa",
         "soal": "0038"
     },
@@ -3946,7 +3946,7 @@
         "id_s": "439",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "08a",
         "mapel": "ipa",
         "soal": "0039"
     },
@@ -3955,7 +3955,7 @@
         "id_s": "440",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "08a",
         "mapel": "ipa",
         "soal": "0040"
     },
@@ -3964,7 +3964,7 @@
         "id_s": "441",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0001"
     },
@@ -3973,7 +3973,7 @@
         "id_s": "442",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0002"
     },
@@ -3982,7 +3982,7 @@
         "id_s": "443",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "ips",
         "soal": "0003"
     },
@@ -3991,7 +3991,7 @@
         "id_s": "444",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ips",
         "soal": "0004"
     },
@@ -4000,7 +4000,7 @@
         "id_s": "445",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0005"
     },
@@ -4009,7 +4009,7 @@
         "id_s": "446",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ips",
         "soal": "0006"
     },
@@ -4018,7 +4018,7 @@
         "id_s": "447",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ips",
         "soal": "0007"
     },
@@ -4027,7 +4027,7 @@
         "id_s": "448",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0008"
     },
@@ -4036,7 +4036,7 @@
         "id_s": "449",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0009"
     },
@@ -4045,7 +4045,7 @@
         "id_s": "450",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "ips",
         "soal": "0010"
     },
@@ -4054,7 +4054,7 @@
         "id_s": "451",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0011"
     },
@@ -4063,7 +4063,7 @@
         "id_s": "452",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ips",
         "soal": "0012"
     },
@@ -4072,7 +4072,7 @@
         "id_s": "453",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "ips",
         "soal": "0013"
     },
@@ -4081,7 +4081,7 @@
         "id_s": "454",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "01a",
         "mapel": "ips",
         "soal": "0014"
     },
@@ -4090,7 +4090,7 @@
         "id_s": "455",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "ips",
         "soal": "0015"
     },
@@ -4099,7 +4099,7 @@
         "id_s": "456",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "ips",
         "soal": "0016"
     },
@@ -4108,7 +4108,7 @@
         "id_s": "457",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "ips",
         "soal": "0017"
     },
@@ -4117,7 +4117,7 @@
         "id_s": "458",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "ips",
         "soal": "0018"
     },
@@ -4126,7 +4126,7 @@
         "id_s": "459",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "ips",
         "soal": "0019"
     },
@@ -4135,7 +4135,7 @@
         "id_s": "460",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "ips",
         "soal": "0020"
     },
@@ -4144,7 +4144,7 @@
         "id_s": "461",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "ips",
         "soal": "0021"
     },
@@ -4153,7 +4153,7 @@
         "id_s": "462",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "ips",
         "soal": "0022"
     },
@@ -4162,7 +4162,7 @@
         "id_s": "463",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0023"
     },
@@ -4171,7 +4171,7 @@
         "id_s": "464",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0024"
     },
@@ -4180,7 +4180,7 @@
         "id_s": "465",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0025"
     },
@@ -4189,7 +4189,7 @@
         "id_s": "466",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0026"
     },
@@ -4198,7 +4198,7 @@
         "id_s": "467",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03p",
         "mapel": "ips",
         "soal": "0027"
     },
@@ -4207,7 +4207,7 @@
         "id_s": "468",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0028"
     },
@@ -4216,7 +4216,7 @@
         "id_s": "469",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0029"
     },
@@ -4225,7 +4225,7 @@
         "id_s": "470",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0030"
     },
@@ -4234,7 +4234,7 @@
         "id_s": "471",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0031"
     },
@@ -4243,7 +4243,7 @@
         "id_s": "472",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0032"
     },
@@ -4252,7 +4252,7 @@
         "id_s": "473",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0033"
     },
@@ -4261,7 +4261,7 @@
         "id_s": "474",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0034"
     },
@@ -4270,7 +4270,7 @@
         "id_s": "475",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0035"
     },
@@ -4279,7 +4279,7 @@
         "id_s": "476",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0036"
     },
@@ -4288,7 +4288,7 @@
         "id_s": "477",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03p",
         "mapel": "ips",
         "soal": "0037"
     },
@@ -4297,7 +4297,7 @@
         "id_s": "478",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0038"
     },
@@ -4306,7 +4306,7 @@
         "id_s": "479",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0039"
     },
@@ -4315,7 +4315,7 @@
         "id_s": "480",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03p",
         "mapel": "ips",
         "soal": "0040"
     },
@@ -4324,7 +4324,7 @@
         "id_s": "481",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "pkn",
         "soal": "0001"
     },
@@ -4333,7 +4333,7 @@
         "id_s": "482",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "pkn",
         "soal": "0002"
     },
@@ -4342,7 +4342,7 @@
         "id_s": "483",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "pkn",
         "soal": "0003"
     },
@@ -4351,7 +4351,7 @@
         "id_s": "484",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "pkn",
         "soal": "0004"
     },
@@ -4360,7 +4360,7 @@
         "id_s": "485",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "pkn",
         "soal": "0005"
     },
@@ -4369,7 +4369,7 @@
         "id_s": "486",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "pkn",
         "soal": "0006"
     },
@@ -4378,7 +4378,7 @@
         "id_s": "487",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "pkn",
         "soal": "0007"
     },
@@ -4387,7 +4387,7 @@
         "id_s": "488",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "pkn",
         "soal": "0008"
     },
@@ -4396,7 +4396,7 @@
         "id_s": "489",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "pkn",
         "soal": "0009"
     },
@@ -4405,7 +4405,7 @@
         "id_s": "490",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "pkn",
         "soal": "0010"
     },
@@ -4414,7 +4414,7 @@
         "id_s": "491",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "pkn",
         "soal": "0011"
     },
@@ -4423,7 +4423,7 @@
         "id_s": "492",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "pkn",
         "soal": "0012"
     },
@@ -4432,7 +4432,7 @@
         "id_s": "493",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "pkn",
         "soal": "0013"
     },
@@ -4441,7 +4441,7 @@
         "id_s": "494",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "pkn",
         "soal": "0014"
     },
@@ -4450,7 +4450,7 @@
         "id_s": "495",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "pkn",
         "soal": "0015"
     },
@@ -4459,7 +4459,7 @@
         "id_s": "496",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "pkn",
         "soal": "0016"
     },
@@ -4468,7 +4468,7 @@
         "id_s": "497",
         "jawaban": "c�",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "pkn",
         "soal": "0017"
     },
@@ -4477,7 +4477,7 @@
         "id_s": "498",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "pkn",
         "soal": "0018"
     },
@@ -4486,7 +4486,7 @@
         "id_s": "499",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "pkn",
         "soal": "0019"
     },
@@ -4495,7 +4495,7 @@
         "id_s": "500",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "pkn",
         "soal": "0020"
     },
@@ -4504,7 +4504,7 @@
         "id_s": "501",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0021"
     },
@@ -4513,7 +4513,7 @@
         "id_s": "502",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03p",
         "mapel": "pkn",
         "soal": "0022"
     },
@@ -4522,7 +4522,7 @@
         "id_s": "503",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0023"
     },
@@ -4531,7 +4531,7 @@
         "id_s": "504",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "pkn",
         "soal": "0024"
     },
@@ -4540,7 +4540,7 @@
         "id_s": "505",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0025"
     },
@@ -4549,7 +4549,7 @@
         "id_s": "506",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0026"
     },
@@ -4558,7 +4558,7 @@
         "id_s": "507",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03p",
         "mapel": "pkn",
         "soal": "0027"
     },
@@ -4567,7 +4567,7 @@
         "id_s": "508",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0028"
     },
@@ -4576,7 +4576,7 @@
         "id_s": "509",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0029"
     },
@@ -4585,7 +4585,7 @@
         "id_s": "510",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0030"
     },
@@ -4594,7 +4594,7 @@
         "id_s": "511",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04h",
         "mapel": "pkn",
         "soal": "0031"
     },
@@ -4603,7 +4603,7 @@
         "id_s": "512",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04h",
         "mapel": "pkn",
         "soal": "0032"
     },
@@ -4612,7 +4612,7 @@
         "id_s": "513",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0033"
     },
@@ -4621,7 +4621,7 @@
         "id_s": "514",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0034"
     },
@@ -4630,7 +4630,7 @@
         "id_s": "515",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0035"
     },
@@ -4639,7 +4639,7 @@
         "id_s": "516",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "pkn",
         "soal": "0036"
     },
@@ -4648,7 +4648,7 @@
         "id_s": "517",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "pkn",
         "soal": "0037"
     },
@@ -4657,7 +4657,7 @@
         "id_s": "518",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0038"
     },
@@ -4666,7 +4666,7 @@
         "id_s": "519",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0039"
     },
@@ -4675,7 +4675,7 @@
         "id_s": "520",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0040"
     },
@@ -4684,7 +4684,7 @@
         "id_s": "521",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "bindo",
         "soal": "0001"
     },
@@ -4693,7 +4693,7 @@
         "id_s": "522",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "bindo",
         "soal": "0002"
     },
@@ -4702,7 +4702,7 @@
         "id_s": "523",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "bindo",
         "soal": "0003"
     },
@@ -4711,7 +4711,7 @@
         "id_s": "524",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "bindo",
         "soal": "0004"
     },
@@ -4720,7 +4720,7 @@
         "id_s": "525",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "bindo",
         "soal": "0005"
     },
@@ -4729,7 +4729,7 @@
         "id_s": "526",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "bindo",
         "soal": "0006"
     },
@@ -4738,7 +4738,7 @@
         "id_s": "527",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "bindo",
         "soal": "0007"
     },
@@ -4747,7 +4747,7 @@
         "id_s": "528",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "bindo",
         "soal": "0008"
     },
@@ -4756,7 +4756,7 @@
         "id_s": "529",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "bindo",
         "soal": "0009"
     },
@@ -4765,7 +4765,7 @@
         "id_s": "530",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "03h",
         "mapel": "bindo",
         "soal": "0010"
     },
@@ -4774,7 +4774,7 @@
         "id_s": "531",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "03a",
         "mapel": "bindo",
         "soal": "0011"
     },
@@ -4783,7 +4783,7 @@
         "id_s": "532",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "03a",
         "mapel": "bindo",
         "soal": "0012"
     },
@@ -4792,7 +4792,7 @@
         "id_s": "533",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "03a",
         "mapel": "bindo",
         "soal": "0013"
     },
@@ -4801,7 +4801,7 @@
         "id_s": "534",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "bindo",
         "soal": "0014"
     },
@@ -4810,7 +4810,7 @@
         "id_s": "535",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "bindo",
         "soal": "0015"
     },
@@ -4819,7 +4819,7 @@
         "id_s": "536",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04p",
         "mapel": "bindo",
         "soal": "0016"
     },
@@ -4828,7 +4828,7 @@
         "id_s": "537",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04a",
         "mapel": "bindo",
         "soal": "0017"
     },
@@ -4837,7 +4837,7 @@
         "id_s": "538",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04p",
         "mapel": "bindo",
         "soal": "0018"
     },
@@ -4846,7 +4846,7 @@
         "id_s": "539",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "04h",
         "mapel": "bindo",
         "soal": "0019"
     },
@@ -4855,7 +4855,7 @@
         "id_s": "540",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "05p",
         "mapel": "bindo",
         "soal": "0020"
     },
@@ -4864,7 +4864,7 @@
         "id_s": "541",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "05h",
         "mapel": "bindo",
         "soal": "0021"
     },
@@ -4873,7 +4873,7 @@
         "id_s": "542",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "05h",
         "mapel": "bindo",
         "soal": "0022"
     },
@@ -4882,7 +4882,7 @@
         "id_s": "543",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "05a",
         "mapel": "bindo",
         "soal": "0023"
     },
@@ -4891,7 +4891,7 @@
         "id_s": "544",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "05p",
         "mapel": "bindo",
         "soal": "0024"
     },
@@ -4900,7 +4900,7 @@
         "id_s": "545",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "05a",
         "mapel": "bindo",
         "soal": "0025"
     },
@@ -4909,7 +4909,7 @@
         "id_s": "546",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "06a",
         "mapel": "bindo",
         "soal": "0026"
     },
@@ -4918,7 +4918,7 @@
         "id_s": "547",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "06h",
         "mapel": "bindo",
         "soal": "0027"
     },
@@ -4927,7 +4927,7 @@
         "id_s": "548",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "06h",
         "mapel": "bindo",
         "soal": "0028"
     },
@@ -4936,7 +4936,7 @@
         "id_s": "549",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "06h",
         "mapel": "bindo",
         "soal": "0029"
     },
@@ -4945,7 +4945,7 @@
         "id_s": "550",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "07p",
         "mapel": "bindo",
         "soal": "0030"
     },
@@ -4954,7 +4954,7 @@
         "id_s": "551",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "07h",
         "mapel": "bindo",
         "soal": "0031"
     },
@@ -4963,7 +4963,7 @@
         "id_s": "552",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "07p",
         "mapel": "bindo",
         "soal": "0032"
     },
@@ -4972,7 +4972,7 @@
         "id_s": "553",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "07a",
         "mapel": "bindo",
         "soal": "0033"
     },
@@ -4981,7 +4981,7 @@
         "id_s": "554",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "08p",
         "mapel": "bindo",
         "soal": "0034"
     },
@@ -4990,7 +4990,7 @@
         "id_s": "555",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "08p",
         "mapel": "bindo",
         "soal": "0035"
     },
@@ -4999,7 +4999,7 @@
         "id_s": "556",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "08h",
         "mapel": "bindo",
         "soal": "0036"
     },
@@ -5008,7 +5008,7 @@
         "id_s": "557",
         "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "08a",
         "mapel": "bindo",
         "soal": "0037"
     },
@@ -5017,7 +5017,7 @@
         "id_s": "558",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "09h",
         "mapel": "bindo",
         "soal": "0038"
     },
@@ -5026,7 +5026,7 @@
         "id_s": "559",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "09p",
         "mapel": "bindo",
         "soal": "0039"
     },
@@ -5035,7 +5035,7 @@
         "id_s": "560",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "09h",
         "mapel": "bindo",
         "soal": "0040"
     },
@@ -5044,7 +5044,7 @@
         "id_s": "561",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "mtk",
         "soal": "0001"
     },
@@ -5053,7 +5053,7 @@
         "id_s": "562",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "mtk",
         "soal": "0002"
     },
@@ -5062,7 +5062,7 @@
         "id_s": "563",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "mtk",
         "soal": "0003"
     },
@@ -5071,7 +5071,7 @@
         "id_s": "564",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "mtk",
         "soal": "0004"
     },
@@ -5080,7 +5080,7 @@
         "id_s": "565",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "mtk",
         "soal": "0005"
     },
@@ -5089,7 +5089,7 @@
         "id_s": "566",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "mtk",
         "soal": "0006"
     },
@@ -5098,7 +5098,7 @@
         "id_s": "567",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "mtk",
         "soal": "0007"
     },
@@ -5107,7 +5107,7 @@
         "id_s": "568",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "mtk",
         "soal": "0008"
     },
@@ -5116,7 +5116,7 @@
         "id_s": "569",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "mtk",
         "soal": "0009"
     },
@@ -5125,7 +5125,7 @@
         "id_s": "570",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "mtk",
         "soal": "0010"
     },
@@ -5134,7 +5134,7 @@
         "id_s": "571",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "mtk",
         "soal": "0011"
     },
@@ -5143,16 +5143,16 @@
         "id_s": "572",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "mtk",
         "soal": "0012"
     },
     {
         "bahasan": "0013",
         "id_s": "573",
-        "jawaban": "a",
+        "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0013"
     },
@@ -5161,7 +5161,7 @@
         "id_s": "574",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0014"
     },
@@ -5170,7 +5170,7 @@
         "id_s": "575",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0015"
     },
@@ -5179,7 +5179,7 @@
         "id_s": "576",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0016"
     },
@@ -5188,7 +5188,7 @@
         "id_s": "577",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0017"
     },
@@ -5197,7 +5197,7 @@
         "id_s": "578",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0018"
     },
@@ -5206,7 +5206,7 @@
         "id_s": "579",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0019"
     },
@@ -5215,7 +5215,7 @@
         "id_s": "580",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0020"
     },
@@ -5224,7 +5224,7 @@
         "id_s": "581",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0021"
     },
@@ -5233,7 +5233,7 @@
         "id_s": "582",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0022"
     },
@@ -5242,7 +5242,7 @@
         "id_s": "583",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0023"
     },
@@ -5251,7 +5251,7 @@
         "id_s": "584",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0024"
     },
@@ -5260,7 +5260,7 @@
         "id_s": "585",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0025"
     },
@@ -5269,7 +5269,7 @@
         "id_s": "586",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0026"
     },
@@ -5278,7 +5278,7 @@
         "id_s": "587",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0027"
     },
@@ -5287,7 +5287,7 @@
         "id_s": "588",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0028"
     },
@@ -5296,7 +5296,7 @@
         "id_s": "589",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0029"
     },
@@ -5305,7 +5305,7 @@
         "id_s": "590",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0030"
     },
@@ -5314,7 +5314,7 @@
         "id_s": "591",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0031"
     },
@@ -5323,7 +5323,7 @@
         "id_s": "592",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0032"
     },
@@ -5332,7 +5332,7 @@
         "id_s": "593",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0033"
     },
@@ -5341,7 +5341,7 @@
         "id_s": "594",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0034"
     },
@@ -5350,7 +5350,7 @@
         "id_s": "595",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0035"
     },
@@ -5359,7 +5359,7 @@
         "id_s": "596",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "mtk",
         "soal": "0036"
     },
@@ -5368,7 +5368,7 @@
         "id_s": "597",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03p",
         "mapel": "mtk",
         "soal": "0037"
     },
@@ -5377,7 +5377,7 @@
         "id_s": "598",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "mtk",
         "soal": "0038"
     },
@@ -5386,16 +5386,16 @@
         "id_s": "599",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "mtk",
         "soal": "0039"
     },
     {
         "bahasan": "0040",
         "id_s": "600",
-        "jawaban": "d",
+        "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "mtk",
         "soal": "0040"
     },
@@ -5404,52 +5404,52 @@
         "id_s": "601",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "mtk",
         "soal": "0001"
     },
     {
         "bahasan": "0002",
         "id_s": "602",
-        "jawaban": "d",
+        "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "mtk",
         "soal": "0002"
     },
     {
         "bahasan": "0003",
         "id_s": "603",
-        "jawaban": "b",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "mtk",
         "soal": "0003"
     },
     {
         "bahasan": "0004",
         "id_s": "604",
-        "jawaban": "d",
+        "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "mtk",
         "soal": "0004"
     },
     {
         "bahasan": "0005",
         "id_s": "605",
-        "jawaban": "a",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "mtk",
         "soal": "0005"
     },
     {
         "bahasan": "0006",
         "id_s": "606",
-        "jawaban": "b",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "mtk",
         "soal": "0006"
     },
@@ -5458,52 +5458,52 @@
         "id_s": "607",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "mtk",
         "soal": "0007"
     },
     {
         "bahasan": "0008",
         "id_s": "608",
-        "jawaban": "c",
+        "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "mtk",
         "soal": "0008"
     },
     {
         "bahasan": "0009",
         "id_s": "609",
-        "jawaban": "b",
+        "jawaban": "a",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "mtk",
         "soal": "0009"
     },
     {
         "bahasan": "0010",
         "id_s": "610",
-        "jawaban": "a",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0010"
     },
     {
         "bahasan": "0011",
         "id_s": "611",
-        "jawaban": "a",
+        "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0011"
     },
     {
         "bahasan": "0012",
         "id_s": "612",
-        "jawaban": "c",
+        "jawaban": "b",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0012"
     },
@@ -5512,43 +5512,43 @@
         "id_s": "613",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0013"
     },
     {
         "bahasan": "0014",
         "id_s": "614",
-        "jawaban": "d",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0014"
     },
     {
         "bahasan": "0015",
         "id_s": "615",
-        "jawaban": "b",
+        "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0015"
     },
     {
         "bahasan": "0016",
         "id_s": "616",
-        "jawaban": "d",
+        "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0016"
     },
     {
         "bahasan": "0017",
         "id_s": "617",
-        "jawaban": "c",
+        "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0017"
     },
@@ -5557,97 +5557,97 @@
         "id_s": "618",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0018"
     },
     {
         "bahasan": "0019",
         "id_s": "619",
-        "jawaban": "a",
+        "jawaban": "d",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0019"
     },
     {
         "bahasan": "0020",
         "id_s": "620",
-        "jawaban": "d",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0020"
     },
     {
         "bahasan": "0021",
         "id_s": "621",
-        "jawaban": "a",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0021"
     },
     {
         "bahasan": "0022",
         "id_s": "622",
-        "jawaban": "a",
+        "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0022"
     },
     {
         "bahasan": "0023",
         "id_s": "623",
-        "jawaban": "b",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0023"
     },
     {
         "bahasan": "0024",
         "id_s": "624",
-        "jawaban": "b",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0024"
     },
     {
         "bahasan": "0025",
         "id_s": "625",
-        "jawaban": "d",
+        "jawaban": "a",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0025"
     },
     {
         "bahasan": "0026",
         "id_s": "626",
-        "jawaban": "c",
+        "jawaban": "b",
         "kls": "6A",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "mtk",
         "soal": "0026"
     },
     {
         "bahasan": "0027",
         "id_s": "627",
-        "jawaban": "c",
+        "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0027"
     },
     {
         "bahasan": "0028",
         "id_s": "628",
-        "jawaban": "b",
+        "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0028"
     },
@@ -5656,16 +5656,16 @@
         "id_s": "629",
         "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0029"
     },
     {
         "bahasan": "0030",
         "id_s": "630",
-        "jawaban": "b",
+        "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0030"
     },
@@ -5674,43 +5674,43 @@
         "id_s": "631",
         "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "02h",
         "mapel": "mtk",
         "soal": "0031"
     },
     {
         "bahasan": "0032",
         "id_s": "632",
-        "jawaban": "d",
+        "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0032"
     },
     {
         "bahasan": "0033",
         "id_s": "633",
-        "jawaban": "c",
+        "jawaban": "b",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "02a",
         "mapel": "mtk",
         "soal": "0033"
     },
     {
         "bahasan": "0034",
         "id_s": "634",
-        "jawaban": "b",
+        "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "mtk",
         "soal": "0034"
     },
     {
         "bahasan": "0035",
         "id_s": "635",
-        "jawaban": "b",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "mtk",
         "soal": "0035"
     },
@@ -5719,34 +5719,34 @@
         "id_s": "636",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "mtk",
         "soal": "0036"
     },
     {
         "bahasan": "0037",
         "id_s": "637",
-        "jawaban": "d",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "mtk",
         "soal": "0037"
     },
     {
         "bahasan": "0038",
         "id_s": "638",
-        "jawaban": "c",
+        "jawaban": "a",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "mtk",
         "soal": "0038"
     },
     {
         "bahasan": "0039",
         "id_s": "639",
-        "jawaban": "a",
+        "jawaban": "c",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "mtk",
         "soal": "0039"
     },
@@ -5755,7 +5755,7 @@
         "id_s": "640",
         "jawaban": "d",
         "kls": "6A",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "mtk",
         "soal": "0040"
     },
@@ -5764,7 +5764,7 @@
         "id_s": "641",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ips",
         "soal": "0001"
     },
@@ -5773,7 +5773,7 @@
         "id_s": "642",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0002"
     },
@@ -5782,7 +5782,7 @@
         "id_s": "643",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "ips",
         "soal": "0003"
     },
@@ -5791,7 +5791,7 @@
         "id_s": "644",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "ips",
         "soal": "0004"
     },
@@ -5800,7 +5800,7 @@
         "id_s": "645",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ips",
         "soal": "0005"
     },
@@ -5809,7 +5809,7 @@
         "id_s": "646",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0006"
     },
@@ -5818,7 +5818,7 @@
         "id_s": "647",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ips",
         "soal": "0007"
     },
@@ -5827,7 +5827,7 @@
         "id_s": "648",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0008"
     },
@@ -5836,7 +5836,7 @@
         "id_s": "649",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ips",
         "soal": "0009"
     },
@@ -5845,7 +5845,7 @@
         "id_s": "650",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ips",
         "soal": "0010"
     },
@@ -5854,7 +5854,7 @@
         "id_s": "651",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "ips",
         "soal": "0011"
     },
@@ -5863,7 +5863,7 @@
         "id_s": "652",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "ips",
         "soal": "0012"
     },
@@ -5872,7 +5872,7 @@
         "id_s": "653",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "ips",
         "soal": "0013"
     },
@@ -5881,7 +5881,7 @@
         "id_s": "654",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "ips",
         "soal": "0014"
     },
@@ -5890,7 +5890,7 @@
         "id_s": "655",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "ips",
         "soal": "0015"
     },
@@ -5899,7 +5899,7 @@
         "id_s": "656",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "ips",
         "soal": "0016"
     },
@@ -5908,7 +5908,7 @@
         "id_s": "657",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "ips",
         "soal": "0017"
     },
@@ -5917,7 +5917,7 @@
         "id_s": "658",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "ips",
         "soal": "0018"
     },
@@ -5926,7 +5926,7 @@
         "id_s": "659",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "ips",
         "soal": "0019"
     },
@@ -5935,7 +5935,7 @@
         "id_s": "660",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "ips",
         "soal": "0020"
     },
@@ -5944,7 +5944,7 @@
         "id_s": "661",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0021"
     },
@@ -5953,7 +5953,7 @@
         "id_s": "662",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0022"
     },
@@ -5962,7 +5962,7 @@
         "id_s": "663",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03p",
         "mapel": "ips",
         "soal": "0023"
     },
@@ -5971,7 +5971,7 @@
         "id_s": "664",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0024"
     },
@@ -5980,7 +5980,7 @@
         "id_s": "665",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0025"
     },
@@ -5989,7 +5989,7 @@
         "id_s": "666",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0026"
     },
@@ -5998,7 +5998,7 @@
         "id_s": "667",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0027"
     },
@@ -6007,7 +6007,7 @@
         "id_s": "668",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "ips",
         "soal": "0028"
     },
@@ -6016,7 +6016,7 @@
         "id_s": "669",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03p",
         "mapel": "ips",
         "soal": "0029"
     },
@@ -6025,7 +6025,7 @@
         "id_s": "670",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "ips",
         "soal": "0030"
     },
@@ -6034,7 +6034,7 @@
         "id_s": "671",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04h",
         "mapel": "ips",
         "soal": "0031"
     },
@@ -6043,7 +6043,7 @@
         "id_s": "672",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "ips",
         "soal": "0032"
     },
@@ -6052,7 +6052,7 @@
         "id_s": "673",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04h",
         "mapel": "ips",
         "soal": "0033"
     },
@@ -6061,7 +6061,7 @@
         "id_s": "674",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "ips",
         "soal": "0034"
     },
@@ -6070,7 +6070,7 @@
         "id_s": "675",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "ips",
         "soal": "0035"
     },
@@ -6079,7 +6079,7 @@
         "id_s": "676",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "ips",
         "soal": "0036"
     },
@@ -6088,7 +6088,7 @@
         "id_s": "677",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "ips",
         "soal": "0037"
     },
@@ -6097,7 +6097,7 @@
         "id_s": "678",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04h",
         "mapel": "ips",
         "soal": "0038"
     },
@@ -6106,7 +6106,7 @@
         "id_s": "679",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "ips",
         "soal": "0039"
     },
@@ -6115,7 +6115,7 @@
         "id_s": "680",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "ips",
         "soal": "0040"
     },
@@ -6124,7 +6124,7 @@
         "id_s": "681",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ipa",
         "soal": "0001"
     },
@@ -6133,7 +6133,7 @@
         "id_s": "682",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "ipa",
         "soal": "0002"
     },
@@ -6142,7 +6142,7 @@
         "id_s": "683",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "ipa",
         "soal": "0003"
     },
@@ -6151,7 +6151,7 @@
         "id_s": "684",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "ipa",
         "soal": "0004"
     },
@@ -6160,7 +6160,7 @@
         "id_s": "685",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "ipa",
         "soal": "0005"
     },
@@ -6169,7 +6169,7 @@
         "id_s": "686",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02h",
         "mapel": "ipa",
         "soal": "0006"
     },
@@ -6178,7 +6178,7 @@
         "id_s": "687",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "ipa",
         "soal": "0007"
     },
@@ -6187,7 +6187,7 @@
         "id_s": "688",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02h",
         "mapel": "ipa",
         "soal": "0008"
     },
@@ -6196,7 +6196,7 @@
         "id_s": "689",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "ipa",
         "soal": "0009"
     },
@@ -6205,7 +6205,7 @@
         "id_s": "690",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02h",
         "mapel": "ipa",
         "soal": "0010"
     },
@@ -6214,7 +6214,7 @@
         "id_s": "691",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "03h",
         "mapel": "ipa",
         "soal": "0011"
     },
@@ -6223,7 +6223,7 @@
         "id_s": "692",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "03a",
         "mapel": "ipa",
         "soal": "0012"
     },
@@ -6232,7 +6232,7 @@
         "id_s": "693",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "03a",
         "mapel": "ipa",
         "soal": "0013"
     },
@@ -6241,7 +6241,7 @@
         "id_s": "694",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "ipa",
         "soal": "0014"
     },
@@ -6250,7 +6250,7 @@
         "id_s": "695",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03p",
         "mapel": "ipa",
         "soal": "0015"
     },
@@ -6259,7 +6259,7 @@
         "id_s": "696",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "04h",
         "mapel": "ipa",
         "soal": "0016"
     },
@@ -6268,7 +6268,7 @@
         "id_s": "697",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "04a",
         "mapel": "ipa",
         "soal": "0017"
     },
@@ -6277,7 +6277,7 @@
         "id_s": "698",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "04p",
         "mapel": "ipa",
         "soal": "0018"
     },
@@ -6286,7 +6286,7 @@
         "id_s": "699",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "04a",
         "mapel": "ipa",
         "soal": "0019"
     },
@@ -6295,7 +6295,7 @@
         "id_s": "700",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "04h",
         "mapel": "ipa",
         "soal": "0020"
     },
@@ -6304,7 +6304,7 @@
         "id_s": "701",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05p",
         "mapel": "ipa",
         "soal": "0021"
     },
@@ -6313,7 +6313,7 @@
         "id_s": "702",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05p",
         "mapel": "ipa",
         "soal": "0022"
     },
@@ -6322,7 +6322,7 @@
         "id_s": "703",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05p",
         "mapel": "ipa",
         "soal": "0023"
     },
@@ -6331,7 +6331,7 @@
         "id_s": "704",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05a",
         "mapel": "ipa",
         "soal": "0024"
     },
@@ -6340,7 +6340,7 @@
         "id_s": "705",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05a",
         "mapel": "ipa",
         "soal": "0025"
     },
@@ -6349,7 +6349,7 @@
         "id_s": "706",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "06p",
         "mapel": "ipa",
         "soal": "0026"
     },
@@ -6358,7 +6358,7 @@
         "id_s": "707",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "06h",
         "mapel": "ipa",
         "soal": "0027"
     },
@@ -6367,7 +6367,7 @@
         "id_s": "708",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "06a",
         "mapel": "ipa",
         "soal": "0028"
     },
@@ -6376,7 +6376,7 @@
         "id_s": "709",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "06a",
         "mapel": "ipa",
         "soal": "0029"
     },
@@ -6385,7 +6385,7 @@
         "id_s": "710",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "07p",
         "mapel": "ipa",
         "soal": "0030"
     },
@@ -6394,7 +6394,7 @@
         "id_s": "711",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "07h",
         "mapel": "ipa",
         "soal": "0031"
     },
@@ -6403,7 +6403,7 @@
         "id_s": "712",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "07p",
         "mapel": "ipa",
         "soal": "0032"
     },
@@ -6412,7 +6412,7 @@
         "id_s": "713",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "07a",
         "mapel": "ipa",
         "soal": "0033"
     },
@@ -6421,7 +6421,7 @@
         "id_s": "714",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "07p",
         "mapel": "ipa",
         "soal": "0034"
     },
@@ -6430,7 +6430,7 @@
         "id_s": "715",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "07h",
         "mapel": "ipa",
         "soal": "0035"
     },
@@ -6439,7 +6439,7 @@
         "id_s": "716",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "08a",
         "mapel": "ipa",
         "soal": "0036"
     },
@@ -6448,7 +6448,7 @@
         "id_s": "717",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "08h",
         "mapel": "ipa",
         "soal": "0037"
     },
@@ -6457,7 +6457,7 @@
         "id_s": "718",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "08a",
         "mapel": "ipa",
         "soal": "0038"
     },
@@ -6466,7 +6466,7 @@
         "id_s": "719",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "08p",
         "mapel": "ipa",
         "soal": "0039"
     },
@@ -6475,7 +6475,7 @@
         "id_s": "720",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "08a",
         "mapel": "ipa",
         "soal": "0040"
     },
@@ -6484,7 +6484,7 @@
         "id_s": "721",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "bindo",
         "soal": "0001"
     },
@@ -6493,7 +6493,7 @@
         "id_s": "722",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "bindo",
         "soal": "0002"
     },
@@ -6502,7 +6502,7 @@
         "id_s": "723",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "bindo",
         "soal": "0003"
     },
@@ -6511,7 +6511,7 @@
         "id_s": "724",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "bindo",
         "soal": "0004"
     },
@@ -6520,7 +6520,7 @@
         "id_s": "725",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "bindo",
         "soal": "0005"
     },
@@ -6529,7 +6529,7 @@
         "id_s": "726",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "bindo",
         "soal": "0006"
     },
@@ -6538,7 +6538,7 @@
         "id_s": "727",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "bindo",
         "soal": "0007"
     },
@@ -6547,7 +6547,7 @@
         "id_s": "728",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "bindo",
         "soal": "0008"
     },
@@ -6556,7 +6556,7 @@
         "id_s": "729",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "03p",
         "mapel": "bindo",
         "soal": "0009"
     },
@@ -6565,7 +6565,7 @@
         "id_s": "730",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "03h",
         "mapel": "bindo",
         "soal": "0010"
     },
@@ -6574,7 +6574,7 @@
         "id_s": "731",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "03a",
         "mapel": "bindo",
         "soal": "0011"
     },
@@ -6583,7 +6583,7 @@
         "id_s": "732",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "03h",
         "mapel": "bindo",
         "soal": "0012"
     },
@@ -6592,7 +6592,7 @@
         "id_s": "733",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "04a",
         "mapel": "bindo",
         "soal": "0013"
     },
@@ -6601,7 +6601,7 @@
         "id_s": "734",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "04a",
         "mapel": "bindo",
         "soal": "0014"
     },
@@ -6610,7 +6610,7 @@
         "id_s": "735",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "04h",
         "mapel": "bindo",
         "soal": "0015"
     },
@@ -6619,7 +6619,7 @@
         "id_s": "736",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "04h",
         "mapel": "bindo",
         "soal": "0016"
     },
@@ -6628,7 +6628,7 @@
         "id_s": "737",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05h",
         "mapel": "bindo",
         "soal": "0017"
     },
@@ -6637,7 +6637,7 @@
         "id_s": "738",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05a",
         "mapel": "bindo",
         "soal": "0018"
     },
@@ -6646,7 +6646,7 @@
         "id_s": "739",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05p",
         "mapel": "bindo",
         "soal": "0019"
     },
@@ -6655,7 +6655,7 @@
         "id_s": "740",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05p",
         "mapel": "bindo",
         "soal": "0020"
     },
@@ -6664,7 +6664,7 @@
         "id_s": "741",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "05h",
         "mapel": "bindo",
         "soal": "0021"
     },
@@ -6673,7 +6673,7 @@
         "id_s": "742",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "06h",
         "mapel": "bindo",
         "soal": "0022"
     },
@@ -6682,7 +6682,7 @@
         "id_s": "743",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "06a",
         "mapel": "bindo",
         "soal": "0023"
     },
@@ -6691,7 +6691,7 @@
         "id_s": "744",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "06p",
         "mapel": "bindo",
         "soal": "0024"
     },
@@ -6700,7 +6700,7 @@
         "id_s": "745",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "07a",
         "mapel": "bindo",
         "soal": "0025"
     },
@@ -6709,7 +6709,7 @@
         "id_s": "746",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "07p",
         "mapel": "bindo",
         "soal": "0026"
     },
@@ -6718,7 +6718,7 @@
         "id_s": "747",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "07a",
         "mapel": "bindo",
         "soal": "0027"
     },
@@ -6727,7 +6727,7 @@
         "id_s": "748",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "07a",
         "mapel": "bindo",
         "soal": "0028"
     },
@@ -6736,7 +6736,7 @@
         "id_s": "749",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "08a",
         "mapel": "bindo",
         "soal": "0029"
     },
@@ -6745,7 +6745,7 @@
         "id_s": "750",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "08p",
         "mapel": "bindo",
         "soal": "0030"
     },
@@ -6754,7 +6754,7 @@
         "id_s": "751",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "08h",
         "mapel": "bindo",
         "soal": "0031"
     },
@@ -6763,7 +6763,7 @@
         "id_s": "752",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "08h",
         "mapel": "bindo",
         "soal": "0032"
     },
@@ -6772,7 +6772,7 @@
         "id_s": "753",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "09p",
         "mapel": "bindo",
         "soal": "0033"
     },
@@ -6781,7 +6781,7 @@
         "id_s": "754",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "09h",
         "mapel": "bindo",
         "soal": "0034"
     },
@@ -6790,7 +6790,7 @@
         "id_s": "755",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "09h",
         "mapel": "bindo",
         "soal": "0035"
     },
@@ -6799,7 +6799,7 @@
         "id_s": "756",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "10p",
         "mapel": "bindo",
         "soal": "0036"
     },
@@ -6808,7 +6808,7 @@
         "id_s": "757",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "10p",
         "mapel": "bindo",
         "soal": "0037"
     },
@@ -6817,7 +6817,7 @@
         "id_s": "758",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "10p",
         "mapel": "bindo",
         "soal": "0038"
     },
@@ -6826,7 +6826,7 @@
         "id_s": "759",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "10h",
         "mapel": "bindo",
         "soal": "0039"
     },
@@ -6835,7 +6835,7 @@
         "id_s": "760",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "10a",
         "mapel": "bindo",
         "soal": "0040"
     },
@@ -6844,7 +6844,7 @@
         "id_s": "761",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "pkn",
         "soal": "0001"
     },
@@ -6853,7 +6853,7 @@
         "id_s": "762",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "pkn",
         "soal": "0002"
     },
@@ -6862,7 +6862,7 @@
         "id_s": "763",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "pkn",
         "soal": "0003"
     },
@@ -6871,7 +6871,7 @@
         "id_s": "764",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "pkn",
         "soal": "0004"
     },
@@ -6880,7 +6880,7 @@
         "id_s": "765",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "pkn",
         "soal": "0005"
     },
@@ -6889,7 +6889,7 @@
         "id_s": "766",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01p",
         "mapel": "pkn",
         "soal": "0006"
     },
@@ -6898,7 +6898,7 @@
         "id_s": "767",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "pkn",
         "soal": "0007"
     },
@@ -6907,7 +6907,7 @@
         "id_s": "768",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "pkn",
         "soal": "0008"
     },
@@ -6916,7 +6916,7 @@
         "id_s": "769",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01a",
         "mapel": "pkn",
         "soal": "0009"
     },
@@ -6925,7 +6925,7 @@
         "id_s": "770",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "01h",
         "mapel": "pkn",
         "soal": "0010"
     },
@@ -6934,7 +6934,7 @@
         "id_s": "771",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "pkn",
         "soal": "0011"
     },
@@ -6943,7 +6943,7 @@
         "id_s": "772",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02a",
         "mapel": "pkn",
         "soal": "0012"
     },
@@ -6952,7 +6952,7 @@
         "id_s": "773",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1h",
+        "kode": "02p",
         "mapel": "pkn",
         "soal": "0013"
     },
@@ -6961,7 +6961,7 @@
         "id_s": "774",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "pkn",
         "soal": "0014"
     },
@@ -6970,7 +6970,7 @@
         "id_s": "775",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "pkn",
         "soal": "0015"
     },
@@ -6979,7 +6979,7 @@
         "id_s": "776",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "pkn",
         "soal": "0016"
     },
@@ -6988,7 +6988,7 @@
         "id_s": "777",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "pkn",
         "soal": "0017"
     },
@@ -6997,7 +6997,7 @@
         "id_s": "778",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02a",
         "mapel": "pkn",
         "soal": "0018"
     },
@@ -7006,7 +7006,7 @@
         "id_s": "779",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02p",
         "mapel": "pkn",
         "soal": "0019"
     },
@@ -7015,7 +7015,7 @@
         "id_s": "780",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "02h",
         "mapel": "pkn",
         "soal": "0020"
     },
@@ -7024,7 +7024,7 @@
         "id_s": "781",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03a",
         "mapel": "pkn",
         "soal": "0021"
     },
@@ -7033,7 +7033,7 @@
         "id_s": "782",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03p",
         "mapel": "pkn",
         "soal": "0022"
     },
@@ -7042,7 +7042,7 @@
         "id_s": "783",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03p",
         "mapel": "pkn",
         "soal": "0023"
     },
@@ -7051,7 +7051,7 @@
         "id_s": "784",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0024"
     },
@@ -7060,7 +7060,7 @@
         "id_s": "785",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03p",
         "mapel": "pkn",
         "soal": "0025"
     },
@@ -7069,7 +7069,7 @@
         "id_s": "786",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1p",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0026"
     },
@@ -7078,7 +7078,7 @@
         "id_s": "787",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "pkn",
         "soal": "0027"
     },
@@ -7087,7 +7087,7 @@
         "id_s": "788",
         "jawaban": "a",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "pkn",
         "soal": "0028"
     },
@@ -7096,7 +7096,7 @@
         "id_s": "789",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03h",
         "mapel": "pkn",
         "soal": "0029"
     },
@@ -7105,7 +7105,7 @@
         "id_s": "790",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "03a",
         "mapel": "pkn",
         "soal": "0030"
     },
@@ -7114,7 +7114,7 @@
         "id_s": "791",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0031"
     },
@@ -7123,7 +7123,7 @@
         "id_s": "792",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "pkn",
         "soal": "0032"
     },
@@ -7132,7 +7132,7 @@
         "id_s": "793",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "pkn",
         "soal": "0033"
     },
@@ -7141,7 +7141,7 @@
         "id_s": "794",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0034"
     },
@@ -7150,7 +7150,7 @@
         "id_s": "795",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "pkn",
         "soal": "0035"
     },
@@ -7159,7 +7159,7 @@
         "id_s": "796",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0036"
     },
@@ -7168,7 +7168,7 @@
         "id_s": "797",
         "jawaban": "c",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04h",
         "mapel": "pkn",
         "soal": "0037"
     },
@@ -7177,7 +7177,7 @@
         "id_s": "798",
         "jawaban": "d",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "pkn",
         "soal": "0038"
     },
@@ -7186,7 +7186,7 @@
         "id_s": "799",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04p",
         "mapel": "pkn",
         "soal": "0039"
     },
@@ -7195,7 +7195,7 @@
         "id_s": "800",
         "jawaban": "b",
         "kls": "6B",
-        "kode": "1a",
+        "kode": "04a",
         "mapel": "pkn",
         "soal": "0040"
     }

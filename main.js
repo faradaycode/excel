@@ -4,6 +4,7 @@ const app = electron.app;
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
+const remote = electron.remote;
 const ipcMain = electron.ipcMain;
 const path = require('path');
 const url = require('url');
@@ -111,7 +112,6 @@ ipcMain.on("updateData", function (ev, arg) {
 });
 
 ipcMain.on("selectData", function (ev, arg) {
-  mainWindow.webContents.send("location", dbPath);
   knex("penilaian").where("kelas", arg[0].kelas).select("mapel", "nilai").then(function (rows) {
     mainWindow.webContents.send("resultAll", rows);
   }).catch(function (err) {
@@ -119,10 +119,14 @@ ipcMain.on("selectData", function (ev, arg) {
   });
 
   //select sum
-  knex('penilaian').sum('nilai as nl').then(function (sums) {
+  knex('penilaian').where("kelas", arg[0].kelas).sum('nilai as nl').then(function (sums) {
     mainWindow.webContents.send("resultSum", sums);
     console.log(sums);
   }).catch(function (er) {
     console.log(er);
   });
+});
+
+ipcMain.on("exitApp", function (ev, arg) {
+  app.quit();
 });

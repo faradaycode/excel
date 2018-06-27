@@ -183,6 +183,16 @@ page-home {
         background: rgba($color: #2e2e2e, $alpha: 0.7);
         box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
     }
+    .posAbs {
+        .button-md {
+            height: 64px;
+            width: 64px;
+            
+            h1 {
+                font-size: 4.5rem;
+            } 
+        }
+    }
     @media screen and (min-width: 768px) and (max-width: 1023px) {
         .header-div {
             height: 350px;

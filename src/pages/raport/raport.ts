@@ -25,7 +25,7 @@ export class RaportPage {
     this.kls = this.navParams.get('kelas');
   }
 
-  ngOnInit() {
+  ionViewDidLoad(){
     this.getData();
   }
 
@@ -52,8 +52,8 @@ export class RaportPage {
       }
     });
 
-    this.ipcp.on("location", function (ev, data) {
-      console.log(data);      
+    this.ipcp.on("resultSum", function (ev, data) {
+      me.totalN = data[0].nl / me.totalMapel;
     })
   }
 

@@ -108,9 +108,9 @@ export class MethodeProvider {
     _gesture.on('panend', onPanend);
     _gesture.on('pancancel', onPanend);
     _gesture.on('tap', onTap);
-    _gesture.on('pinch', onPinch);
-    _gesture.on('pinchend', onPinchend);
-    _gesture.on('pinchcancel', onPinchend);
+    // _gesture.on('pinch', onPinch);
+    // _gesture.on('pinchend', onPinchend);
+    // _gesture.on('pinchcancel', onPinchend);
 
     function onPan(ev) {
       setCoor(ev.deltaX, ev.deltaY);

@@ -20,7 +20,7 @@ import { IpcprovProvider } from '../../providers/ipcprov/ipcprov';
 export class QuisPage {
   @ViewChild(Content) content: Content;
   @ViewChild('zoom') zoom: ElementRef;
-  
+
   nullAns: number = 0;
   tabBarElement: any;
 
@@ -59,7 +59,7 @@ export class QuisPage {
   ionViewDidEnter(): void {
     this.serv._pinchZoom(this.zoom.nativeElement, this.content);
   }
-  
+
   ngOnInit() {
     this.cbForm = this.form.group({
       listRadio: ['']
@@ -221,6 +221,9 @@ export class QuisPage {
     let na: number = 0;
     let nh: number = 0;
     let np: number = 0;
+    let weaks: any = [];
+    let intros: String = "";
+    let analysis: String = "penguasaan ";
     answer = this.saveAns;
     this.serv.getGo(null);
 
@@ -230,21 +233,19 @@ export class QuisPage {
         this.trueAns += 1;
       }
 
+      //if user answer wrong, it will count category for analysis
       if (answer[i] !== this.datas[i].jawaban) {
         var str: String = this.datas[i].kode;
-        var cate = str.charAt(1);
+        var cate = str.charAt(2);
 
         if (cate === "a") {
           na++;
-
         }
         if (cate === "h") {
           nh++;
-
         }
         if (cate === "p") {
           np++;
-
         }
       }
 
@@ -254,7 +255,20 @@ export class QuisPage {
 
       var siden = document.getElementById('an-' + i);
       siden.innerHTML = "";
+    } //end loop
+
+    if (na > 6) {
+      weaks.push("aplikasi lemah");
     }
+    if (np > 6) {
+      weaks.push("penalaran lemah");
+    }
+    if (nh > 6) {
+      weaks.push("hapalan lemah");
+    }
+
+    intros = "Hai ";
+    console.log(analysis+weaks.join(", "));
 
     //upadte db
     this.ipcp.send("updateData", {
@@ -263,6 +277,7 @@ export class QuisPage {
       nilai: (this.trueAns / (this.limitedVal / 10)) * 10
     });
 
+    console.log
     this.serv.getGo(null);
     this.navCtrl.push('HasilPage', {
       trueans: this.trueAns,
@@ -271,8 +286,6 @@ export class QuisPage {
       mapel: this.mapel,
       notAns: this.nullAns
     });
-
-    console.log(na + "|" + nh + "|" + np);
   }
 
   reseting() {

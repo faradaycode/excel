@@ -1,3 +1,4 @@
+import { IpcprovProvider } from './../../providers/ipcprov/ipcprov';
 import { NavController, IonicPage, ModalController } from 'ionic-angular';
 import { Component } from '@angular/core';
 import { trigger, style, transition, animate, keyframes, query, stagger, state } from '@angular/animations';
@@ -65,7 +66,7 @@ export class HomePage {
   fading: String = "invisible";
   lis: any = [];
 
-  constructor(public navCtrl: NavController, private modalCtrl: ModalController) {
+  constructor(public navCtrl: NavController, private modalCtrl: ModalController, private ipcp: IpcprovProvider) {
 
   }
 
@@ -96,4 +97,11 @@ export class HomePage {
   unhide() {
     this.hidestat = !this.hidestat;
   }
+
+  exitApp() {
+    this.ipcp.send("exitApp");
+  }
+
+  //modal show only if user not register and can't be dismiss
+  //let modal = this.modalCtrl.create(ModalPage, { data: data }, { enableBackdropDismiss: false });
 }
