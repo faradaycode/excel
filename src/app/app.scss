@@ -78,11 +78,21 @@ ion-header {
 }
 
 .to-bottom {
-    bottom: 0;
+    bottom: 5px;
 }
 
 .to-left {
+    left: 5px;
+}
+
+.to-center {
     left: 0;
+    right: 0;
+}
+
+.to-top-center {
+    top: 50%;
+    bottom: 50%;
 }
 
 .full-button {
@@ -95,7 +105,7 @@ ion-header {
 }
 
 .to-top {
-    top: 0;
+    top: 5px;
 }
 
 .half-red {

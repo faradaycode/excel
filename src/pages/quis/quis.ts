@@ -235,7 +235,7 @@ export class QuisPage {
 
       //if user answer wrong, it will count category for analysis
       if (answer[i] !== this.datas[i].jawaban) {
-        var str: String = this.datas[i].kode;
+        var str: String = (this.datas[i].kode === null) ? 'no' : this.datas[i].kode;
         var cate = str.charAt(2);
 
         if (cate === "a") {
@@ -268,7 +268,7 @@ export class QuisPage {
     }
 
     intros = "Hai ";
-    console.log(analysis+weaks.join(", "));
+    console.log(analysis + weaks.join(", "));
 
     //upadte db
     this.ipcp.send("updateData", {

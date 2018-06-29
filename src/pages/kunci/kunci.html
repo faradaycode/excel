@@ -40,20 +40,19 @@
     </ion-row>
     <ion-row class="tab-cnt" *ngFor="let item of newArr; let i=index ">
       <ion-col class="pad20">
-        {{i+1}}
+        <h4>{{i+1}}</h4>
       </ion-col>
       <ion-col class="pad20">
-        <span *ngIf="item.myans === undefined || item.myans === null ">-</span>
-        <span *ngIf="item.myans !== undefined ">{{item.myans}}</span>
+        <h4 *ngIf="item.myans === undefined || item.myans === null ">-</h4>
+        <h4 style="margin: auto;" *ngIf="item.myans !== undefined" [style.color]="(item.myans === item.answ)?'#03e803':'#ff0000'">{{item.myans}}</h4>
       </ion-col>
-      <ion-col class="pad20" *ngIf="newArr[0].bahas !== null">
-        <span>{{item.answ}}</span>
-      </ion-col>
-      <ion-col class="pad20" *ngIf="newArr[0].bahas === null">
-        <span>{{item.answ}}</span>
+      <ion-col style="color: #03e803 !important;" class="pad20">
+        <h4>{{item.answ}}</h4>
       </ion-col>
       <ion-col *ngIf="newArr[0].bahas !== null">
-        <button ion-button color="light" outline (click)="bahas(item.bahas)">Click</button>
+        <button ion-button color="straw" outline (click)="bahas(item.bahas)">
+          <ion-icon name="eye"></ion-icon>
+        </button>
       </ion-col>
     </ion-row>
   </ion-grid>

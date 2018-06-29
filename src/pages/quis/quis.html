@@ -37,77 +37,75 @@
           <div #zoom class="div-soal" text-left>
             <img [src]="question" />
           </div>
+
+          <div padding id="helper-div" class="posAbs to-top to-right">
+            <div>
+              <button style="width: 100%;" no-margin ion-button color="warning" (click)="ragu(pos)">ragu</button>
+            </div>
+            <div padding-top> 
+              <button no-margin ion-button color="primary" (click)="finishAlt()">selesai</button>
+            </div>
+          </div>
+
+          <div class="posAbs to-top-center to-left">
+            <button outline class="prv-btn" no-margin no-shadow ion-button color="secondary" [style.visibility]="(pos < 1) ? 'hidden' : 'visible'"
+              class="back-ques" (click)="prevq(pos)">
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+          </div>
+
+          <div class="posAbs to-top-center to-right">
+            <button no-margin outline ion-button color="secondary" class="nxt-btn" [style.display]="(pos == (limitedVal-1)) ? 'none' : 'block'" (click)="nextq(pos)">
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+          </div>
+
           <div class="div-choice">
-            <ion-grid no-padding>
-              <ion-row>
-                <ion-col col-3 color="light">
-                  <div class="left-full">
-                    <button no-margin ion-button color="secondary" [style.visibility]="(pos < 1) ? 'hidden' : 'visible'" class="back-ques" (click)="prevq(pos)">
-                      <ion-icon name="arrow-back"></ion-icon>
-                    </button>
-                  </div>
-                </ion-col>
-
-                <ion-col col-6>
-                  <div class="center-full">
-                    <form [formGroup]="cbForm">
-                      <div radio-group class="segmented-button" formControlName="listRadio" (ionChange)="jawab(pos,$event)">
-                        <label class="wrap-radio">
-                          <ion-radio value="a"></ion-radio>
-                          <span>A</span>
-                        </label>
-                        <label class="wrap-radio">
-                          <ion-radio value="b"></ion-radio>
-                          <span>B</span>
-                        </label>
-                        <label class="wrap-radio">
-                          <ion-radio value="c"></ion-radio>
-                          <span>C</span>
-                        </label>
-                        <label class="wrap-radio">
-                          <ion-radio value="d"></ion-radio>
-                          <span>D</span>
-                        </label>
-                      </div>
-                    </form>
-                    <button ion-button color="warning" (click)="ragu(pos)">
-                      ragu-ragu
-                    </button>
-                  </div>
-                </ion-col>
-
-                <ion-col col-3>
-                  <div class="right-full">
-                    <button no-margin ion-button color="secondary" [style.display]="(pos == (limitedVal-1)) ? 'none' : 'block'" (click)="nextq(pos)">
-                      <ion-icon name="arrow-forward"></ion-icon>
-                    </button>
-                    <button no-margin ion-button color="primary" [style.display]="(pos == (limitedVal-1)) ? 'block' : 'none'" (click)="finishAlt()">
-                      <ion-icon name="flag"></ion-icon>
-                    </button>
-                  </div>
-                </ion-col>
-
-              </ion-row>
-            </ion-grid>
+            <div class="center-full">
+              <form [formGroup]="cbForm">
+                <div radio-group class="segmented-button" formControlName="listRadio" (ionChange)="jawab(pos,$event)">
+                  <label class="wrap-radio">
+                    <ion-radio value="a"></ion-radio>
+                    <span>A</span>
+                  </label>
+                  <label class="wrap-radio">
+                    <ion-radio value="b"></ion-radio>
+                    <span>B</span>
+                  </label>
+                  <label class="wrap-radio">
+                    <ion-radio value="c"></ion-radio>
+                    <span>C</span>
+                  </label>
+                  <label class="wrap-radio">
+                    <ion-radio value="d"></ion-radio>
+                    <span>D</span>
+                  </label>
+                </div>
+              </form>
+            </div>
           </div>
         </ion-col>
+
         <ion-col col-2 class="s-cut" no-padding>
           <div class="timing">
             <span no-margin *ngIf="timeInSeconds && timeInSeconds > 0">{{displayTime}}</span>
           </div>
+
           <div class="sc-btn">
             <ion-list no-lines no-margin>
               <div *ngFor="let ig of ' '.repeat(limitedVal).split(''), let x = index">
-                <button ion-item color="lightgreen" id="sc{{x}}" class="flats" (click)="jump(x)">
+                <button ion-item [color]="(x===pos)?'light':'dark'" id="sc{{x}}" class="flats" (click)="jump(x)">
                   <span>{{x+1}}</span>
-                  <span class="to-right" text-uppercase id="an-{{x}}" style="color: rgb(0, 4, 255)"></span>
+                  <span class="to-right" text-uppercase id="an-{{x}}" style="color:#2ec95c"></span>
                 </button>
               </div>
             </ion-list>
           </div>
+
           <div class="dev-footer">
             <img src="assets/imgs/logo-baru.png" class="img-responsive" />
           </div>
+
         </ion-col>
       </ion-row>
     </ion-grid>
