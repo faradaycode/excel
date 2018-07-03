@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 
 /**
  * Generated class for the ModanalisisPage page.
@@ -15,11 +15,17 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ModanalisisPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  analis: any;
+  constructor(public navCtrl: NavController, public navParams: NavParams, private viewCtrl: ViewController) {
+    this.analis = this.navParams.get("analisis");
+    console.log(this.analis);
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ModanalisisPage');
   }
 
+  dismiss() {
+    this.viewCtrl.dismiss();
+  }
 }

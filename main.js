@@ -106,8 +106,11 @@ ipcMain.on("updateData", function (ev, arg) {
   //update data
   knex("penilaian").where({
     kelas: arg[0].kelas,
-    mapel: arg[0].mapel
-  }).update("nilai", arg[0].nilai).then(function (rows) {
+    mapel: arg[0].mapel,
+  }).update({
+    "nilai": arg[0].nilai,
+    "analisis": arg[0].reviews
+  }).then(function (rows) {
     //feedback for alert success
     mainWindow.webContents.send("resultSent", rows);
     console.log(rows);
@@ -133,6 +136,18 @@ ipcMain.on("selectData", function (ev, arg) {
   }).catch(function (er) {
     console.log(er);
     mainWindow.webContents.send("alerting", er);
+  });
+});
+
+//analisis review
+ipcMain.on("getReview", function (ev, arg) {
+  knex("penilaian").where({
+    "kelas": arg[0].kelas,
+    "mapel": arg[0].mapel
+  }).select("analisis").then(function (rows) {
+    mainWindow.webContents.send("setReview", rows);
+  }).catch(function (err) {
+    mainWindow.webContents.send(err);
   });
 });
 
@@ -250,6 +265,19 @@ ipcMain.on("onStartWin", function (ev, arg) {
       }
     });
   }
+});
+
+//get nick for report
+ipcMain.on("getNick", function (ev, arg) {
+  var dir = path.resolve(__dirname, '../db/');
+
+  //read and verify kodebuku inside code.file
+  fs.readFile(dir + '/reg.file', { encoding: 'utf-8' }, function (err, data) {
+    if (!err) {
+      var rege = /[a-zA-Z]+/g;
+      mainWindow.webContents.send("nicks", data.match(rege));
+    }
+  });
 });
 
 //exit apps

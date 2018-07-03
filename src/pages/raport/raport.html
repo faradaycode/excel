@@ -25,6 +25,12 @@
             <div class="panel-body" text-center>
               <span class="m-score">{{item.nilais}}</span>
             </div>
+            <div class="panel-footer" text-right>
+              <button ion-button clear color="primary" (click)="getReview(item.mp)">
+                <ion-icon name="heart"></ion-icon>
+                <span style="padding-left: 4px;">review</span>
+              </button>              
+            </div>
           </div>
         </ion-col>
       </ion-row>

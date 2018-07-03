@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 import { IpcprovProvider } from '../../providers/ipcprov/ipcprov';
 
 /**
@@ -21,7 +21,7 @@ export class RaportPage {
   arrdata: Array<any>;
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
-    private ipcp: IpcprovProvider) {
+    private ipcp: IpcprovProvider, private modalCtrl: ModalController) {
     this.kls = this.navParams.get('kelas');
   }
 
@@ -31,6 +31,7 @@ export class RaportPage {
 
   getData() {
     let me = this;
+
     this.ipcp.send("selectData", {
       kelas: this.kls
     });
@@ -48,7 +49,7 @@ export class RaportPage {
         if (data[i].mapel !== "mtk" && data[i].mapel !== "bindo") {
           mapel = data[i].mapel;
         }
-        me.arrdata.push({ mapels: mapel, nilais: data[i].nilai });
+        me.arrdata.push({ mapels: mapel, nilais: data[i].nilai, mp: data[i].mapel});
       }
     });
 
@@ -59,5 +60,21 @@ export class RaportPage {
 
   backto() {
     this.navCtrl.pop();
+  }
+
+  getReview(mapel) {
+    let an;
+    let _ = this;
+    this.ipcp.send("getReview",{
+      kelas: this.kls,
+      mapel: mapel
+    });
+    this.ipcp.on("setReview", function(ev, data) {
+      an = data[0].analisis;
+      let myModal = _.modalCtrl.create("ModanalisisPage", {
+        'analisis': an
+      });
+      myModal.present();
+    })
   }
 }

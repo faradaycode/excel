@@ -27,6 +27,7 @@ export class QuisPage {
   datas: any = [];
   question: any = [];
 
+  nickname: String;
   klas: String;
   mapel: any;
   paket: any;
@@ -54,13 +55,13 @@ export class QuisPage {
     this.paket = this.navParams.get('pkt');
     this.klas = this.navParams.get('kelas');
     this.mapel = this.navParams.get('pel');
-
   }
   ionViewDidEnter(): void {
     this.serv._pinchZoom(this.zoom.nativeElement, this.content);
   }
 
   ngOnInit() {
+    let _ = this;
     this.cbForm = this.form.group({
       listRadio: ['']
     });
@@ -83,6 +84,13 @@ export class QuisPage {
       this.showQuestion();
     });
     this.onGo();
+
+    //get nickname
+    this.ipcp.send("getNick");
+    this.ipcp.on("nicks", function (e, data) {
+      _.nickname = data[0];
+      console.log(_.nickname);
+    });
   }
 
   showQuestion() {
@@ -222,8 +230,7 @@ export class QuisPage {
     let nh: number = 0;
     let np: number = 0;
     let weaks: any = [];
-    let intros: String = "";
-    let analysis: String = "penguasaan ";
+    let analisis: any;
     answer = this.saveAns;
     this.serv.getGo(null);
 
@@ -258,26 +265,46 @@ export class QuisPage {
     } //end loop
 
     if (na > 6) {
-      weaks.push("aplikasi lemah");
+      weaks.push("aplikasi masih lemah");
     }
     if (np > 6) {
-      weaks.push("penalaran lemah");
+      weaks.push("penalaran masih lemah");
     }
     if (nh > 6) {
-      weaks.push("hapalan lemah");
+      weaks.push("hapalan masih lemah");
     }
 
-    intros = "Hai ";
-    console.log(analysis + weaks.join(", "));
+    let intros = "Hai " + this.nickname;
+    let kalimat = " dari soal yang kamu kerjakan tadi, disimpulkan: ";
 
-    //upadte db
+    if (weaks.length > 0) {
+      analisis = intros + kalimat + weaks.join(", ") + " baca lagi bukunya dan tetap semangat dalam belajar, ingat 'semua orang hebat dulunya adalah seorang pemula'.";
+    }
+
+    if (weaks.length < 1) {
+      let avg = this.trueAns / (this.limitedVal / 10) * 10;
+
+      if (avg < 85) {
+        analisis = "ayo " + this.nickname + "nilai kamu sudah bagus, tapi tingkatkan semangatmu lagi dalam belajar ya.";
+      }
+
+      if (avg > 85 && avg < 100) {
+        analisis = this.nickname + ", nilai kamu sudah sangat bagus, tapi jangan berpuas diri dulu ya, pertahankan dan kalau bisa tingkatkan lagi okay.";
+      }
+
+      if (avg === 100) {
+        analisis = "wow " + this.nickname + " nilai kamu sempurna, tapi ingat jangan berpuas diri ya dan tidak belajar lagi, belajar itu tidak ada kata berhenti loh.";
+      }
+    }
+
+    // upadte db
     this.ipcp.send("updateData", {
       kelas: this.klas.toLowerCase(),
       mapel: this.mapel,
+      reviews: analisis,
       nilai: (this.trueAns / (this.limitedVal / 10)) * 10
     });
 
-    console.log
     this.serv.getGo(null);
     this.navCtrl.push('HasilPage', {
       trueans: this.trueAns,
