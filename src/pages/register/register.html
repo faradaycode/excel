@@ -1,0 +1,33 @@
+<!--
+  Generated template for the RegisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content padding>
+  <div class="container">
+    <div class="wrapper">
+      <div class="panel box-white">
+        <div class="panel-header">
+          <div class="image-login" text-center>
+            <img src="assets/imgs/user.png" />
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="login-form">
+            <form (ngSubmit)="onRegs(formReg.value)" [formGroup]="formReg">
+              <ion-input type="text" id="t_username" formControlName="username" placeholder="Nama Lengkap"></ion-input>
+              <div style="padding-top: 10px;"></div>
+              <ion-input type="text" id="t_nick" formControlName="nickname" placeholder="Nama Panggilan"></ion-input>
+              <div style="padding-top: 10px;"></div>
+              <ion-input type="password" id="t_password" formControlName="kodebuku" placeholder="Kode Buku"></ion-input>
+              <div style="padding-top: 10px;"></div>
+              <button ion-button no-margin full color="secondary" style="box-shadow: none;">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

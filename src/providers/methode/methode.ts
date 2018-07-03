@@ -16,15 +16,13 @@ export class MethodeProvider {
   theAnswer: any = [];
   description: any = [];
   posi: BehaviorSubject<any>;
-  mapel: BehaviorSubject<any>;;
-  kodes: String;
+  mapel: BehaviorSubject<any>;
 
   constructor(public http: HttpClient, private alertCtrl: AlertController, private toast: ToastController,
     private store: Storage) {
     console.log('Hello MethodeProvider Provider');
     this.posi = new BehaviorSubject(null);
     this.mapel = new BehaviorSubject(null);
-    this.kodes = "mypassion";
   }
   allertMethod(title, text) {
     let alert = this.alertCtrl.create({
@@ -41,14 +39,6 @@ export class MethodeProvider {
       position: 'top'
     });
     tos.present();
-  }
-
-  setKey(keyname, value) {
-    return this.store.set(keyname, value);
-  }
-
-  getKeyVal(keyname) {
-    return this.store.get(keyname);
   }
 
   jsonCall(jsonfile) {
