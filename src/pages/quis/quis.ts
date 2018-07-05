@@ -229,6 +229,9 @@ export class QuisPage {
     let na: number = 0;
     let nh: number = 0;
     let np: number = 0;
+    let pA: any = [];
+    let pH: any = [];
+    let pP: any = [];
     let weaks: any = [];
     let analisis: any;
     answer = this.saveAns;
@@ -244,15 +247,19 @@ export class QuisPage {
       if (answer[i] !== this.datas[i].jawaban) {
         var str: String = (this.datas[i].kode === null) ? 'no' : this.datas[i].kode;
         var cate = str.charAt(2);
+        var babs = str.substring(0, 2);
 
         if (cate === "a") {
           na++;
+          pA.push(babs);
         }
         if (cate === "h") {
           nh++;
+          pH.push(babs);
         }
         if (cate === "p") {
           np++;
+          pP.push(babs);
         }
       }
 
@@ -265,37 +272,72 @@ export class QuisPage {
     } //end loop
 
     if (na > 6) {
-      weaks.push("aplikasi masih lemah");
+      var ctA = {};
+
+      //count same values
+      pA.forEach(function (x) {
+        ctA[x] = (ctA[x] || 0) + 1;
+      });
+
+      Object.keys(ctA).map(function (k) {
+        if (ctA[k] >= 3) {
+          weaks.push("<li>aplikasi di pembelajaran " + k + " masih kurang menguasai</li>");
+        }
+      });
     }
     if (np > 6) {
-      weaks.push("penalaran masih lemah");
+      var ctP = {};
+
+      //count same values
+      pA.forEach(function (x) {
+        ctP[x] = (ctP[x] || 0) + 1;
+      });
+
+      Object.keys(ctP).map(function (k) {
+        if (ctP[k] >= 3) {
+          weaks.push("<li>penalaran di pembelajaran " + k + " masih kurang menguasai</li>");
+        }
+      });
     }
     if (nh > 6) {
-      weaks.push("hapalan masih lemah");
+      var ctH = {};
+
+      //count same values
+      pA.forEach(function (x) {
+        ctH[x] = (ctH[x] || 0) + 1;
+      });
+
+      Object.keys(ctA).map(function (k) {
+        if (ctH[k] >= 3) {
+          weaks.push("<li>hafalan/pemahaman di pembelajaran " + k + " masih kurang menguasai</li>");
+        }
+      });
     }
 
-    let intros = "Hai " + this.nickname;
-    let kalimat = " dari soal yang kamu kerjakan tadi, disimpulkan: ";
+    let intros = "<p>Hai " + this.nickname;
+    let kalimat = ", dari soal yang kamu kerjakan tadi, disimpulkan: </p><ul style='list-style-type: disc;'>";
 
     if (weaks.length > 0) {
-      analisis = intros + kalimat + weaks.join(", ") + " baca lagi bukunya dan tetap semangat dalam belajar, ingat 'semua orang hebat dulunya adalah seorang pemula'.";
+      analisis = intros + kalimat + weaks.join(" ") + "</ul> <p>baca lagi bukunya dan tetap semangat dalam belajar, ingat</p> <blockquote>orang yang hebat adalah ketika dia gagal namun masih bisa bangkit</blockquote>";
     }
 
     if (weaks.length < 1) {
       let avg = this.trueAns / (this.limitedVal / 10) * 10;
 
       if (avg < 85) {
-        analisis = "ayo " + this.nickname + "nilai kamu sudah bagus, tapi tingkatkan semangatmu lagi dalam belajar ya.";
+        analisis = "<p>ayo " + this.nickname + ", nilai kamu sudah bagus, tapi tingkatkan semangatmu lagi dalam belajar ya.</p><blockquote>hidup itu untuk berusaha, kalau tidak berusaha ya tidak hidup</blockquote>";
       }
 
       if (avg > 85 && avg < 100) {
-        analisis = this.nickname + ", nilai kamu sudah sangat bagus, tapi jangan berpuas diri dulu ya, pertahankan dan kalau bisa tingkatkan lagi okay.";
+        analisis = "<p>"+this.nickname + ", nilai kamu sudah sangat bagus, tapi jangan berpuas diri dulu ya, pertahankan dan kalau bisa tingkatkan lagi okay.</p><blockquote>usaha tidak akan pernah mengkhianati hasil</blockquote>";
       }
 
       if (avg === 100) {
-        analisis = "wow " + this.nickname + " nilai kamu sempurna, tapi ingat jangan berpuas diri ya dan tidak belajar lagi, belajar itu tidak ada kata berhenti loh.";
+        analisis = "<p>wow " + this.nickname + ", nilai kamu sempurna, tapi ingat jangan berpuas diri ya dan tidak belajar lagi.</p> <blockquote>belajar itu tidak kenal kata berhenti</blockquote>";
       }
     }
+
+    //console.log(analisis);
 
     // upadte db
     this.ipcp.send("updateData", {

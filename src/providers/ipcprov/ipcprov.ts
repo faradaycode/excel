@@ -16,7 +16,7 @@ export class IpcprovProvider {
   }
 
   public on(channel: string, listener: Function): void {
-    this._electronService.ipcRenderer.on(channel, listener);
+    this._electronService.ipcRenderer.once(channel, listener);
   }
 
   public send(channel: string, ...args): void {

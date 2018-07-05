@@ -15,7 +15,7 @@ import { IpcprovProvider } from '../../providers/ipcprov/ipcprov';
   templateUrl: 'raport.html',
 })
 export class RaportPage {
-  kls;
+  kls:number;
   totalN: number = 0;
   totalMapel: number = 5;
   arrdata: Array<any>;
@@ -25,7 +25,7 @@ export class RaportPage {
     this.kls = this.navParams.get('kelas');
   }
 
-  ionViewDidLoad(){
+  ionViewDidLoad() {
     this.getData();
   }
 
@@ -49,7 +49,7 @@ export class RaportPage {
         if (data[i].mapel !== "mtk" && data[i].mapel !== "bindo") {
           mapel = data[i].mapel;
         }
-        me.arrdata.push({ mapels: mapel, nilais: data[i].nilai, mp: data[i].mapel});
+        me.arrdata.push({ mapels: mapel, nilais: data[i].nilai, mp: data[i].mapel });
       }
     });
 
@@ -65,16 +65,17 @@ export class RaportPage {
   getReview(mapel) {
     let an;
     let _ = this;
-    this.ipcp.send("getReview",{
+    this.ipcp.send("getReview", {
       kelas: this.kls,
       mapel: mapel
     });
-    this.ipcp.on("setReview", function(ev, data) {
+    this.ipcp.on("setReview", function (ev, data) {
       an = data[0].analisis;
       let myModal = _.modalCtrl.create("ModanalisisPage", {
         'analisis': an
       });
+
       myModal.present();
-    })
+    });
   }
 }

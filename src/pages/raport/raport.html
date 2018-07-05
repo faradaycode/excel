@@ -25,11 +25,11 @@
             <div class="panel-body" text-center>
               <span class="m-score">{{item.nilais}}</span>
             </div>
-            <div class="panel-footer" text-right>
+            <div *ngIf="kls == '6a' || kls =='6b'" class="panel-footer" text-right>
               <button ion-button clear color="primary" (click)="getReview(item.mp)">
                 <ion-icon name="heart"></ion-icon>
                 <span style="padding-left: 4px;">review</span>
-              </button>              
+              </button>
             </div>
           </div>
         </ion-col>
@@ -47,7 +47,7 @@
           <span text-capitalize>nilai rata-rata</span>
         </div>
         <div class="panel-body" text-center>
-            <span class="m-score">{{totalN}}</span>
+          <span class="m-score">{{totalN}}</span>
         </div>
       </div>
     </div>
