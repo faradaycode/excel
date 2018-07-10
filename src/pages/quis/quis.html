@@ -48,14 +48,13 @@
           </div>
 
           <div class="posAbs to-top-center to-left">
-            <button outline class="prv-btn" no-margin no-shadow ion-button color="secondary" [style.visibility]="(pos < 1) ? 'hidden' : 'visible'"
-              class="back-ques" (click)="prevq(pos)">
+            <button outline no-margin ion-button color="secondary" [style.display]="(pos < 1) ? 'none' : 'block'" (click)="prevq(pos)">
               <ion-icon name="arrow-back"></ion-icon>
             </button>
           </div>
 
           <div class="posAbs to-top-center to-right">
-            <button no-margin outline ion-button color="secondary" class="nxt-btn" [style.display]="(pos == (limitedVal-1)) ? 'none' : 'block'" (click)="nextq(pos)">
+            <button no-margin outline ion-button color="secondary" [style.display]="(pos == (limitedVal-1)) ? 'none' : 'block'" (click)="nextq(pos)">
               <ion-icon name="arrow-forward"></ion-icon>
             </button>
           </div>

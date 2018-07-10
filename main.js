@@ -159,42 +159,61 @@ ipcMain.on("onRegister", function (ev, arg) {
   //read and verify kodebuku inside code.file
   fs.readFile(dir + '/code.file', { encoding: 'utf-8' }, function (err, data) {
     if (!err) {
-
-      //if same, insert the data
+      //true condition
       if (data.toString() === arg[0].kode) {
-        knex("_user").insert({
-          fullname: arg[0].fullname,
-          nick: arg[0].nick
-        }).then(function (rows) {
-          if (rows[0] > 0) {
-            fs.writeFile(dir + '/reg.file', arg[0].nick + today.getDate() + (today.getMonth() + 1) + today.getFullYear(), function (err) {
-              if (err) {
-                console.log(err);
-                mainWindow.webContents.send("alerting", err);
+        //check data exist in table
+        knex.select().table('_user').then(function(rows) {
+          if(rows.length > 0) {
+            //if table have data inside
+            knex('_user').where('id_u','=',1).update({
+              'fullname': arg[0].fullname,
+              'nick': arg[0].nick
+            }).then(function (res) {
+              if(res === 1) {
+                fs.writeFile(dir + '/reg.file', arg[0].nick + today.getDate() + (today.getMonth() + 1) + today.getFullYear(), function (err) {
+                  if (err) {
+                    console.log(err);
+                    mainWindow.webContents.send("alerting", err);
+                  } else {
+                    fs.unlink(dir + '/code.file', function (err) {
+                      if (!err) {
+                        mainWindow.webContents.send("regstat", true);
+                      }
+                    });
+                  }
+                });
               } else {
-                fs.unlink(dir + '/code.file', function (err) {
-                  if (!err) {
-                    mainWindow.webContents.send("regstat", true);
+                mainWindow.webContents.send("alerting", "unhaldled error when add data");
+              }
+            }).catch(function (err) {
+              //feedback for alert error/fail
+              console.log(err);
+              mainWindow.webContents.send("alerting", err);
+            });
+          } else {
+            //if table does'nt have data
+            knex("_user").insert({
+              fullname: arg[0].fullname,
+              nick: arg[0].nick
+            }).then(function (rows) {
+              if (rows[0] > 0) {
+                fs.writeFile(dir + '/reg.file', arg[0].nick + today.getDate() + (today.getMonth() + 1) + today.getFullYear(), function (err) {
+                  if (err) {
+                    console.log(err);
+                    mainWindow.webContents.send("alerting", err);
+                  } else {
+                    fs.unlink(dir + '/code.file', function (err) {
+                      if (!err) {
+                        mainWindow.webContents.send("regstat", true);
+                      }
+                    });
                   }
                 });
               }
             });
-          } else {
-
-            //save failed alert
-            mainWindow.webContents.send("alerting", "save user data failed");
           }
         });
-      } else {
-
-        //wrong, return alert
-        console.log("kode salah");
-        mainWindow.webContents.send("alerting", "kode buku salah");
-
       }
-    } else {
-      console.log(err);
-      mainWindow.webContents.send("alerting", err);
     }
   });
 });
@@ -207,63 +226,17 @@ ipcMain.on("onStartWin", function (ev, arg) {
   //check if reg.file not exists
   if (!fs.existsSync(dir + '/reg.file')) {
 
-    //if true then check code.file not exists
-    if (!fs.existsSync(dir + '/code.file')) {
-
-      //if true, check sqlite data in table _user
-      knex.select().table('_user').then(function (rows) {
-        if (rows[0] === undefined) {
-
-          //if data undefined (empty data), system will generate code.file, it contains kodebuku for register
-          fs.writeFile(dir + '/code.file', 'magentamedia', function (err) {
-            if (err) {
-              console.log(err);
-              mainWindow.webContents.send("alerting", err);
-            } else {
-              mainWindow.webContents.send("regstat", false);
-            }
-          });
-        } else {
-
-          //but if data exists and file is not, reg.file will be create
-          fs.writeFile(dir + '/reg.file', rows[0].nick + today.getDate() + (today.getMonth() + 1) + today.getFullYear(), function (err) {
-            if (err) {
-              console.log(err);
-              mainWindow.webContents.send("alerting", err);
-            } else {
-              // goto main menu
-              mainWindow.webContents.send("regstat", true);
-            }
-          });
-        }
-      });
-    } else {
-      //code.file exists mean the app is not registered, go to register page
-      mainWindow.webContents.send("regstat", false);
-    }
-  } else {
-
-    //reg.file exists but data in sqlite return undefined, auto delete this file
-    //after that it will generate code.file
-    knex.select().table('_user').then(function (rows) {
-      if (rows[0] === undefined) {
-        fs.unlink(dir + '/reg.file', function (err) {
-          if (!err) {
-            fs.writeFile(dir + '/code.file', 'magentamedia', function (err) {
-              if (!err) {
-                mainWindow.webContents.send("regstat", false);
-              }
-            })
-          } else {
-            mainWindow.webContents.send("alerting", err);
-          }
-        })
+    //if data undefined (empty data), system will generate code.file, it contains kodebuku for register
+    fs.writeFile(dir + '/code.file', 'magentamedia', function (err) {
+      if (err) {
+        console.log(err);
+        mainWindow.webContents.send("alerting", err);
       } else {
-
-        //if data in sqlite exists, recreate file reg.file
-        mainWindow.webContents.send("regstat", true);
+        mainWindow.webContents.send("regstat", false);
       }
     });
+  } else {
+    mainWindow.webContents.send("regstat", true);
   }
 });
 

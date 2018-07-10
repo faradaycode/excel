@@ -72,13 +72,15 @@
       "publisherName": "Magenta Media"
     },
     "linux": {
-      "target": [{
-        "target": "deb",
-        "arch": [
-          "ia32",
-          "x64"
-        ]
-      }],
+      "target": [
+        {
+          "target": "deb",
+          "arch": [
+            "ia32",
+            "x64"
+          ]
+        }
+      ],
       "icon": "./build/icon.ico"
     },
     "productName": "CBT USBN SD 456"

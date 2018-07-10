@@ -20,7 +20,7 @@ export class RegisterPage {
   formReg: FormGroup;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
-    private loading: LoadingController, private app: App, private ipc: IpcprovProvider, private form: FormBuilder) {
+    private loading: LoadingController, private ipc: IpcprovProvider, private form: FormBuilder, public appCtrl: App) {
     this.formReg = this.form.group({
       username: this.form.control('', Validators.compose([Validators.minLength(1), Validators.maxLength(25), Validators.pattern('[a-zA-Z ]*'), Validators.required])),
       nickname: this.form.control('', Validators.compose([Validators.minLength(1), Validators.maxLength(10), Validators.pattern('[a-zA-Z ]*'), Validators.required])),
@@ -86,22 +86,20 @@ export class RegisterPage {
         kode: val.kodebuku,
         nick: val.nickname
       });
-      
+
       loader.present();
-      
+
       setTimeout(() => {
+        let _ = this;
         this.ipc.on("alerting", function (ev, data) {
           if (data !== "" || data !== null) {
             console.log(data);
-            let _ = this;
             _.serv.allertMethod("Warning", data);
-          } else {
-            this.ipc.on("regstat", function (e, data) {
-              let _ = this;
-              if (data) {
-                _.app.getRootNav().setRoot("HomePage");
-              }
-            });
+          }
+        });
+        this.ipc.on("regstat", function (e, data) {
+          if (data) {
+            _.appCtrl.getRootNav().setRoot("HomePage");
           }
         });
         loader.dismiss();

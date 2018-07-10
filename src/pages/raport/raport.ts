@@ -69,7 +69,7 @@ export class RaportPage {
       kelas: this.kls,
       mapel: mapel
     });
-    this.ipcp.on("setReview", function (ev, data) {
+    this.ipcp.once("setReview", function (ev, data) {
       an = data[0].analisis;
       let myModal = _.modalCtrl.create("ModanalisisPage", {
         'analisis': an

@@ -164,13 +164,16 @@ export class QuisPage {
     this.answered(this.pos);
     this.showQuestion();
     this._ragu = (this._ragu) ? !this._ragu : this._ragu;
+    console.log(this.question);
   }
   prevq(val) {
     this.pos--;
     this.limiter--;
     this.count = 0;
     this.answered(this.pos);
+    this.showQuestion();
     this._ragu = (this._ragu) ? !this._ragu : this._ragu;
+    console.log(this.question);
   }
   //end method
 
