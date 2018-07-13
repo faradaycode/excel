@@ -1,0 +1,164 @@
+[
+    {
+        "bab": "01",
+        "bab_title": "bilangan",
+        "id_b": "1",
+        "mapel": "mtk"
+    },
+    {
+        "bab": "02",
+        "bab_title": "geometri",
+        "id_b": "2",
+        "mapel": "mtk"
+    },
+    {
+        "bab": "03",
+        "bab_title": "statitiska",
+        "id_b": "3",
+        "mapel": "mtk"
+    },
+    {
+        "bab": "01",
+        "bab_title": "perkembang biakan tumbuhan dan hewan",
+        "id_b": "4",
+        "mapel": "ipa"
+    },
+    {
+        "bab": "02",
+        "bab_title": "kesehatan reproduksi",
+        "id_b": "5",
+        "mapel": "ipa"
+    },
+    {
+        "bab": "03",
+        "bab_title": "adaptasi mahkluk hidup dengabn lingkungan",
+        "id_b": "6",
+        "mapel": "ipa"
+    },
+    {
+        "bab": "04",
+        "bab_title": "rangkaian listrik",
+        "id_b": "7",
+        "mapel": "ipa"
+    },
+    {
+        "bab": "05",
+        "bab_title": "magnet",
+        "id_b": "8",
+        "mapel": "ipa"
+    },
+    {
+        "bab": "06",
+        "bab_title": "energi listrik",
+        "id_b": "9",
+        "mapel": "ipa"
+    },
+    {
+        "bab": "07",
+        "bab_title": "tata surya",
+        "id_b": "10",
+        "mapel": "ipa"
+    },
+    {
+        "bab": "08",
+        "bab_title": "rotasi bumi",
+        "id_b": "11",
+        "mapel": "ipa"
+    },
+    {
+        "bab": "01",
+        "bab_title": "asean",
+        "id_b": "12",
+        "mapel": "ips"
+    },
+    {
+        "bab": "02",
+        "bab_title": "perubahan sosial dan budaya indonesia",
+        "id_b": "13",
+        "mapel": "ips"
+    },
+    {
+        "bab": "03",
+        "bab_title": "kegiatan ekonomi",
+        "id_b": "14",
+        "mapel": "ips"
+    },
+    {
+        "bab": "04",
+        "bab_title": "makna proklamasi",
+        "id_b": "15",
+        "mapel": "ips"
+    },
+    {
+        "bab": "01",
+        "bab_title": "teks laporan hasil pengamatan",
+        "id_b": "16",
+        "mapel": "bindo"
+    },
+    {
+        "bab": "02",
+        "bab_title": "teks penjelasan/eksplanasi",
+        "id_b": "17",
+        "mapel": "bindo"
+    },
+    {
+        "bab": "03",
+        "bab_title": "teks pidato",
+        "id_b": "18",
+        "mapel": "bindo"
+    },
+    {
+        "bab": "04",
+        "bab_title": "teks narasi sejarah",
+        "id_b": "19",
+        "mapel": "bindo"
+    },
+    {
+        "bab": "05",
+        "bab_title": "teks puisi dan prosa",
+        "id_b": "20",
+        "mapel": "bindo"
+    },
+    {
+        "bab": "06",
+        "bab_title": "teks formulir",
+        "id_b": "21",
+        "mapel": "bindo"
+    },
+    {
+        "bab": "07",
+        "bab_title": "teks nonfiksi",
+        "id_b": "22",
+        "mapel": "bindo"
+    },
+    {
+        "bab": "08",
+        "bab_title": "teks fiksi",
+        "id_b": "23",
+        "mapel": "bindo"
+    },
+    {
+        "bab": "01",
+        "bab_title": "nilai-nilai pancasila dalam kehidupan sehari-hari",
+        "id_b": "24",
+        "mapel": "pkn"
+    },
+    {
+        "bab": "02",
+        "bab_title": "hak dan kewajiban",
+        "id_b": "25",
+        "mapel": "pkn"
+    },
+    {
+        "bab": "03",
+        "bab_title": "keragaman sosial",
+        "id_b": "26",
+        "mapel": "pkn"
+    },
+    {
+        "bab": "04",
+        "bab_title": "persatuan dan kesatuan",
+        "id_b": "27",
+        "mapel": "pkn"
+    }
+]

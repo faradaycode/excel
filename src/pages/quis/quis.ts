@@ -49,6 +49,7 @@ export class QuisPage {
   _ragu: boolean = false;
   singleValue: number = 0;
   scales: number = 1;
+  babs: any = [];
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
     private form: FormBuilder, private menuctrl: MenuController, private alertCtrl: AlertController,
@@ -91,6 +92,16 @@ export class QuisPage {
     this.ipcp.on("nicks", function (e, data) {
       _.nickname = data[0];
       console.log(_.nickname);
+    });
+
+    //bab json
+    this.serv.jsonCall('assets/babs.json').subscribe(data => {
+      this.totalArr = Object.keys(data).length;
+      for (let a in data) {
+        if (data[a].mapel === this.mapel) {
+          this.babs.push(data[a]);
+        }
+      }
     });
   }
 
@@ -241,6 +252,7 @@ export class QuisPage {
     let analisis: any;
     answer = this.saveAns;
     this.serv.getGo(null);
+    let bt: String;
 
     for (let i = 0; i < this.limitedVal; i++) {
       //if user answer same with the answer key, true answer variable will increase 1pt
@@ -253,18 +265,34 @@ export class QuisPage {
         var str: String = (this.datas[i].kode === null) ? 'no' : this.datas[i].kode;
         var cate = str.charAt(2);
         var babs = str.substring(0, 2);
-
+        
         if (cate === "a") {
           na++;
-          pA.push(babs);
+          for (var m = 0; m < this.babs.length; m++) {
+            if (this.babs[m].bab === babs) {
+              pA.push(babs+" "+this.babs[m].bab_title);
+            }
+          }
         }
+
         if (cate === "h") {
           nh++;
-          pH.push(babs);
+
+          for (var h = 0; h < this.babs.length; h++) {
+            if (this.babs[h].bab === babs) {
+              pH.push(babs+" "+this.babs[h].bab_title);
+            }
+          }
         }
+
         if (cate === "p") {
           np++;
-          pP.push(babs);
+
+          for (var p = 0; p < this.babs.length; p++) {
+            if (this.babs[p].bab === babs) {
+              pP.push(babs+" "+this.babs[p].bab_title);
+            }
+          }
         }
       }
 
@@ -300,7 +328,7 @@ export class QuisPage {
 
       Object.keys(ctP).map(function (k) {
         if (ctP[k] >= 3) {
-          weaks.push("<li>penalaran di pembelajaran " + k + " masih kurang menguasai</li>");
+          weaks.push("<li>aplikasi di pembelajaran " + k + " masih kurang menguasai</li>");
         }
       });
     }
@@ -314,7 +342,7 @@ export class QuisPage {
 
       Object.keys(ctA).map(function (k) {
         if (ctH[k] >= 3) {
-          weaks.push("<li>hafalan/pemahaman di pembelajaran " + k + " masih kurang menguasai</li>");
+          weaks.push("<li>aplikasi di pembelajaran " + k + " masih kurang menguasai</li>");
         }
       });
     }
@@ -342,8 +370,6 @@ export class QuisPage {
       }
     }
 
-    //console.log(analisis);
-
     // upadte db
     this.ipcp.send("updateData", {
       kelas: this.klas.toLowerCase(),
@@ -360,6 +386,8 @@ export class QuisPage {
       mapel: this.mapel,
       notAns: this.nullAns
     });
+
+    console.log(analisis);
   }
 
   reseting() {
@@ -423,6 +451,7 @@ export class QuisPage {
     this.unZoom();
     this.menuctrl.close();
   }
+
   unZoom() {
     this.scales = 10;
   }
