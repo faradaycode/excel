@@ -1,6 +1,6 @@
 import { MethodeProvider } from './../../providers/methode/methode';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
  * Generated class for the HasilPage page.
@@ -24,8 +24,7 @@ export class HasilPage {
   bahasVal: any;
   notAnsw: number;
   
-  constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
-    private modalCtrl: ModalController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider) {
     this.trueans = this.navParams.get('trueans');
     this.totalar = this.navParams.get('totalar');
     this.kl = this.navParams.get('kelass');
@@ -34,11 +33,10 @@ export class HasilPage {
   }
 
   bahasan() {
-    let myModal = this.modalCtrl.create("KunciPage", {
+    this.navCtrl.push("KunciPage", {
       mapel: this.mapel,
       klas: this.kl
     });
-    myModal.present();
   }
 
   toHome() {

@@ -2,4 +2,51 @@ page-kunci {
     .tab-tl {
         font-size: 1.5rem;
     }
+    .scroll-content {
+        overflow: hidden;
+    }
+    .grid,
+    .row {
+        padding: 0;
+        height: 100%;
+    }
+    .s-cut {
+        max-height: 100%;
+
+        .sc-btn {
+            height: 100%;
+            overflow-y: auto;
+        }
+    }
+    .title-header {
+        min-height: 35px;
+        background-color: #fbff00;
+        text-transform: capitalize;
+        border: 2px dashed #32db64;
+    }
+    .fbold {
+        font-weight: bold;
+    }
+    .square {
+        width: 15px;
+        height: 15px;
+    }
+    .black {
+        background: #000000;
+    }
+    .red {
+        background: #ff0000;
+    }
+    .blue {
+        background: #0000ff;
+    }
+    .img-div {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+    }
+    .z-div {
+        height: 95%;
+        width: 100%;
+    }
 }

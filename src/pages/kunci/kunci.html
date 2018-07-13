@@ -8,51 +8,94 @@
 
   <ion-navbar text-capitalize>
     <ion-title>kunci jawaban</ion-title>
-
-    <ion-buttons end>
-      <button ion-button icon-only (click)="dismiss()">
-        <ion-icon name="close"></ion-icon>
-      </button>
-    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
 
+<ion-content>
+  <ion-grid no-padding>
+    <ion-row>
+      <ion-col col-2 class="s-cut" no-padding>
+        <div class="sc-btn">
+          <div class="title-header">
+            <ion-grid>
+              <ion-row>
+                <ion-col col-1>
+                  <div class="square black"></div>
+                </ion-col>
+                <ion-col col-11>
+                  <span>jawaban kamu</span>
+                </ion-col>
+              </ion-row>
 
-<ion-content padding>
-  <ion-grid text-center>
-    <ion-row class="tab-tl">
-      <ion-col>
-        No. Soal
+              <ion-row>
+                <ion-col col-1>
+                  <div class="square blue"></div>
+                </ion-col>
+                <ion-col col-11>
+                  <span>kunci jawaban</span>
+                </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col col-1>
+                  <ion-icon name="checkmark"></ion-icon>
+                </ion-col>
+                <ion-col col-11>
+                  <span>jawabanmu benar</span>
+                </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col col-1>
+                  <ion-icon name="close"></ion-icon>
+                </ion-col>
+                <ion-col col-11>
+                  <span>jawabanmu salah</span>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </div>
+          <ion-list no-lines no-margin>
+            <div *ngFor="let items of newArr, let x = index">
+              <button ion-item color="light" (click)="jump(items.bahas)">
+                <ion-grid>
+                  <ion-row>
+                    <ion-col style="color: #660066;">
+                      <span>{{x+1}}.</span>
+                    </ion-col>
+                    <ion-col class="fbold" style="color: #000000;">
+                      <span *ngIf="items.myans === undefined || items.myans === null ">-</span>
+                      <span *ngIf="items.myans !== undefined || items.myans !== null ">{{items.myans}}</span>
+                    </ion-col>
+                    <ion-col class="fbold" style="color: #0000ff;">
+                      <span>{{items.answ}}</span>
+                    </ion-col>
+                    <ion-col class="fbold">
+                      <h4 [style.color]="(items.myans === items.answ)?'#00ff00':'#e60042'">
+                        <ion-icon [name]="(items.myans === items.answ)?'checkmark':'close'"></ion-icon>
+                      </h4>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </button>
+            </div>
+          </ion-list>
+        </div>
       </ion-col>
-      <ion-col>
-        Jawaban Saya
+      <ion-col class="s-cut" col-5 no-padding>
+        <div class="img-div">
+          <div class="z-div">
+            <img [src]="soals" />
+          </div>
+        </div>
       </ion-col>
-      <ion-col *ngIf="newArr[0].bahas !== null">
-        Kunci Jawaban
-      </ion-col>
-      <ion-col *ngIf="newArr[0].bahas === null">
-        Kunci Jawaban
-      </ion-col>
-      <ion-col *ngIf="newArr[0].bahas !== null">
-        Bahasan
-      </ion-col>
-    </ion-row>
-    <ion-row class="tab-cnt" *ngFor="let item of newArr; let i=index ">
-      <ion-col class="pad20">
-        <h4>{{i+1}}</h4>
-      </ion-col>
-      <ion-col class="pad20">
-        <h4 *ngIf="item.myans === undefined || item.myans === null ">-</h4>
-        <h4 style="margin: auto;" *ngIf="item.myans !== undefined" [style.color]="(item.myans === item.answ)?'#03e803':'#ff0000'">{{item.myans}}</h4>
-      </ion-col>
-      <ion-col style="color: #03e803 !important;" class="pad20">
-        <h4>{{item.answ}}</h4>
-      </ion-col>
-      <ion-col *ngIf="newArr[0].bahas !== null">
-        <button ion-button color="straw" outline (click)="bahas(item.bahas)">
-          <ion-icon name="eye"></ion-icon>
-        </button>
+      <ion-col class="s-cut" col-5 no-padding>
+        <div class="img-div">
+          <div class="z-div">
+            <img [src]="bahass" />
+          </div>
+        </div>
       </ion-col>
     </ion-row>
   </ion-grid>
