@@ -19,6 +19,7 @@ import { MethodeProvider } from '../../providers/methode/methode';
 export class RegisterPage {
   formReg: FormGroup;
 
+
   constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
     private loading: LoadingController, private ipc: IpcprovProvider, private form: FormBuilder, public appCtrl: App) {
     this.formReg = this.form.group({
@@ -35,44 +36,41 @@ export class RegisterPage {
   onRegs(val) {
     let errNo = [];
 
-    if (this.formReg.controls.username.touched) {
-      if (this.formReg.controls.username.hasError('pattern')) {
-        console.log('pattern');
-        errNo.push("Hanya Huruf Saja Untuk Isi Nama.");
-      }
-      if (this.formReg.controls.username.hasError('maxlength')) {
-        console.log('too long');
-        errNo.push('Teks Nama Terlalu Panjang (Max 25 Karakter).');
-      }
-      if (this.formReg.controls.username.hasError('required')) {
-        console.log('null');
-        errNo.push('Nama Tidak Boleh Kosong.');
-      }
+
+    if (this.formReg.controls.username.hasError('pattern')) {
+      console.log('pattern');
+      errNo.push("Hanya Huruf Saja Untuk Isi Nama.");
+    }
+    if (this.formReg.controls.username.hasError('maxlength')) {
+      console.log('too long');
+      errNo.push('Teks Nama Terlalu Panjang (Max 25 Karakter).');
+    }
+    if (this.formReg.controls.username.hasError('required')) {
+      console.log('null');
+      errNo.push('Nama Tidak Boleh Kosong.');
     }
 
-    if (this.formReg.controls.nickname.touched) {
-      if (this.formReg.controls.nickname.hasError('pattern')) {
-        console.log('pattern');
-        errNo.push("Hanya Huruf Saja Untuk Isi Nama Panggilan.");
-      }
-      if (this.formReg.controls.nickname.hasError('maxlength')) {
-        console.log('too long');
-        errNo.push('Teks Nama Terlalu Panjang (Max 10 Karakter).');
-      }
-      if (this.formReg.controls.nickname.hasError('required')) {
-        console.log('null');
-        errNo.push('Nama Panggilan Tidak Boleh Kosong.');
-      }
+
+
+    if (this.formReg.controls.nickname.hasError('pattern')) {
+      console.log('pattern');
+      errNo.push("Hanya Huruf Saja Untuk Isi Nama Panggilan.");
+    }
+    if (this.formReg.controls.nickname.hasError('maxlength')) {
+      console.log('too long');
+      errNo.push('Teks Nama Terlalu Panjang (Max 10 Karakter).');
+    }
+    if (this.formReg.controls.nickname.hasError('required')) {
+      console.log('null');
+      errNo.push('Nama Panggilan Tidak Boleh Kosong.');
     }
 
-    if (this.formReg.controls.kodebuku.touched) {
-      if (this.formReg.controls.kodebuku.hasError('required')) {
-        errNo.push('Kode Buku Tidak Boleh Kosong.');
-      }
-      // if (this.formReg.controls.kodebuku.value !== this.serv.kodes && !this.formReg.controls.kodebuku.hasError('required')) {
-      //   errNo.push("Kode Buku Salah");
-      // }
+
+
+    if (this.formReg.controls.kodebuku.hasError('required')) {
+      errNo.push('Kode Buku Tidak Boleh Kosong.');
     }
+
 
     if (errNo.length > 0) {
       this.serv.allertMethod('Error', errNo.join("<br>"));
