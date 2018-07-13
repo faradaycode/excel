@@ -48,6 +48,7 @@ export class QuisPage {
   limitedVal: number = 40;
   _ragu: boolean = false;
   singleValue: number = 0;
+  scales: number = 1;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private serv: MethodeProvider,
     private form: FormBuilder, private menuctrl: MenuController, private alertCtrl: AlertController,
@@ -56,9 +57,9 @@ export class QuisPage {
     this.klas = this.navParams.get('kelas');
     this.mapel = this.navParams.get('pel');
   }
-  ionViewDidEnter(): void {
-    this.serv._pinchZoom(this.zoom.nativeElement, this.content);
-  }
+  // ionViewDidEnter(): void {
+  //   this.serv._pinchZoom(this.zoom.nativeElement, this.content);
+  // }
 
   ngOnInit() {
     let _ = this;
@@ -96,6 +97,7 @@ export class QuisPage {
   showQuestion() {
     let url;
     let n = '6';
+
     if (this.limiter < this.limitedVal) {
       if (this.klas === '4' || this.klas === '5') {
         url = "assets/soal/" + this.klas + "/" + this.mapel + "/";
@@ -164,7 +166,7 @@ export class QuisPage {
     this.answered(this.pos);
     this.showQuestion();
     this._ragu = (this._ragu) ? !this._ragu : this._ragu;
-    console.log(this.question);
+    this.unZoom();
   }
   prevq(val) {
     this.pos--;
@@ -173,7 +175,7 @@ export class QuisPage {
     this.answered(this.pos);
     this.showQuestion();
     this._ragu = (this._ragu) ? !this._ragu : this._ragu;
-    console.log(this.question);
+    this.unZoom();
   }
   //end method
 
@@ -268,7 +270,7 @@ export class QuisPage {
 
       this.serv.myAnswer.push(answer[i]);
       this.serv.theAnswer.push(this.datas[i].jawaban);
-      this.serv.description.push(this.datas[i].bahasan);
+      this.serv.description.push(this.datas[i].soal);
 
       var siden = document.getElementById('an-' + i);
       siden.innerHTML = "";
@@ -332,7 +334,7 @@ export class QuisPage {
       }
 
       if (avg > 85 && avg < 100) {
-        analisis = "<p>"+this.nickname + ", nilai kamu sudah sangat bagus, tapi jangan berpuas diri dulu ya, pertahankan dan kalau bisa tingkatkan lagi okay.</p><blockquote>usaha tidak akan pernah mengkhianati hasil</blockquote>";
+        analisis = "<p>" + this.nickname + ", nilai kamu sudah sangat bagus, tapi jangan berpuas diri dulu ya, pertahankan dan kalau bisa tingkatkan lagi okay.</p><blockquote>usaha tidak akan pernah mengkhianati hasil</blockquote>";
       }
 
       if (avg === 100) {
@@ -418,6 +420,20 @@ export class QuisPage {
   }
   jump(val) {
     this.serv.getGo(val);
+    this.unZoom();
     this.menuctrl.close();
+  }
+  unZoom() {
+    this.scales = 10;
+  }
+
+  fZoom() {
+    console.log(this.scales);
+    let scala = this.scales / 10;
+    this.serv.clicknZoom(scala, this.zoom.nativeElement, this.content);
+
+  }
+  r_click(evt) {
+    this.serv.clicknZoom(evt, this.zoom.nativeElement, this.content);
   }
 }

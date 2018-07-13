@@ -33,18 +33,29 @@
     </div>
     <ion-grid>
       <ion-row>
-        <ion-col col-10 no-padding>
-          <div #zoom class="div-soal" text-left>
-            <img [src]="question" />
+        <ion-col col-10 no-padding class="s-cut">
+          <div class="z-wrapper">
+            <div #zoom class="div-soal" text-left (click)="r_click($event)">
+              <img [src]="question" />
+            </div>
           </div>
 
-          <div padding id="helper-div" class="posAbs to-top to-right">
+          <div padding class="posAbs to-top to-right">
             <div>
-              <button style="width: 100%;" no-margin ion-button color="warning" (click)="ragu(pos)">ragu</button>
+              <ion-range min="10" max="20" color="secondary" step="1" [(ngModel)]="scales" (ionChange)="fZoom()">
+                <ion-label range-left>
+                  <ion-icon name="remove"></ion-icon>
+                </ion-label>
+                <ion-label range-right>
+                  <ion-icon name="add"></ion-icon>
+                </ion-label>
+              </ion-range>
             </div>
-            <div padding-top> 
-              <button no-margin ion-button color="primary" (click)="finishAlt()">selesai</button>
-            </div>
+          </div>
+
+          <div id="helper-div" class="posAbs to-botom to-center">
+            <button no-margin ion-button color="warning" (click)="ragu(pos)">ragu</button>
+            <button no-margin ion-button color="primary" (click)="finishAlt()">selesai</button>
           </div>
 
           <div class="posAbs to-top-center to-left">
