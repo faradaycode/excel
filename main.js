@@ -26,7 +26,7 @@ let knex = require("knex")({
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1200, height: 800, fullscreen: true
+    width: 1024, height: 800, fullscreen: true
   });
 
   // and load the index.html of the app.
@@ -213,6 +213,8 @@ ipcMain.on("onRegister", function (ev, arg) {
             });
           }
         });
+      } else {
+        mainWindow.webContents.send("alerting", "kode buku salah");
       }
     }
   });
