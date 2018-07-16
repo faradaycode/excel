@@ -252,7 +252,6 @@ export class QuisPage {
     let analisis: any;
     answer = this.saveAns;
     this.serv.getGo(null);
-    let bt: String;
 
     for (let i = 0; i < this.limitedVal; i++) {
       //if user answer same with the answer key, true answer variable will increase 1pt

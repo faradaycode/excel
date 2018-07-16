@@ -105,7 +105,7 @@
             <ion-list no-lines no-margin>
               <div *ngFor="let ig of ' '.repeat(limitedVal).split(''), let x = index">
                 <button ion-item [color]="(x===pos)?'light':'dark'" id="sc{{x}}" class="flats" (click)="jump(x)">
-                  <span>{{x+1}}</span>
+                  <span>{{x+1}}. </span>
                   <span class="to-right" text-uppercase id="an-{{x}}" style="color:#2ec95c"></span>
                 </button>
               </div>

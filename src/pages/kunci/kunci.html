@@ -58,7 +58,7 @@
           </div>
           <ion-list no-lines no-margin>
             <div *ngFor="let items of newArr, let x = index">
-              <button ion-item color="light" (click)="jump(items.bahas)">
+              <button ion-item color="light" (click)="jump(items.bahas, x)">
                 <ion-grid>
                   <ion-row>
                     <ion-col style="color: #660066;">
@@ -84,7 +84,12 @@
         </div>
       </ion-col>
       <ion-col class="s-cut" col-5 no-padding>
-        <div class="img-div">
+        <div class="posAbs to-top to-bottom">
+          <div class="numpos" text-center *ngIf="pos !== 0" >
+            <span>{{pos}}</span>
+          </div>
+        </div>
+        <div class="img-div" style="padding-left: 30px;">
           <div class="z-div">
             <img [src]="soals" />
           </div>

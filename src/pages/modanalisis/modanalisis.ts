@@ -17,8 +17,13 @@ export class ModanalisisPage {
 
   analis: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, private viewCtrl: ViewController) {
-    this.analis = this.navParams.get("analisis");
-    console.log(this.analis);
+    let a = this.navParams.get("analisis");
+
+    if (a === null) {
+      this.analis = "belum mengerjakan soal ini";
+    } else {
+      this.analis = a;
+    }
   }
 
   ionViewDidLoad() {
