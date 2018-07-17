@@ -104,4 +104,8 @@ export class RegisterPage {
       }, 3000);
     }
   }
+
+  exitApp() {
+    this.ipc.send("exitApp");
+  }
 }
