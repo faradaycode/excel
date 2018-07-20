@@ -327,7 +327,7 @@ export class QuisPage {
 
       Object.keys(ctP).map(function (k) {
         if (ctP[k] >= 3) {
-          weaks.push("<li>aplikasi di pembelajaran " + k + " masih kurang menguasai</li>");
+          weaks.push("<li>penalaran di pembelajaran " + k + " masih kurang menguasai</li>");
         }
       });
     }
@@ -339,9 +339,9 @@ export class QuisPage {
         ctH[x] = (ctH[x] || 0) + 1;
       });
 
-      Object.keys(ctA).map(function (k) {
+      Object.keys(ctH).map(function (k) {
         if (ctH[k] >= 3) {
-          weaks.push("<li>aplikasi di pembelajaran " + k + " masih kurang menguasai</li>");
+          weaks.push("<li>hafalan/pemahaman di pembelajaran " + k + " masih kurang menguasai</li>");
         }
       });
     }
