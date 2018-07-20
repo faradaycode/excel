@@ -173,7 +173,6 @@ export class QuisPage {
   nextq(val) {
     this.pos++;
     this.limiter++;
-    this.count = 0;
     this.answered(this.pos);
     this.showQuestion();
     this._ragu = (this._ragu) ? !this._ragu : this._ragu;
@@ -182,7 +181,6 @@ export class QuisPage {
   prevq(val) {
     this.pos--;
     this.limiter--;
-    this.count = 0;
     this.answered(this.pos);
     this.showQuestion();
     this._ragu = (this._ragu) ? !this._ragu : this._ragu;
@@ -206,7 +204,7 @@ export class QuisPage {
 
     let ms = "";
     if (this.count > 0) {
-      ms = "Ada" + this.count + " Jawaban yang Masih Kamu Ragukan, Tetap Selesai?";
+      ms = "Ada " + this.count + " Jawaban yang Masih Kamu Ragukan, Tetap Selesai?";
     } else {
       ms = "Masih Ada " + this.nullAns + " Soal Yang Kosong, Tetap Selesai?";
     }
@@ -427,7 +425,6 @@ export class QuisPage {
     })
   }
   ragu(numQst) {
-    this.count++;
     var bt = document.getElementById("sc" + numQst);
 
     if (!this._ragu) {
