@@ -35,7 +35,7 @@ export class RegisterPage {
 
   onRegs(val) {
     let errNo = [];
-
+    let altmsg;
 
     if (this.formReg.controls.username.hasError('pattern')) {
       console.log('pattern');
@@ -89,12 +89,15 @@ export class RegisterPage {
 
       setTimeout(() => {
         let _ = this;
-        this.ipc.on("alerting", function (ev, data) {
+
+        this.ipc.once("alerting", function (ev, data) {
           if (data !== "" || data !== null) {
             console.log(data);
-            _.serv.allertMethod("Warning", data);
+            altmsg = data;
           }
+          this.serv.allertMethod("Warning", altmsg);
         });
+        
         this.ipc.on("regstat", function (e, data) {
           if (data) {
             _.appCtrl.getRootNav().setRoot("HomePage");

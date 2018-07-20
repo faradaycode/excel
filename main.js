@@ -229,7 +229,7 @@ ipcMain.on("onStartWin", function (ev, arg) {
   if (!fs.existsSync(dir + '/reg.file')) {
 
     //if data undefined (empty data), system will generate code.file, it contains kodebuku for register
-    fs.writeFile(dir + '/code.file', 'magentamedia', function (err) {
+    fs.writeFile(dir + '/code.file', 'redaksitampan', function (err) {
       if (err) {
         console.log(err);
         mainWindow.webContents.send("alerting", err);
