@@ -84,18 +84,29 @@
         </div>
       </ion-col>
       <ion-col class="s-cut" col-5 no-padding>
-        <div class="posAbs to-top to-bottom">
-          <div class="numpos" text-center *ngIf="pos !== 0" >
+        <div class="posAbs to-bottom to-right rectangle">
+          <div class="numpos" text-center *ngIf="pos !== 0">
             <span>{{pos}}</span>
           </div>
+          <div class="box red">
+            <span>soal</span>
+          </div>
         </div>
-        <div class="img-div" style="padding-left: 30px;">
+        <div class="img-div">
           <div class="z-div">
             <img [src]="soals" />
           </div>
         </div>
       </ion-col>
       <ion-col class="s-cut" col-5 no-padding>
+        <div class="posAbs to-bottom to-right rectangle">
+          <div class="numpos" text-center *ngIf="pos !== 0">
+            <span>{{pos}}</span>
+          </div>
+          <div class="box red">
+            <span>pembahasan</span>
+          </div>
+        </div>
         <div class="img-div">
           <div class="z-div">
             <img [src]="bahass" />

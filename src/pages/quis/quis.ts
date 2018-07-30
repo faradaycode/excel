@@ -262,12 +262,12 @@ export class QuisPage {
         var str: String = (this.datas[i].kode === null) ? 'no' : this.datas[i].kode;
         var cate = str.charAt(2);
         var babs = str.substring(0, 2);
-        
+
         if (cate === "a") {
           na++;
           for (var m = 0; m < this.babs.length; m++) {
             if (this.babs[m].bab === babs) {
-              pA.push(babs+" "+this.babs[m].bab_title);
+              pA.push(babs + " " + this.babs[m].bab_title);
             }
           }
         }
@@ -277,7 +277,7 @@ export class QuisPage {
 
           for (var h = 0; h < this.babs.length; h++) {
             if (this.babs[h].bab === babs) {
-              pH.push(babs+" "+this.babs[h].bab_title);
+              pH.push(babs + " " + this.babs[h].bab_title);
             }
           }
         }
@@ -287,7 +287,7 @@ export class QuisPage {
 
           for (var p = 0; p < this.babs.length; p++) {
             if (this.babs[p].bab === babs) {
-              pP.push(babs+" "+this.babs[p].bab_title);
+              pP.push(babs + " " + this.babs[p].bab_title);
             }
           }
         }
@@ -375,16 +375,42 @@ export class QuisPage {
       nilai: (this.trueAns / (this.limitedVal / 10)) * 10
     });
 
-    this.serv.getGo(null);
-    this.navCtrl.push('HasilPage', {
-      trueans: this.trueAns,
-      totalar: this.limitedVal,
-      kelass: this.klas,
-      mapel: this.mapel,
-      notAns: this.nullAns
+    let alert = this.alertCtrl.create({
+      title: "Hi...",
+      message: "<div class='alertext'><p>Untuk melihat hasil analisis dari soal yang kamu kerjakan, bisa dilihat di halaman nilaiku, caranya:</p>"+
+      "<ol>"+
+      "<li>klik tombol <strong>nilaiku</strong> yang ada di halaman Pilih Mata Pelajaran</li>"+
+      "<li>klik&nbsp;<strong>review</strong> yang ada di bawah nilai tiap mata pelajaran.</li>"+
+      "</ol></div>",
+      buttons: [
+        {
+          text: 'Yes',
+          handler: () => {
+            this.serv.getGo(null);
+            this.navCtrl.push('HasilPage', {
+              trueans: this.trueAns,
+              totalar: this.limitedVal,
+              kelass: this.klas,
+              mapel: this.mapel,
+              notAns: this.nullAns
+            });
+          }
+        }
+      ]
     });
 
-    console.log(analisis);
+    if (this.klas !== "4" && this.klas !== "5") {
+      alert.present();
+    } else {
+      this.serv.getGo(null);
+      this.navCtrl.push('HasilPage', {
+        trueans: this.trueAns,
+        totalar: this.limitedVal,
+        kelass: this.klas,
+        mapel: this.mapel,
+        notAns: this.nullAns
+      });
+    }
   }
 
   reseting() {
