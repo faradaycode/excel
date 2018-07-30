@@ -56,12 +56,30 @@ page-kunci {
         left: 0;
     }
     .numpos {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 100%;
         background-color: #0000ff;
         color: #fff;
-        font-size: 20px;
         font-weight: bold;
-        padding: 3px;
+        padding: 5px;
+    }
+
+    .rectangle {
+        min-width: 50px;
+        height: 45px;
+        display: flex;
+        font-size: 30px;
+    }
+    .s-cut {
+        .to-right {
+            right: 15px;
+        }
+    }
+    .box {
+        min-width: 50px;
+        height: 100%;
+        color: #fff;
+        padding: 5px;
+        text-transform: capitalize;
     }
 }

@@ -32,10 +32,6 @@ export class KunciPage {
     this.mapel = this.navParams.get('mapel');
   }
 
-  ionViewDidEnter(): void {
-    this.serv._pinchZoom(this.zoom.nativeElement, this.content);
-  }
-
   ngOnInit() {
     for (let i = 0; i < this.serv.theAnswer.length; i++) {
       this.newArr.push({
@@ -46,7 +42,7 @@ export class KunciPage {
     }
   }
 
-  jump(val,position) {
+  jump(val, position) {
     let url;
     let url2;
 
@@ -71,7 +67,7 @@ export class KunciPage {
         }
       }
     }
-    this.pos = position+1;
+    this.pos = position + 1;
     this.soals = url + val + ".png";
     this.bahass = (this.mapel === "mtk") ? url2 + val + ".png" : "assets/imgs/nodesc.png";
   }
