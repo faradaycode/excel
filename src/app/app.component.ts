@@ -1,8 +1,6 @@
 import { IpcprovProvider } from './../providers/ipcprov/ipcprov';
 import { Component } from '@angular/core';
 import { Platform, MenuController } from 'ionic-angular';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
 import { MethodeProvider } from '../providers/methode/methode';
 
 @Component({
@@ -13,7 +11,7 @@ export class MyApp {
   mapel: any;
   list: String[];
 
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, private serv: MethodeProvider,
+  constructor(platform: Platform, private serv: MethodeProvider,
     private menuctrl: MenuController, private ipc: IpcprovProvider) {
       let _ = this;
       this.ipc.send("onStartWin");
